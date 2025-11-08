@@ -1,0 +1,12 @@
+"0","md_cities <- read_csv(""https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/md_cities_crime_2019_2020.csv"")"
+"2","[1mRows: [22m[34m137[39m [1mColumns: [22m[34m8[39m
+"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (2): city, county
+[32mdbl[39m (6): pop2020, violent2020, property2020, pop2019, violent2019, pro...
+"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"

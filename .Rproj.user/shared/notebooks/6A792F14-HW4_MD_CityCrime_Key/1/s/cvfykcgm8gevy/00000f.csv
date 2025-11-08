@@ -1,0 +1,4 @@
+"0","md_cities_change <- md_cities_rates |> "
+"0","  mutate(violent_change = ((violent_rate_2020 - violent_rate_2019) / violent_rate_2019) * 100,"
+"0","         property_change = ((property_rate_2020 - property_rate_2019) / property_rate_2019) * 100)"
+"0",""

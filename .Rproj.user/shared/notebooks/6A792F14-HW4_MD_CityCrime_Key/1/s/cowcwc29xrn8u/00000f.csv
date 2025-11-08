@@ -1,0 +1,6 @@
+"0","md_cities_percentiles <- md_cities_change |> "
+"0","  mutate(violent_percentile = ntile(violent_rate_2020, 100))"
+"0",""
+"0","# Calculate IQR directly in a pipeline"
+"0","md_cities_percentiles |> "
+"0","  summarize(IQR = IQR(violent_rate_2020))"

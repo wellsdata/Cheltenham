@@ -1,0 +1,7 @@
+"0",""
+"0","master_index <- read_csv(""MASTER_INDEX_11_3_2025.csv"") |> "
+"0","  clean_names() |> "
+"0","  mutate(name = str_replace(name, """", """"),"
+"0","         name = str_squish(name)) "
+"0","	"
+"0",""
