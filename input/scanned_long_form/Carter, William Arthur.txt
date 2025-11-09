@@ -1,0 +1,72 @@
+Fields,Results
+Document Number,05826
+Registration Dist. No.,240
+County,Fr Qu
+Village or City,Chattanyham
+No. (Street number),
+FULL NAME,Francis Campbell
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),Sept
+6 DATE OF BIRTH (Day),7
+6 DATE OF BIRTH (Year),1914
+7 AGE (yrs.),12
+7 AGE (mos.),8
+7 AGE (ds.),21
+7 AGE (IF LESS THAN 1 day ____ hrs. or ____ min.),
+8 OCCUPATION (a) Trade, profession or particular kind of work,Farm H&R
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Md
+PARENTS 10 NAME OF FATHER,Unknown
+PARENTS 11 BIRTHPLACE OF FATHER (State or country),Unknown
+PARENTS 12 MAIDEN NAME OF MOTHER,Julia Dough
+PARENTS 13 BIRTHPLACE OF MOTHER (State or country),Md
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),B.B. Pyles Dept
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltucham
+15 Filed (Month),May
+15 Filed (Day),28
+15 Filed (Year),1927
+15 Local Registrar,Julius H. Smith
+15 Address (Local Registrar),
+16 DATE OF DEATH (Month),May
+16 DATE OF DEATH (Day),28
+16 DATE OF DEATH (Year),1927
+17 I HEREBY CERTIFY, That I attended the deceased from (Month),July
+17 I HEREBY CERTIFY, That I attended the deceased from (Day),
+17 I HEREBY CERTIFY, That I attended the deceased from (Year),1927
+17 to (Month),May
+17 to (Day),27
+17 to (Year),1927
+17 that I last saw h____ alive on (Month),May
+17 that I last saw h____ alive on (Day),27
+17 that I last saw h____ alive on (Year),1927
+and that death occurred on the date stated above, at ____m.,8 am
+The CAUSE OF DEATH * was as follows: (Primary cause),Pulmonary Tuberculosis
+Duration (yrs.) (for primary cause),
+Duration (mos.) (for primary cause),
+Duration (ds.) (for primary cause),
+Contributory (Secondary),
+Duration (yrs.) (for secondary cause),
+Duration (mos.) (for secondary cause),
+Duration (ds.) (for secondary cause),
+Signed,W.B. Easton
+M. D.,M.D.
+Date Signed (Month),May
+Date Signed (Day),28
+Date Signed (Year),1927
+Address (of person who signed),Oravan
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) At place of death (yrs.),
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) At place of death (mos.),
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) At place of death (ds.),
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) In the State (yrs.),
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) In the State (mos.),
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) In the State (ds.),
+Where was disease contracted, if not at place of death?,
+Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,Warren of Ref. Cheltucham Md
+DATE OF BURIAL (Month),May
+DATE OF BURIAL (Day),29
+DATE OF BURIAL (Year),1927
+20 UNDERTAKER,J.J. Pyles Dept
+20 ADDRESS (of undertaker),Cheltucham

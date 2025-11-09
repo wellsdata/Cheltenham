@@ -1,0 +1,58 @@
+Fields,Results
+Registration Dist. No.,740
+1 PLACE OF DEATH County,Prince Georges
+Village or City,Cheltenham
+(No. House of Reformation St.; Ward),House of Reformation
+2 FULL NAME,Ira Dickerson
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),January
+6 DATE OF BIRTH (Day),2
+6 DATE OF BIRTH (Year),1902
+7 AGE yrs.,13
+7 AGE mos.,10
+7 AGE ds.,8
+7 AGE If LESS than 1 day, hrs. OR min.?,
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate House of Reformation
+OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,George Dickerson
+11 BIRTHPLACE OF FATHER (State or country),Md.
+12 MAIDEN NAME OF MOTHER,Mary
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),"John B. Pyles, Supt."
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),"Cheltenham, Md."
+15 Filed (Date),"Nov. 11th, 1915"
+15 Filed (Registrar's Signature),Julius N. Smith
+15 Filed (Registrar's Title),Local Registrar
+16 DATE OF DEATH (Month),Nov.
+16 DATE OF DEATH (Day),10
+16 DATE OF DEATH (Year),1915
+17 I HEREBY CERTIFY, That I attended deceased from (Date - Start),"Sept 20, 1915"
+17 I HEREBY CERTIFY, That I attended deceased to (Date - End),"Nov. 10, 1915"
+17 that I last saw him alive on (Date),"Nov. 10, 1915"
+17 and death occurred on the date stated above, at (Time),7 a.m.
+The CAUSE OF DEATH * was as follows: (Primary Cause),Pulmonary Tuberculosis
+The CAUSE OF DEATH * was as follows: (Duration - yrs.),
+The CAUSE OF DEATH * was as follows: (Duration - mos.),1
+The CAUSE OF DEATH * was as follows: (Duration - ds.),21
+Contributory Secondary,
+Contributory Secondary (Duration - yrs.),
+Contributory Secondary (Duration - mos.),
+Contributory Secondary (Duration - ds.),
+(Signed),I. W. Gibbons
+M. D. (Date Signed),"Nov. 11, 1915"
+(Address),"Croom, Md."
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (yrs.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (mos.),9
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (ds.),24
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (yrs.),13
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (mos.),10
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (ds.),8
+18 Where was disease contracted, if not at place of death?,"Easton, Md."
+18 Former or usual residence,"Easton, Md."
+19 PLACE OF BURIAL OR REMOVAL,"Cheltenham, Md."
+DATE OF BURIAL,"Nov. 11, 1915"
+20 UNDERTAKER,"John B. Pyles, Supt."
+ADDRESS,"Cheltenham, Md."

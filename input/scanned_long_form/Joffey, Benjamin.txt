@@ -1,0 +1,69 @@
+Fields,Results
+Registration Dist. No.,240
+County,Prince George's
+Village or City,Cheltenham
+No. ... St., ... Ward,House of Reformation
+2 FULL NAME,Benjamin Joffley
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH (Month),June
+6 DATE OF BIRTH (Day),11
+6 DATE OF BIRTH (Year),1902
+7 AGE (yrs),14
+7 AGE (mos),9
+7 AGE (ds),18
+7 AGE (It LESS than 1 day... hrs),
+7 AGE (It LESS than 1 day... min),
+8 (a) Trade, profession, or particular kind of work,Inmate
+8 (b) General nature of industry, business, or establishment in which employed (or employer),House of Reformation
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Unknown
+11 BIRTHPLACE OF FATHER (State or country),Unknown
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),Unknown
+14 Informant,John B. Lyles, Supt.
+14 Informant Address,Cheltenham, Md.
+15 Filed (Month),Mar
+15 Filed (Day),30th
+15 Filed (Year),1917
+15 Local Registrar,Julius B. Smith
+16 DATE OF DEATH (Month),March
+16 DATE OF DEATH (Day),29
+16 DATE OF DEATH (Year),1917
+17 I attended deceased from (Month),Feb
+17 I attended deceased from (Day),27
+17 I attended deceased from (Year),1917
+17 to (Month),March
+17 to (Day),28
+17 to (Year),1917
+17 last saw h... alive on (Month),March
+17 last saw h... alive on (Day),28
+17 last saw h... alive on (Year),1917
+17 death occurred at (Time),8 a.m.
+THE CAUSE OF DEATH (Primary Cause),Chronic Nephritis
+THE CAUSE OF DEATH (Primary Cause Duration yrs),
+THE CAUSE OF DEATH (Primary Cause Duration mos),
+THE CAUSE OF DEATH (Primary Cause Duration ds),
+Contributory (Secondary),
+Contributory (Secondary Duration yrs),
+Contributory (Secondary Duration mos),
+Contributory (Secondary Duration ds),
+Signed,W. H. Gibbons
+Signed (M. D.),M. D.
+Signed (Date),March 29, 1917
+Signed (Address),Croom, Md.
+18 LENGTH OF RESIDENCE At place (yrs),
+18 LENGTH OF RESIDENCE At place (mos),
+18 LENGTH OF RESIDENCE At place (ds),
+18 LENGTH OF RESIDENCE In the State (yrs),14
+18 LENGTH OF RESIDENCE In the State (mos),9
+18 LENGTH OF RESIDENCE In the State (ds),18
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,Baltimore, Md.
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham, Md.
+19 DATE OF BURIAL (Month),March
+19 DATE OF BURIAL (Day),30
+19 DATE OF BURIAL (Year),1917
+20 UNDERTAKER,John B. Lyles, Supt.
+20 UNDERTAKER ADDRESS,Cheltenham, Md.

@@ -1,0 +1,60 @@
+Fields,Results
+Top Left Number,6743
+Circled Number,26
+STATE OF MARYLAND CERTIFICATE OF DEATH Registration Dist. No.,240
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH (No. Street),House of Reformation
+1 PLACE OF DEATH Ward,(empty)
+2 FULL NAME,James Blanke
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH Month,June
+6 DATE OF BIRTH Day,17
+6 DATE OF BIRTH Year,1900
+7 AGE Yrs,14
+7 AGE Mos,11
+7 AGE Ds,(empty)
+7 AGE OR min.?,(empty)
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate House of Reformation
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),(empty)
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,James Blanks
+11 BIRTHPLACE OF FATHER (State or country),Not known
+12 MAIDEN NAME OF MOTHER,Lee
+13 BIRTHPLACE OF MOTHER (State or country),Not known
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt,
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed Date,May 18th, 1915
+15 Registrar,Julings R. Smith, Local
+16 DATE OF DEATH Month,May
+16 DATE OF DEATH Day,16
+16 DATE OF DEATH Year,1915
+17 I HEREBY CERTIFY, That I attended deceased from,April 1, 1915
+17 I HEREBY CERTIFY, That I attended deceased to,May 15, 1915
+17 I HEREBY CERTIFY, That I last saw him alive on,May 15, 1915
+17 I HEREBY CERTIFY, That death occurred on the date stated above, at,10 P.m.
+17 THE CAUSE OF DEATH was as follows,Pulmonary tuberculosis
+17 THE CAUSE OF DEATH (Duration) yrs,(empty)
+17 THE CAUSE OF DEATH (Duration) mos,(empty)
+17 THE CAUSE OF DEATH (Duration) ds,(empty)
+17 Contributory (Secondary),Hemorrhage
+17 Contributory (Secondary) (Duration) yrs,(empty)
+17 Contributory (Secondary) (Duration) mos,(empty)
+17 Contributory (Secondary) (Duration) ds,(empty)
+17 Signed,W. H. Gibbons
+17 M. D.,(empty)
+17 Date of Signature,May 17, 1915
+17 Address of Signer,Croom, Md.
+18 LENGTH OF RESIDENCE At place of death yrs,2
+18 LENGTH OF RESIDENCE At place of death mos,9
+18 LENGTH OF RESIDENCE At place of death ds,7
+18 LENGTH OF RESIDENCE In the State yrs,14
+18 LENGTH OF RESIDENCE In the State mos,11
+18 LENGTH OF RESIDENCE Where was disease contracted, if not at place of death?,Not known
+18 LENGTH OF RESIDENCE Former or usual residence,2416 Oak St. Baltimore, Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL,May 18, 1915
+20 UNDERTAKER,John B. Pyles, Supt.
+20 UNDERTAKER ADDRESS,Cheltenham, Md.

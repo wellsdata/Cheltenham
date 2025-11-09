@@ -1,0 +1,70 @@
+Fields,Results
+Registration Dist. No.,240
+1. PLACE OF DEATH County,St. Georges
+Village or City,Cheltenham
+No.,House of Reformation
+Length of residence in city or town where death occurred ys.,2
+Length of residence in city or town where death occurred mos.,9
+How long in U. S. if of foreign birth? yrs.,
+How long in U. S. if of foreign birth? mos.,
+How long in U. S. if of foreign birth? ds.,
+2. FULL NAME,William C. Davis
+(a) Residence: No.,Balto. Md.
+St.,
+Ward,
+If nonresident give city or town and State,
+3. SEX,Male
+4. COLOR OR RACE,Col
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED (write the word),Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month, day, and year),Aug 27-1916
+7. AGE Years,16
+7. AGE Months,10
+7. AGE Days,8
+7. AGE If LESS than 1 day, hrs.,
+7. AGE If LESS than 1 day, min.,
+8. Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,Inmate
+9. Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,
+10. Date deceased last worked at this occupation (month and year),1933
+11. Total time (years) spent in this occupation,2
+12. BIRTHPLACE (city or town),Baltimore
+(State or country),Md
+13. NAME (Father),Jesse Davis
+14. BIRTHPLACE (city or town) (Father),Baltimore
+(State or country) (Father),Md
+15. MAIDEN NAME (Mother),Jessie Davis
+16. BIRTHPLACE (city or town) (Mother),Baltimore
+(State or country) (Mother),Md
+17. INFORMANT,John B. Pyles Supt.
+(Address),Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL Date,July 5, 1933
+19. UNDERTAKER,John B. Pyles
+(Address),Cheltenham Md
+20. FILED,July 5, 1933
+Registrar,Mary L. K. Smith
+21. DATE OF DEATH Month,July
+21. DATE OF DEATH Day,4
+21. DATE OF DEATH 193 Year,3
+22. I HEREBY CERTIFY, That I attended deceased from,Dec 1932
+22. I HEREBY CERTIFY, That I attended deceased to,July 4 1933
+I last saw him alive on,July 4 1933
+death is said to have occurred on the date stated above, at,11 a.m.
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows,Tuberculosis
+Date of onset (for Tuberculosis),Unknown
+Other Contributory Causes of Importance,
+Name of operation,
+Date of,
+What test confirmed diagnosis?,
+Was there an autopsy?,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Accident, suicide, or homicide?,
+Date of injury,,
+19,
+Where did injury occur?,
+Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+Manner of injury,
+Nature of injury,
+24. Was disease or injury in any way related to occupation of deceased?,No
+If so, specify,
+(Signed),William H. Gibbons M. D.
+(Address),Croom Md

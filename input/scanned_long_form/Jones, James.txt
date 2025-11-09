@@ -1,0 +1,62 @@
+Fields,Results
+1 PLACE OF DEATH - County,Prince George
+Registration Dist. No.,240
+Village or City,Cheltenham Md.
+St.; Ward,
+2 FULL NAME,James Jones
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+6 DATE OF BIRTH - Month,May
+6 DATE OF BIRTH - Day,27
+6 DATE OF BIRTH - Year,1909
+7 AGE - Yrs.,12
+7 AGE - Mos.,1
+7 AGE - Ds.,
+7 AGE - If LESS than 1 day, hrs.,
+7 AGE - If LESS than 1 day, min.?,
+8 OCCUPATION - (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION - (b) General nature at industry business, or establishment in which employed (or employer),House of Reformation
+9 BIRTHPLACE (State or country),Baltimore, Md.
+10 NAME OF FATHER,Ernest Jones
+11 BIRTHPLACE OF FATHER (State or country),Unknown
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),Unknown
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John A. Lyles
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham Md.
+15 Filed - Month,June
+15 Filed - Day,27
+15 Filed - Year,1921
+Registrar,J. R. Goode
+16 DATE OF DEATH - Month,June
+16 DATE OF DEATH - Day,26
+16 DATE OF DEATH - Year,1921
+17 I HEREBY CERTIFY, That I attended deceased from - Month,June
+17 I HEREBY CERTIFY, That I attended deceased from - Day,25
+17 I HEREBY CERTIFY, That I attended deceased from - Year,1921
+17 I HEREBY CERTIFY, That I attended deceased to - Month,June
+17 I HEREBY CERTIFY, That I attended deceased to - Day,26
+17 I HEREBY CERTIFY, That I attended deceased to - Year,1921
+17 that I last saw h_m alive on - Month,June
+17 that I last saw h_m alive on - Day,26
+17 that I last saw h_m alive on - Year,1921
+17 and that death occurred on the date stated above, at (Time),7 P.M.
+THE CAUSE OF DEATH * was as follows: (Primary),Compression of the Brain
+THE CAUSE OF DEATH * was as follows: (Duration),No further information given.
+Contributory (Secondary),
+Contributory (Duration),
+(Signed),William H. Gibbons M.D.
+(Address),Crown Md.
+(Date),June 27, 1921
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - yrs.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - mos.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - ds.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - yrs.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - mos.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - ds.,
+19 PLACE OF BURIAL OR REMOVAL,House of Ref. Cheltenham Md.
+19 DATE OF BURIAL - Month,June
+19 DATE OF BURIAL - Day,27
+19 DATE OF BURIAL - Year,1921
+20 UNDERTAKER,John B. Pyles
+20 ADDRESS,Cheltenham Md.

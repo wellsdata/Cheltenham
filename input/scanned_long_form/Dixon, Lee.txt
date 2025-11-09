@@ -1,0 +1,63 @@
+Fields,Results
+County,Prince George's
+Village or City,Cheltenham
+No. House or Reformation St.; Ward,House of Reformation St.;
+FULL NAME,Lee Dixon
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+DATE OF BIRTH (Month),Jan.
+DATE OF BIRTH (Day),28
+DATE OF BIRTH (Year),1898
+AGE (yrs),19
+AGE (mos),2
+AGE (ds),5
+AGE (If LESS than 1 day... hrs. OR... min. ?),
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+OCCUPATION (b) General nature of Industry, business, or establishment in which employed (or employer),House of Reformation
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Unknown
+BIRTHPLACE OF FATHER (State or country),Unknown
+MAIDEN NAME OF MOTHER,Unknown
+BIRTHPLACE OF MOTHER (State or country),Unknown
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John P. Boles Supt.
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+Filed,Apr. 2, 1917
+Local REGISTRAR,Julius R. Smith
+Registration Dist. No,240
+DATE OF DEATH (Month),April
+DATE OF DEATH (Day),2
+DATE OF DEATH (Year),1917
+I HEREBY CERTIFY, That I attended deceased from (Month),March
+I HEREBY CERTIFY, That I attended deceased from (Day),2
+I HEREBY CERTIFY, That I attended deceased from (Year),1917
+I HEREBY CERTIFY, That I attended deceased to (Month),March
+I HEREBY CERTIFY, That I attended deceased to (Day),31
+I HEREBY CERTIFY, That I attended deceased to (Year),1917
+that I last saw him alive on (Month),March
+that I last saw him alive on (Day),31
+that I last saw him alive on (Year),1917
+and that death occurred on the date stated above, at,5 A.M.
+The CAUSE OF DEATH* was as follows,Pulmonary Tuberculosis
+The CAUSE OF DEATH* (Duration) yrs,
+The CAUSE OF DEATH* (Duration) mos,1
+The CAUSE OF DEATH* (Duration) ds,
+Contributory Secondary,
+Contributory Secondary (Duration) yrs,
+Contributory Secondary (Duration) mos,
+Contributory Secondary (Duration) ds,
+(Signed),W. H. Gibbons
+(Signed) M. D. (Date),Apr. 2, 1917
+(Signed) M. D. (Address),Croom, Md.
+LENGTH OF RESIDENCE At place of death (yrs),19
+LENGTH OF RESIDENCE At place of death (mos),2
+LENGTH OF RESIDENCE At place of death (ds),5
+LENGTH OF RESIDENCE In the State (yrs),19
+LENGTH OF RESIDENCE In the State (mos),2
+LENGTH OF RESIDENCE In the State (ds),5
+Where was disease contracted, if not at place of death?,
+Former or usual residence,Noodbine, Md.
+PLACE OF BURIAL OR REMOVAL,Cheltenham, Md.
+DATE OF BURIAL,Apr. 3, 1917
+UNDERTAKER,John P. Boles, Supt.
+ADDRESS,Cheltenham, Md.

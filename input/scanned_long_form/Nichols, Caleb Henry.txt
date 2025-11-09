@@ -1,0 +1,73 @@
+Fields,Results
+County,Prince Georges
+Number (top right, above 28),23922
+Registration Dist. No.,240
+Village or City,Cheltenham
+No. House of,Reformations
+Ward,
+If death occurred in a hospital or institution, give its NAME instead of street and number.,
+2 FULL NAME,Caleb Henry Nichols
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),May
+6 DATE OF BIRTH (Day),24
+6 DATE OF BIRTH (Year),1904
+7 AGE (yrs),14
+7 AGE (mos),3
+7 AGE (ds),17
+7 AGE (If LESS than 1 day, hrs),
+7 AGE (If LESS than 1 day, min),
+(a) Trade, profession, or particular kind of work,Inmate
+(b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Stafford Nichols
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Rosie Nichols
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+16 DATE OF DEATH (Month),Sept.
+16 DATE OF DEATH (Day),10
+16 DATE OF DEATH (Year),1918
+17 I HEREBY CERTIFY, That I attended deceased from (Month),July
+17 I HEREBY CERTIFY, That I attended deceased from (Day),25
+17 I HEREBY CERTIFY, That I attended deceased from (Year),1918
+17 I HEREBY CERTIFY, That I attended deceased to (Month),Sept.
+17 I HEREBY CERTIFY, That I attended deceased to (Day),10
+17 I HEREBY CERTIFY, That I attended deceased to (Year),1918
+that I last saw him alive on (Month),Sept.
+that I last saw him alive on (Day),8
+that I last saw him alive on (Year),1918
+and that death occurred on the date stated above, at (time),6 A.M.
+THE CAUSE OF DEATH * was as follows: (Primary),Pulmonary tuberculosis
+THE CAUSE OF DEATH * was as follows: (Duration) (yrs),
+THE CAUSE OF DEATH * was as follows: (Duration) (mes),1
+THE CAUSE OF DEATH * was as follows: (Duration) (ds),16
+Contributory Secondary,
+Contributory Secondary (Duration) (yrs),
+Contributory Secondary (Duration) (mos),
+Contributory Secondary (Duration) (ds),
+(Signed),W.H.H. Libbons
+(M.D.),M.D.
+(Date) (Month),Sept.
+(Date) (Day),10
+(Date) (Year),1918
+(Address),Croom Md.
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place (yrs),3
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place (mos),9
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place (ds),11
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (yrs),14
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (mos),3
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (ds),17
+Former or usual residence,Cambridge Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL (Month),Sept.
+19 DATE OF BURIAL (Day),11
+19 DATE OF BURIAL (Year),1918
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed (Month),Sept.
+15 Filed (Day),11th
+15 Filed (Year),1918
+Registrar (Signature),Julius K. Smith
+20 UNDERTAKER,John B. Pyles, Supt.
+20 ADDRESS,Cheltenham, Md.

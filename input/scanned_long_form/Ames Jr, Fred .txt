@@ -1,0 +1,76 @@
+Fields,Results
+Registration Dist. No.,240
+1. PLACE OF DEATH County,Prince Georges
+1. PLACE OF DEATH Village or City,Cheltenham
+1. PLACE OF DEATH No.,
+1. PLACE OF DEATH St.,
+1. PLACE OF DEATH Ward,
+1. PLACE OF DEATH Length of residence in city or town where death occurred yrs.,
+1. PLACE OF DEATH Length of residence in city or town where death occurred mos.,
+1. PLACE OF DEATH Length of residence in city or town where death occurred ds.,
+1. PLACE OF DEATH If U. S. Veteran, specify WAR,
+2. FULL NAME,Fred Ames
+2. (a) Residence: No.,
+2. (a) Residence: St.,
+2. (a) Residence: Ward,
+2. (a) Residence: (Usual place of abode),
+2. (a) Residence: If nonresident give city or town and State,
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+5a. If married, widowed or divorced HUSBAND of (or) WIFE of,
+6. DATE OF BIRTH (month, day, and year),Dec 8-1919
+7. AGE Years,19
+7. AGE Months,1
+7. AGE Days,24
+7. AGE IF LESS than 1 day, ...hrs. or ...min.,
+8. Trade, profession, or particular kind of work done,Inmate
+9. Industry or business in which work was done,
+10. Date deceased last worked at this occupation (month and year),
+11. Total time (years) spent in this occupation,
+12. BIRTHPLACE (city or town),Md
+12. BIRTHPLACE (State or country),
+13. FATHER NAME,Fred Ames Sr
+14. FATHER BIRTHPLACE (city or town),Md
+14. FATHER BIRTHPLACE (State or country),
+15. MOTHER MAIDEN NAME,Unknown
+16. MOTHER BIRTHPLACE (city or town),Unknown
+16. MOTHER BIRTHPLACE (State or country),
+17. INFORMANT,Supt. Cheltenham School for Boys
+17. INFORMANT (Address),
+18. BURIAL, CREMATION, OR REMOVAL,Burial
+18. Place,Cemetery
+18. Date,Feb 3, 1939
+19. UNDERTAKER,Andrew Grimes
+19. UNDERTAKER (Address),Aquasco, Md
+20. FILED,Feb 2, 1939
+20. Registrar,H. B. Bellingsly, Local
+21. DATE OF DEATH Month,Feb
+21. DATE OF DEATH Day,1
+21. DATE OF DEATH Year,1939
+22. I HEREBY CERTIFY, That I attended deceased from,Oct 20, 1938
+22. I HEREBY CERTIFY, That I attended deceased to,May 1, 1939
+22. I last saw h_ alive on,Feb 1, 1939
+22. death is said to have occurred on the date stated above, at,10 A.M.
+The PRINCIPAL CAUSE OF DEATH and related causes of importance (Line 1),Hemophilia
+Date of onset (for Line 1),
+The PRINCIPAL CAUSE OF DEATH and related causes of importance (Line 2),Hemorrhage from about everywhere. Duration: a few hours
+Date of onset (for Line 2),
+The PRINCIPAL CAUSE OF DEATH and related causes of importance (Line 3),
+Date of onset (for Line 3),
+Other Contributory Causes of Importance,
+Name of Operation,
+Date of Operation,
+What test confirmed diagnosis?,
+Was there an autopsy?,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Accident, suicide, or homicide?,
+23. Date of injury,
+23. Where did injury occur?,
+23. Specify whether injury occurred in INDUSTRY, IN HOME, or in PUBLIC PLACE,
+23. Manner of injury,
+23. Nature of injury,
+24. Was disease or injury in any way related to occupation of deceased?,
+24. If so, specify,
+24. (Signed),William H. Gibson
+24. M. O.,
+24. (Address),Croon, Md

@@ -1,0 +1,81 @@
+Fields,Results
+1. PLACE OF DEATH - County,Prince Georges
+1. PLACE OF DEATH - Village or City,Cheltenham
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - yrs,2
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - mos,1
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - ds,24
+1. PLACE OF DEATH - How long in U.S. if of foreign birth - yrs,
+1. PLACE OF DEATH - How long in U.S. if of foreign birth - mos,
+1. PLACE OF DEATH - How long in U.S. if of foreign birth - ds,
+Registration Dist. No.,240
+No.,House of Reformation
+Street,
+Ward,
+2. FULL NAME,Paul Clayton
+2. FULL NAME - (a) Residence - No.,Easton
+2. FULL NAME - (a) Residence - State,Md
+2. FULL NAME - Street,
+2. FULL NAME - Ward,
+2. FULL NAME - If nonresident give city or town and State,
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+5a. If married, widowed, or divorced HUSBAND of (or) WIFE of,
+6. DATE OF BIRTH (month, day, and year),July 11-1916
+7. AGE - Years,18
+7. AGE - Months,1
+7. AGE - Days,27
+7. AGE - Less than 1 day - hrs,
+7. AGE - Less than 1 day - min,
+8. Trade, profession, or particular kind of work done,Inmate
+9. Industry or business in which work was done,H. of R.
+10. Date deceased last worked at this occupation (month and year),
+11. Total time (years) spent in this occupation,
+12. BIRTHPLACE (city or town) - (State or country),Easton Md
+13. FATHER - NAME,Unknown
+14. FATHER - BIRTHPLACE (city or town) - (State or country),
+15. MOTHER - MAIDEN NAME,Hanne Clayton
+16. MOTHER - BIRTHPLACE (city or town) - (State or country),Easton Md
+17. INFORMANT - Name,J.P. Taylor Supt.
+17. INFORMANT - Address,Cheltenham Md
+18. BURIAL, CREMATION, OR REMOVAL - Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL - Date,Sept 8-1934
+19. UNDERTAKER - Name,J.P. Taylor Supt.
+19. UNDERTAKER - Address,Cheltenham Md
+20. FILED - Date,Sept 8-1934
+20. FILED - Local Registrar,Mrs. J.K. Smith
+21. DATE OF DEATH - Month,Sept
+21. DATE OF DEATH - Day,6
+21. DATE OF DEATH - Year,1934
+22. I HEREBY CERTIFY - attended deceased from - Month,May
+22. I HEREBY CERTIFY - attended deceased from - Year,1934
+22. I HEREBY CERTIFY - attended deceased to - Month,Sept
+22. I HEREBY CERTIFY - attended deceased to - Year,1934
+22. I HEREBY CERTIFY - I last saw h..m.. alive on - Month,Sept
+22. I HEREBY CERTIFY - I last saw h..m.. alive on - Day,6
+22. I HEREBY CERTIFY - I last saw h..m.. alive on - Year,1934
+22. I HEREBY CERTIFY - death is said to have occurred at - Time,7:30 P
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 1,Pulmonary Tuberculosis
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 1 - Date of onset,
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 2,
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 2 - Date of onset,
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 3,
+22. THE PRINCIPAL CAUSE OF DEATH - Cause 3 - Date of onset,
+22. Other Contributory Causes of Importance - Cause 1,
+22. Other Contributory Causes of Importance - Cause 2,
+22. Name of operation,
+22. Date of operation,
+22. What test confirmed diagnosis?,
+22. Was there an autopsy?,
+23. If death was due to external causes (VIOLENCE) - Accident, suicide, or homicide?,
+23. If death was due to external causes (VIOLENCE) - Date of injury,
+23. If death was due to external causes (VIOLENCE) - Year of injury,
+23. If death was due to external causes (VIOLENCE) - Where did injury occur?,
+23. If death was due to external causes (VIOLENCE) - Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+23. If death was due to external causes (VIOLENCE) - Manner of Injury,
+23. If death was due to external causes (VIOLENCE) - Nature of injury,
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,
+24. Signed - Name,William H. Gibbons
+24. Signed - Title,M. D.
+24. Address,Croome Md

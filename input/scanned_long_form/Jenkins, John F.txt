@@ -1,0 +1,59 @@
+Fields,Results
+Registered No.,240
+1 PLACE OF DEATH County,Prince Geo.
+Village or City,Cheltenham
+2 FULL NAME,John F. Jenkins
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH (Month),May
+6 DATE OF BIRTH (Day),12
+6 DATE OF BIRTH (Year),1900
+7 AGE (yrs.),12
+7 AGE (mos.),9
+7 AGE (ds.),10
+7 AGE (if LESS than 1 day... hrs. OR min.?),
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Md
+10 NAME OF FATHER,Fred Jenkins
+11 BIRTHPLACE OF FATHER (State or country),Md
+12 MAIDEN NAME OF MOTHER,Harriett Annie Brown
+13 BIRTHPLACE OF MOTHER (State or country),Md
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles (Supt)
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham Md
+15 Filed Date,Feb 22, 1913
+15 Registrar,Wm F. Lewis
+16 DATE OF DEATH (Month),July
+16 DATE OF DEATH (Day),21
+16 DATE OF DEATH (Year),1913
+17 I HEREBY CERTIFY, That I attended deceased from (Month),July
+17 I HEREBY CERTIFY, That I attended deceased from (Day),21
+17 I HEREBY CERTIFY, That I attended deceased from (Year),1913
+17 I HEREBY CERTIFY, That I last saw h... alive on (Month),July
+17 I HEREBY CERTIFY, That I last saw h... alive on (Day),21
+17 I HEREBY CERTIFY, That I last saw h... alive on (Year),1913
+17 and that death occurred on the date stated above, at (Time),7 P m.
+The CAUSE OF DEATH* was as follows,Chronic Peritonitis
+The CAUSE OF DEATH* (Duration yrs.),
+The CAUSE OF DEATH* (Duration mos.),
+The CAUSE OF DEATH* (Duration ds.),
+Contributory (Secondary),
+Contributory (Secondary) (Duration yrs.),
+Contributory (Secondary) (Duration mos.),
+Contributory (Secondary) (Duration ds.),
+Signed (M.D.),W.O.L. Gibbons
+Signed (Date),July 22, 1913
+Signed (Address),Crown Md
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (yrs.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (mos.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death (ds.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (yrs.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (mos.),
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State (ds.),
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,Poplar Hill Cemetery
+19 DATE OF BURIAL,July 23, 1913
+20 UNDERTAKER,Jos. E. B. Pyles (Supt)
+20 ADDRESS,Cheltenham Md

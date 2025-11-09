@@ -1,0 +1,73 @@
+Fields,Results
+Control Number,01030
+Registration Dist. No.,41 248
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham, Md.
+1 PLACE OF DEATH St.,
+1 PLACE OF DEATH Ward,
+2 FULL NAME,Ernest Ashton
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),1
+6 DATE OF BIRTH (Day),29
+6 DATE OF BIRTH (Year),1929
+7 AGE yrs,14
+7 AGE mos,9
+7 AGE ds,26
+7 AGE If LESS than 1 day, hrs,
+7 AGE If LESS than 1 day, min,
+8 OCCUPATION (a) Trade, profession or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),House of Reformation
+9 BIRTHPLACE (State or country),Pr. Geo's. Co.
+10 NAME OF FATHER,Unknown
+11 BIRTHPLACE OF FATHER (State or country),
+12 MAIDEN NAME OF MOTHER,Julia Ashton
+13 BIRTHPLACE OF MOTHER (State or country),Unknown
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed (Month),Jan.
+15 Filed (Day),30
+15 Filed (Year),1929
+15 Registrar,Geraldine H. Smith
+16 DATE OF DEATH (Month),Jan.
+16 DATE OF DEATH (Day),29
+16 DATE OF DEATH (Year),1929
+17 I HEREBY CERTIFY, That I attended the deceased from (Month),Feb.
+17 I HEREBY CERTIFY, That I attended the deceased from (Day),29
+17 I HEREBY CERTIFY, That I attended the deceased from (Year),1928
+17 I HEREBY CERTIFY, That I attended the deceased to (Month),Jan.
+17 I HEREBY CERTIFY, That I attended the deceased to (Day),28
+17 I HEREBY CERTIFY, That I attended the deceased to (Year),1929
+17 that I last saw him alive on (Month),Jan.
+17 that I last saw him alive on (Day),28
+17 that I last saw him alive on (Year),1929
+17 and that death occurred on the date stated above, at,9.30 A.M.
+17 THE CAUSE OF DEATH* was as follows Primary Cause,Oedema of Lungs
+17 THE CAUSE OF DEATH* was as follows Secondary Cause,Spinal Paralysis
+17 THE CAUSE OF DEATH* (Duration) yrs,
+17 THE CAUSE OF DEATH* (Duration) mos,
+17 THE CAUSE OF DEATH* (Duration) ds,
+17 Contributory Secondary,
+17 Contributory Secondary (Duration) yrs,
+17 Contributory Secondary (Duration) mos,
+17 Contributory Secondary (Duration) ds,
+17 (Signed),William H. Stone
+17 M.D.,M.D.
+17 Date Signed,Jan. 29, 1929
+17 (Address) Signed,Crown
+17 *State the Disease Causing Death, or, in deaths from Violent Cause, state (1) Means of Injury and (2) whether Accidental, Suicidal or Homicidal.,
+18 LENGTH OF RESIDENCE At place of death yrs,4
+18 LENGTH OF RESIDENCE At place of death mos,4
+18 LENGTH OF RESIDENCE At place of death ds,
+18 LENGTH OF RESIDENCE In the State yrs,
+18 LENGTH OF RESIDENCE In the State mos,
+18 LENGTH OF RESIDENCE In the State ds,
+18 Where was disease contracted, if not at place of death?,Hereditary
+18 Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham
+19 DATE OF BURIAL (Month),Jan.
+19 DATE OF BURIAL (Day),30
+19 DATE OF BURIAL (Year),1929
+20 UNDERTAKER,John B. Pyles
+20 UNDERTAKER ADDRESS,Cheltenham

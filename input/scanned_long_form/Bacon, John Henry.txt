@@ -1,0 +1,70 @@
+Fields,Results
+Registered No.,
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH No.,
+1 PLACE OF DEATH St,
+1 PLACE OF DEATH Ward,
+2 FULL NAME,John Henry Bacon
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH Month,Nov
+6 DATE OF BIRTH Day,29
+6 DATE OF BIRTH Year,1846
+7 AGE yrs,14
+7 AGE mos,3
+7 AGE ds,28
+7 AGE hrs,
+7 AGE min,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate of Home
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),Reformatory Cheltenham Md
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Israel Bacon
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Mary Smith
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Peters (Supt)
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham Md
+15 Filed,
+Registrar,
+16 DATE OF DEATH Month,July
+16 DATE OF DEATH Day,27
+16 DATE OF DEATH Year,1911
+17 I HEREBY CERTIFY, That I attended deceased from Month,July
+17 I HEREBY CERTIFY, That I attended deceased from Day,14
+17 I HEREBY CERTIFY, That I attended deceased from Year,1911
+17 I HEREBY CERTIFY, That I attended deceased to Month,July
+17 I HEREBY CERTIFY, That I attended deceased to Day,27
+17 I HEREBY CERTIFY, That I attended deceased to Year,1911
+17 I HEREBY CERTIFY, That I last saw h... alive on Month,July
+17 I HEREBY CERTIFY, That I last saw h... alive on Day,26
+17 I HEREBY CERTIFY, That I last saw h... alive on Year,1911
+17 I HEREBY CERTIFY, That death occurred on the date stated above, at Time,11
+17 I HEREBY CERTIFY, That death occurred on the date stated above, at a/p m,a m
+THE CAUSE OF DEATH* was as follows: (Primary Cause),Cerebral Meningitis
+THE CAUSE OF DEATH* was as follows: (Duration yrs),
+THE CAUSE OF DEATH* was as follows: (Duration mos),8
+THE CAUSE OF DEATH* was as follows: (Duration ds),
+Contributory (Secondary),
+Contributory (Secondary) (Duration yrs),
+Contributory (Secondary) (Duration mos),
+Contributory (Secondary) (Duration ds),
+Signed,W.H. Gibbons
+M. D.,
+Date (Signed),July 27, 1911
+Address (Signed),Crown Md
+18 LENGTH OF RESIDENCE At place of death yrs,2
+18 LENGTH OF RESIDENCE At place of death mos,8
+18 LENGTH OF RESIDENCE At place of death ds,4
+18 LENGTH OF RESIDENCE In the State yrs,12
+18 LENGTH OF RESIDENCE In the State mos,7
+18 LENGTH OF RESIDENCE In the State ds,24
+18 LENGTH OF RESIDENCE Where was disease contracted,
+18 LENGTH OF RESIDENCE If not at place of death?,
+18 LENGTH OF RESIDENCE Former or usual residence,Howard Co Md
+19 PLACE OF BURIAL OR REMOVAL,
+DATE OF BURIAL,
+DATE OF BURIAL Year,
+20 UNDERTAKER,
+ADDRESS (Undertaker),

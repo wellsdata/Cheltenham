@@ -1,0 +1,59 @@
+Fields,Results
+Registration Dist. No.,240
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham House of Reformation
+2 FULL NAME,Louis Pratt
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+6 DATE OF BIRTH Month,Jan.
+6 DATE OF BIRTH Day,1
+6 DATE OF BIRTH Year,1899
+7 AGE yrs.,17
+7 AGE mos.,2
+7 AGE ds.,15
+7 AGE IF LESS THAN 1 day, hrs.,
+7 AGE IF LESS THAN 1 day, min.?,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate H of Ref.
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Clem Pratt
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Dead
+13 BIRTHPLACE OF MOTHER (State or country),
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed Date,Mar 17th 1916
+15 REGISTRAR,Julius R. Smith
+15 LOCAL,
+16 DATE OF DEATH Month,March
+16 DATE OF DEATH Day,16
+16 DATE OF DEATH Year,1916
+17 I HEREBY CERTIFY, That I attended deceased from,Feb 1, 1916
+17 I HEREBY CERTIFY, That I attended deceased to,March 16, 1916
+17 that I last saw h_im_ alive on,March 15, 1916
+17 and that death occurred on the date stated above, at,1 P.m.
+THE CAUSE OF DEATH was as follows: Primary,Pulmonary Tuberculosis
+THE CAUSE OF DEATH Primary (Duration) yrs.,
+THE CAUSE OF DEATH Primary (Duration) mos.,2
+THE CAUSE OF DEATH Primary (Duration) ds.,
+Contributory Secondary,
+Contributory Secondary (Duration) yrs.,
+Contributory Secondary (Duration) mos.,
+Contributory Secondary (Duration) ds.,
+17 (Signed) Physician,W. W. Gibbons
+17 M. D.,
+17 Date Signed,Mar 16, 1916
+17 Address (of Physician),Croom, Md.
+18 LENGTH OF RESIDENCE At place of death yrs.,3
+18 LENGTH OF RESIDENCE At place of death mos.,8
+18 LENGTH OF RESIDENCE At place of death ds.,7
+18 LENGTH OF RESIDENCE In the State yrs.,17
+18 LENGTH OF RESIDENCE In the State mos.,2
+18 LENGTH OF RESIDENCE In the State ds.,15
+18 Where was disease contracted, if not at place of death?,Hereditary
+18 Former or usual residence,Olney, Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL,Mar 17, 1916
+20 UNDERTAKER,John B. Pyles, Supt.
+20 ADDRESS (of Undertaker),Cheltenham Md.

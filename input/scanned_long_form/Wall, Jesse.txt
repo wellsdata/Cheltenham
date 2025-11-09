@@ -1,0 +1,59 @@
+Fields,Results
+County,Prince George's
+Village or City,Cheltenham (No. House of Reformation for St. Ward)
+State File No.,3013
+Certificate No.,28
+Registration Dist. No.,240
+2 FULL NAME,Jesse Wall
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),Sept.
+6 DATE OF BIRTH (Day),21
+6 DATE OF BIRTH (Year),1899
+7 AGE (Years),18
+7 AGE (Months),4
+7 AGE (Days),17
+7 AGE IF LESS than 1 day (Hours),
+7 AGE IF LESS than 1 day (Minutes),
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Jeff Mitchell
+11 BIRTHPLACE OF FATHER (State or country),United States
+12 MAIDEN NAME OF MOTHER,Nettie Wall
+13 BIRTHPLACE OF MOTHER (State or country),United States
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),C. A. Loveless, Acting Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 FILED (Date),Feb. 11th, 1918
+15 FILED (Registrar),Julius H. Smith
+16 DATE OF DEATH (Month),Feb.
+16 DATE OF DEATH (Day),10
+16 DATE OF DEATH (Year),1918
+17 I HEREBY CERTIFY, That I attended deceased from,Nov. 19, 1917
+17 I HEREBY CERTIFY, That I attended deceased to,Feb. 10, 1918
+17 I HEREBY CERTIFY, That I last saw h_ alive on,Feb. 8, 1918
+17 I HEREBY CERTIFY, That death occurred on the date stated above, at,3 P.M.
+THE CAUSE OF DEATH * was as follows:,Pulmonary Tuberculosis
+THE CAUSE OF DEATH (Duration) (Years),2
+THE CAUSE OF DEATH (Duration) (Months),2
+THE CAUSE OF DEATH (Duration) (Days),22
+Contributory Secondary,
+Contributory Secondary (Duration) (Years),
+Contributory Secondary (Duration) (Months),
+Contributory Secondary (Duration) (Days),
+(Signed),W. H. Gibbone M.D.
+(Signed) (Date),Feb. 10, 1918
+(Signed) (Address),Croom, Md.
+18 LENGTH OF RESIDENCE (At place) (Years),5
+18 LENGTH OF RESIDENCE (At place) (Months),4
+18 LENGTH OF RESIDENCE (At place) (Days),16
+18 LENGTH OF RESIDENCE (In the State) (Years),18
+18 LENGTH OF RESIDENCE (In the State) (Months),4
+18 LENGTH OF RESIDENCE (In the State) (Days),17
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,Baltimore, Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL,Feb. 11, 1918
+20 UNDERTAKER,C. A. Loveless, Acting Supt.
+20 UNDERTAKER (Address),Cheltenham, Md.

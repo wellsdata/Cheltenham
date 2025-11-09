@@ -1,0 +1,81 @@
+Fields,Results
+Record Number,6390
+1. PLACE OF DEATH - County,Prince George's
+1. PLACE OF DEATH - Registration Dist. No.,240
+1. PLACE OF DEATH - Village or City,Cheltenham
+1. PLACE OF DEATH - No.,
+1. PLACE OF DEATH - St.,
+1. PLACE OF DEATH - Ward,
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - yrs,6
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - mos,22
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - ds,
+1. PLACE OF DEATH - How long in U.S. if of foreign birth? - yrs,
+1. PLACE OF DEATH - How long in U.S. if of foreign birth? - mos,
+1. PLACE OF DEATH - How long in U.S. if of foreign birth? - ds,13X
+1. PLACE OF DEATH - If death occurred in a hospital or institution, give its NAME instead of street and number,
+2. FULL NAME,James Tyler
+2. FULL NAME - (a) Residence: No.,Merriman St.
+2. FULL NAME - St.,
+2. FULL NAME - Ward,
+2. FULL NAME - If nonresident give city or town and State,Ellicott City, Md.
+3. SEX,Male
+4. COLOR OR RACE,Negro
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED (write the word),Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month, day, and year),Apr. 30, 1923
+7. AGE - Years,13
+7. AGE - Months,1
+7. AGE - Days,22
+7. AGE - If LESS than 1 day, _ hrs. or _ min.,
+8. Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,Inmate
+9. Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,
+10. Date deceased last worked at this occupation (month and year),
+11. Total time (years) spent in this occupation,
+12. BIRTHPLACE (city or town),Ellicott City, Md.
+12. BIRTHPLACE (State or country),
+13. NAME (FATHER),Henry Tyler
+14. BIRTHPLACE (city or town) (FATHER),Maryland
+14. BIRTHPLACE (State or country) (FATHER),
+15. MAIDEN NAME (MOTHER),Annie Tyler
+16. BIRTHPLACE (city or town) (MOTHER),Maryland
+16. BIRTHPLACE (State or country) (MOTHER),
+17. INFORMANT,Supt. House of Reformation
+17. INFORMANT - (Address),
+18. BURIAL, CREMATION, OR REMOVAL - Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL - Date,June 23, 1936
+19. UNDERTAKER,Kal. J. Fehane, Supt.
+19. UNDERTAKER - (Address),House of Reformation
+20. FILED,June 23, 1936
+20. Registrar,Mrs. J. T. Smith, Local Registrar
+21. DATE OF DEATH - (Month),June
+21. DATE OF DEATH - (Day),21
+21. DATE OF DEATH - (Year),1936
+22. I HEREBY CERTIFY, That I attended deceased from,6/13, 1936
+22. I HEREBY CERTIFY, That I attended deceased to,6/22, 1936
+22. I last saw h_ alive on,6/22, 1936
+22. death is said to have occurred on the date stated above, at,2:30 P.M.
+22. THE PRINCIPAL CAUSE OF DEATH - 1,Meningitis, tuberculous
+22. THE PRINCIPAL CAUSE OF DEATH - Date of onset - 1,6/13/36
+22. THE PRINCIPAL CAUSE OF DEATH - Duration - 1,one week, 9 days
+22. THE PRINCIPAL CAUSE OF DEATH - 2,Autopsy showed no pneumonia, but a miliary tuberculosis with congestion of the organs.
+22. THE PRINCIPAL CAUSE OF DEATH - Date of onset - 2,
+22. THE PRINCIPAL CAUSE OF DEATH - Duration - 2,
+22. Other Contributory Causes of Importance - 1,Hyperstatic Pneumonia
+22. Other Contributory Causes of Importance - 2,Pulmonary Edema
+22. Name of operation,
+22. Date of operation,
+22. What test confirmed diagnosis?,
+22. Was there an autopsy?,Yes
+23. If death was due to external causes (VIOLENCE) fill in also the following - Accident, suicide, or homicide?,
+23. If death was due to external causes (VIOLENCE) fill in also the following - Date of Injury,
+23. If death was due to external causes (VIOLENCE) fill in also the following - Where did injury occur?,
+23. If death was due to external causes (VIOLENCE) fill in also the following - (Specify city or town, county and State),
+23. If death was due to external causes (VIOLENCE) fill in also the following - Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+23. If death was due to external causes (VIOLENCE) fill in also the following - Manner of Injury,
+23. If death was due to external causes (VIOLENCE) fill in also the following - Nature of Injury,
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,
+Signature of Physician,P. F. S.
+M. D.,
+Physician Address,Cheltenham, Md.
+Physician Date,

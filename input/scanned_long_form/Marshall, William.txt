@@ -1,0 +1,62 @@
+Fields,Results
+Registration Dist. No.,240
+1. PLACE OF DEATH - County,Pr. Geo
+1. PLACE OF DEATH - Village or City,Cheltenham
+1. PLACE OF DEATH - No. (Village or City),
+1. PLACE OF DEATH - St.,
+1. PLACE OF DEATH - Ward,
+1. PLACE OF DEATH - Hospital/Institution Name,
+2. FULL NAME,William Marshall
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. MARITAL STATUS,Single
+6. DATE OF BIRTH - Month,May
+6. DATE OF BIRTH - Day,12
+6. DATE OF BIRTH - Year,1915
+7. AGE - Years,11
+7. AGE - Months,
+7. AGE - Days,
+7. AGE - Hours (if less than 1 day),
+7. AGE - Minutes (if less than 1 day),
+8. OCCUPATION - (a) Kind of work,Inmate
+8. OCCUPATION - (b) Industry/Employer,
+9. BIRTHPLACE (State or country),Md
+10. NAME OF FATHER,William Marshall
+11. BIRTHPLACE OF FATHER (State or country),Md
+12. MAIDEN NAME OF MOTHER,Annie Marshall
+13. BIRTHPLACE OF MOTHER (State or country),Md
+14. INFORMANT,J. B. Gyles
+14. INFORMANT ADDRESS,Cheltenham Md
+15. Filed Date,May 13, 1926
+15. Registrar,Judings R. Smith, Local
+16. DATE OF DEATH - Month,May
+16. DATE OF DEATH - Day,12
+16. DATE OF DEATH - Year,1926
+17. Attended deceased from,April 12, 1926
+17. Attended deceased to,May 12, 1926
+17. Last saw alive on,May 12, 1926
+17. Death occurred at (time),
+CAUSE OF DEATH - Primary,Intercular Meningitis
+CAUSE OF DEATH - Primary Duration - Years,
+CAUSE OF DEATH - Primary Duration - Months,
+CAUSE OF DEATH - Primary Duration - Days,
+CAUSE OF DEATH - Contributory Secondary,
+CAUSE OF DEATH - Contributory Secondary Duration - Years,
+CAUSE OF DEATH - Contributory Secondary Duration - Months,
+CAUSE OF DEATH - Contributory Secondary Duration - Days,
+Signed (Doctor),William H. H. Jones M. D.
+Signed (Doctor) Date,May 12, 1926
+Signed (Doctor) Address,Crofton
+Violent Causes Information,
+18. LENGTH OF RESIDENCE - At place of death (Years),1
+18. LENGTH OF RESIDENCE - At place of death (Months),
+18. LENGTH OF RESIDENCE - At place of death (Days),
+18. LENGTH OF RESIDENCE - Of State (Years),
+18. LENGTH OF RESIDENCE - Of State (Months),
+18. LENGTH OF RESIDENCE - Of State (Days),
+18. LENGTH OF RESIDENCE - Where disease contracted,
+18. LENGTH OF RESIDENCE - Former/usual residence,
+19. PLACE OF BURIAL OR REMOVAL,Cheltenham
+DATE OF BURIAL,May 13, 1926
+20. UNDERTAKER,J. B. Gyles
+20. UNDERTAKER - ADDRESS,Cheltenham

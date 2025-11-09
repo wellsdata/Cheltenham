@@ -1,0 +1,68 @@
+Fields,Results
+PLACE OF DEATH - County,Pr Geo
+PLACE OF DEATH - Village or City,Chettucham
+Registration Dist. No.,240
+St.,
+Ward,
+(If death occurred in a hospital or institution, give its NAME instead of street and number.),
+FULL NAME,Harvey E Murray
+SEX,Male
+COLOR OR RACE,Color
+SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+DATE OF BIRTH - Month,June
+DATE OF BIRTH - Day,25
+DATE OF BIRTH - Year,1913
+AGE - yrs.,16
+AGE - mos.,5
+AGE - ds.,12
+IF LESS than 1 day - hrs.,
+IF LESS than 1 day - min.,
+OCCUPATION (a) Trade, profession or particular kind of work,Private House
+OCCUPATION (b) General nature of industry business, or establishment in which employed or (employer),Reformation
+BIRTHPLACE (State or country),Md
+NAME OF FATHER,Unknown
+BIRTHPLACE OF FATHER (State or country),Unknown
+MAIDEN NAME OF MOTHER,Unknown
+BIRTHPLACE OF MOTHER (State or country),Unknown
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Informant),J. P. Giles Supt
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Address),Chettucham Md
+Filed - Month,Dec
+Filed - Day,7
+Filed - Year,1929
+Local Registrar,Julius R. Smith
+16 DATE OF DEATH - Month,Dec
+16 DATE OF DEATH - Day,6
+16 DATE OF DEATH - Year,1929
+17 I HEREBY CERTIFY, That I attended the deceased from - Month,Sept
+17 I HEREBY CERTIFY, That I attended the deceased from - Day,
+17 I HEREBY CERTIFY, That I attended the deceased from - Year,1929
+that I last saw him alive on - Month,Dec
+that I last saw him alive on - Day,6
+that I last saw him alive on - Year,1929
+and that death occurred on the date stated above, at - Time,1 P M
+THE CAUSE OF DEATH was as follows:,Pulmonary Tuberculosis
+Contributory (Secondary),
+(Duration) - yrs.,
+(Duration) - mos.,
+(Duration) - ds.,
+(Signed),William M. Hopkins
+M. D.,M. D.
+(Date) - Month,Dec
+(Date) - Day,7
+(Date) - Year,1929
+(Address),Upper Md
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) - At place of death - yrs.,
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) - At place of death - mos.,
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients or Recent Residents) - At place of death - ds.,10
+In the State - yrs.,
+In the State - mos.,
+In the State - ds.,
+Where was disease contracted, if not at place of death?,
+Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,Chettucham Md
+DATE OF BURIAL - Month,Dec
+DATE OF BURIAL - Day,8
+DATE OF BURIAL - Year,1929
+20 UNDERTAKER,John P. Giles Supt
+ADDRESS,Chettucham Md
+Additional handwritten note,Md

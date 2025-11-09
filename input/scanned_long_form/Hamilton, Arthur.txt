@@ -1,0 +1,71 @@
+Fields,Results
+Registration Dist. No.,240
+State File No.,16344
+Local Reg. No.,28
+1 PLACE OF DEATH - County,Prince George's
+1 PLACE OF DEATH - Village or City,Cheltenham
+1 PLACE OF DEATH - No. Street, or institution,House of Reformation
+1 PLACE OF DEATH - Ward,
+2 FULL NAME,Arthur Hamilton
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+6 DATE OF BIRTH - Month,Feb
+6 DATE OF BIRTH - Day,14
+6 DATE OF BIRTH - Year,1905
+7 AGE - yrs.,12
+7 AGE - mos.,7
+7 AGE - ds.,16
+7 AGE - IF LESS than 1 day, hrs.,
+7 AGE - IF LESS than 1 day, min.?,
+8 OCCUPATION - (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION - (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Unknown
+11 BIRTHPLACE OF FATHER (State or country),Unknown
+12 MAIDEN NAME OF MOTHER,Daisy Nelson
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - Informant,John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - Informant Address,Cheltenham, Md.
+15 Filed - Month,Oct
+15 Filed - Day,1st
+15 Filed - Year,1917
+15 Filed - REGISTRAR,Julian B. Smith
+16 DATE OF DEATH - Month,Sept.
+16 DATE OF DEATH - Day,30
+16 DATE OF DEATH - Year,1917
+17 I HEREBY CERTIFY, That I attended deceased from - Month,Sept.
+17 I HEREBY CERTIFY, That I attended deceased from - Day,14
+17 I HEREBY CERTIFY, That I attended deceased from - Year,1917
+17 to - Month,Sept.
+17 to - Day,30
+17 to - Year,1917
+17 that I last saw h... alive on - Month,Sept.
+17 that I last saw h... alive on - Day,29
+17 that I last saw h... alive on - Year,1917
+17 and death occurred on the date stated above, at - Time,7 P.M.
+THE CAUSE OF DEATH - Cause,Pulmonary Tuberculosis
+THE CAUSE OF DEATH - Duration - yrs.,
+THE CAUSE OF DEATH - Duration - mos.,
+THE CAUSE OF DEATH - Duration - ds.,16
+Contributory Secondary - Cause,
+Contributory Secondary - Duration - yrs.,
+Contributory Secondary - Duration - mos.,
+Contributory Secondary - Duration - ds.,
+Certifying Physician - Signed,W. N. Gibbons
+Certifying Physician - Address,Croom, Md.
+18 LENGTH OF RESIDENCE - At place of death - yrs.,7
+18 LENGTH OF RESIDENCE - At place of death - mos.,7
+18 LENGTH OF RESIDENCE - At place of death - ds.,16
+18 LENGTH OF RESIDENCE - In the State - yrs.,12
+18 LENGTH OF RESIDENCE - In the State - mos.,7
+18 LENGTH OF RESIDENCE - In the State - ds.,16
+18 LENGTH OF RESIDENCE - If where disease contracted?,
+18 LENGTH OF RESIDENCE - If not at place of death?,
+18 LENGTH OF RESIDENCE - Former or usual residence,Dickerson, Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL - Month,Oct
+19 DATE OF BURIAL - Day,2
+19 DATE OF BURIAL - Year,1917
+20 UNDERTAKER,John B. Pyles, Supt.
+20 UNDERTAKER - Address,Cheltenham, Md.

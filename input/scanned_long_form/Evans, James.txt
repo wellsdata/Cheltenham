@@ -1,0 +1,68 @@
+Fields,Results
+Registration Dist. No.,240
+St.,
+Ward,
+County,Prince Geo
+Village or City,Cheltenham
+No. (Village or City),
+2 FULL NAME,James Evans
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH (Month),Feb
+6 DATE OF BIRTH (Day),4
+6 DATE OF BIRTH (Year),1897
+7 AGE (yrs),17
+7 AGE (mos),5
+7 AGE (ds),15
+7 AGE IF LESS THAN 1 day (hrs),
+7 AGE IF LESS THAN 1 day (min),
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Female House of R
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Md
+10 NAME OF FATHER,Unknown
+11 BIRTHPLACE OF FATHER (State or country),
+12 MAIDEN NAME OF MOTHER,Susan Evans
+13 BIRTHPLACE OF MOTHER (State or country),Md
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles Supt
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham
+15 Filed (Date),June 19th
+15 Filed (Year),1914
+15 Local Registrar (Signature),Wm. H. Squires
+16 DATE OF DEATH (Month),June
+16 DATE OF DEATH (Day),19
+16 DATE OF DEATH (Year),1914
+17 I HEREBY CERTIFY, That I attended deceased from (Month),May
+17 I HEREBY CERTIFY, That I attended deceased from (Day),1
+17 I HEREBY CERTIFY, That I attended deceased from (Year),1914
+17 I HEREBY CERTIFY, That I attended deceased to (Month),June
+17 I HEREBY CERTIFY, That I attended deceased to (Day),19
+17 I HEREBY CERTIFY, That I attended deceased to (Year),1914
+17 that I last saw h_ alive on (Month),June
+17 that I last saw h_ alive on (Day),18
+17 that I last saw h_ alive on (Year),1914
+17 and that death occurred on the date stated above, at (Time),2 A M
+The CAUSE OF DEATH (Primary),Pulmonary Tuberculosis
+The CAUSE OF DEATH (Primary Duration yrs),
+The CAUSE OF DEATH (Primary Duration mos),2
+The CAUSE OF DEATH (Primary Duration ds),
+Contributory (Secondary),
+Contributory (Secondary Duration yrs),
+Contributory (Secondary Duration mos),
+Contributory (Secondary Duration ds),
+(Signed) M. D. (Name),W. H. Bowen
+(Signed) M. D. (Title),M. D.
+(Signed) (Date),June 19, 1914
+(Signed) (Address),Crown Md
+18 LENGTH OF RESIDENCE At place of death (yrs),
+18 LENGTH OF RESIDENCE At place of death (mos),
+18 LENGTH OF RESIDENCE At place of death (ds),
+18 LENGTH OF RESIDENCE In the State (yrs),
+18 LENGTH OF RESIDENCE In the State (mos),
+18 LENGTH OF RESIDENCE In the State (ds),
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,House of R Cemetery
+19 DATE OF BURIAL,June 20, 1914
+20 UNDERTAKER,John B. Pyles, Supt
+20 UNDERTAKER ADDRESS,Cheltenham M.D.

@@ -1,0 +1,62 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince George
+1 PLACE OF DEATH Village or City,Cheltenham, Md. (No. House of Reformation St; Ward)
+2 FULL NAME,Alexander Richardson
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),November
+6 DATE OF BIRTH (Day),21
+6 DATE OF BIRTH (Year),1896
+7 AGE yrs.,14
+7 AGE mos.,7
+7 AGE ds.,1
+7 AGE If LESS than 1 day, hrs. OR min.?,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),A. A. Co., Md.
+10 NAME OF FATHER,Hally Richardson
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,unknown
+13 BIRTHPLACE OF MOTHER (State or country),unknown
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),House of Reformation, Cheltenham, Md.
+15 Filed,,
+15 191,,
+15 REGISTRAR,,
+Registered No.,28
+16 DATE OF DEATH (Month),July
+16 DATE OF DEATH (Day),1
+16 DATE OF DEATH (Year),1911
+17 I HEREBY CERTIFY, That I attended deceased from (Month),January
+17 I HEREBY CERTIFY, That I attended deceased from (Year),1911
+17 I HEREBY CERTIFY, That I attended deceased to (Month),June
+17 I HEREBY CERTIFY, That I attended deceased to (Day),29
+17 I HEREBY CERTIFY, That I attended deceased to (Year),1911
+17 that I last saw h__ alive on (Month),June
+17 that I last saw h__ alive on (Day),29
+17 that I last saw h__ alive on (Year),1911
+17 and that death occurred on the date stated above, at,6:55 P.M.
+THE CAUSE OF DEATH* was as follows: Primary,Pulmonary Tuberculosis
+THE CAUSE OF DEATH* was as follows: (Duration) yrs.,unknown
+THE CAUSE OF DEATH* was as follows: (Duration) mos.,
+THE CAUSE OF DEATH* was as follows: (Duration) ds.,
+Contributory (Secondary),
+Contributory (Secondary) (Duration) yrs.,
+Contributory (Secondary) (Duration) mos.,
+Contributory (Secondary) (Duration) ds.,
+(Signed),W. H. H. Grooms
+M. D.,M.D.
+July 1, 1911 (Address),Croon Md
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death yrs.,7
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death mos.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death ds.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State yrs.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State mos.,
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State ds.,
+18 Where was disease contracted, if not at place of death?,At his home, Annapolis, Md.
+18 Former or usual residence,,
+19 PLACE OF BURIAL OR REMOVAL,Institution Cemetery
+DATE OF BURIAL,July 2, 1911
+20 UNDERTAKER,John B. Pyles
+20 ADDRESS,Cheltenham, Md.

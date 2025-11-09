@@ -247,10 +247,78 @@ for(i in 1:nrow(newspapers)) {
 # newspapers_complete <- read_csv("maryland_newspapers.csv")
 ```
 
-notes
-https://claude.ai/share/4a95465e-7b00-4d8b-b71d-32fae4dfc9bf
+# Compile Long Form Data into a DF
 
-# Compile Scraped Data into a DF
+```{r}
+# Load required libraries
+library(readr)
+library(writexl)
+library(stringr)
+
+# Set the folder path
+folder_path <- "/Users/gizmofo/Code/Cheltenham/input/scanned_long_form"
+
+# Get list of all text files in the folder
+text_files <- list.files(folder_path, pattern = "\\.txt$", full.names = TRUE)
+
+# Create an empty list to store data frames
+sheets_list <- list()
+
+# Read each text file and add to the list
+for (file in text_files) {
+  # Get the file name without path and extension for the sheet name
+  sheet_name <- tools::file_path_sans_ext(basename(file))
+  
+  # Truncate sheet name to 31 characters (Excel limit)
+  sheet_name <- substr(sheet_name, 1, 31)
+  
+  # Read the text file
+  content <- read_lines(file)
+  
+  # Split each line into Fields and Results
+  fields <- character(length(content))
+  results <- character(length(content))
+  
+  for (i in seq_along(content)) {
+    line <- content[i]
+    
+    # Pattern: "NUMBER. FIELD TEXT,VALUE" or "NUMBER. (LETTER) FIELD TEXT,VALUE"
+    # Look for the last comma as the separator
+    if (grepl(",", line)) {
+      # Find the last comma
+      last_comma <- max(gregexpr(",", line)[[1]])
+      fields[i] <- trimws(substr(line, 1, last_comma - 1))
+      results[i] <- trimws(substr(line, last_comma + 1, nchar(line)))
+    } else {
+      # No comma found, entire line goes to Fields
+      fields[i] <- trimws(line)
+      results[i] <- ""
+    }
+  }
+  
+  # Convert to data frame with two columns
+  df <- data.frame(
+    Fields = fields,
+    Results = results,
+    stringsAsFactors = FALSE
+  )
+  
+  # Add to list with sheet name
+  sheets_list[[sheet_name]] <- df
+}
+
+# Write all sheets to Excel file
+output_file <- file.path(folder_path, "long_form_compiled.xlsx")
+write_xlsx(sheets_list, output_file)
+
+cat("Excel file created successfully at:", output_file, "\n")
+cat("Number of sheets:", length(sheets_list), "\n")
+```
+
+
+
+
+#old
 
 ```{r}
 # Load required libraries
@@ -258,7 +326,7 @@ library(readr)
 library(writexl)
 
 # Set the folder path
-folder_path <- "/Users/gizmofo/Code/data_journalism_class/Cheltenham/scanned_short_form"
+folder_path <- "/Users/gizmofo/Code/Cheltenham/input/scanned_long_form"
 
 # Get list of all text files in the folder
 text_files <- list.files(folder_path, pattern = "\\.txt$", full.names = TRUE)
@@ -287,7 +355,8 @@ for (file in text_files) {
 }
 
 # Write all sheets to Excel file
-output_file <- file.path(folder_path, "compiled_texts.xlsx")
+#output_file <- "~/Desktop/long_form_compiled.xlsx"
+output_file <- file.path(folder_path, "long_form_compiled.xlsx")
 write_xlsx(sheets_list, output_file)
 
 cat("Excel file created successfully at:", output_file, "\n")
@@ -297,14 +366,18 @@ cat("Number of sheets:", length(sheets_list), "\n")
 
 ```
 
+
+
+# For short form
 ```{r}
 # Load required libraries
 library(readr)
 library(writexl)
 
 # Set the folder path
-folder_path <- "/Users/gizmofo/Code/data_journalism_class/Cheltenham/scanned_short_form"
-
+#folder_path <- "/Users/gizmofo/Code/data_journalism_class/Cheltenham/scanned_short_form"
+#new file path
+folder_path <- "/Users/gizmofo/Code/Cheltenham/input/scanned_short_form"
 # Get list of all text files in the folder
 text_files <- list.files(folder_path, pattern = "\\.txt$", full.names = TRUE)
 
@@ -354,10 +427,16 @@ for (file in text_files) {
 }
 
 # Write all sheets to Excel file
-output_file <- file.path(folder_path, "compiled_texts.xlsx")
+
+output_file <- "~/Desktop/long_form_compiled.xlsx"
+#output_file <- file.path(folder_path, "compiled_texts.xlsx")
 write_xlsx(sheets_list, output_file)
 
 cat("Excel file created successfully at:", output_file, "\n")
 cat("Number of sheets:", length(sheets_list), "\n")
 ```
 
+
+
+notes
+https://claude.ai/share/4a95465e-7b00-4d8b-b71d-32fae4dfc9bf

@@ -1,0 +1,70 @@
+Fields,Results
+PLACE OF DEATH County,Prince George's
+PLACE OF DEATH Village or City,Cheltenham
+PLACE OF DEATH No.,House of Reformations
+PLACE OF DEATH Ward,
+FULL NAME,Charles Mines
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+DATE OF BIRTH (Month),Sept
+DATE OF BIRTH (Day),10
+DATE OF BIRTH (Year),1898
+AGE yrs.,17
+AGE mos.,3
+AGE ds.,30
+AGE IF LESS THAN 1 day, hrs. OR min.?,
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),House of Reformation
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Unknown
+BIRTHPLACE OF FATHER (State or country),
+MAIDEN NAME OF MOTHER,Georgie Brown
+BIRTHPLACE OF MOTHER (State or country),Maryland
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+Filed (Month),Jan
+Filed (Day),10th
+Filed (Year),1916
+LOCAL REGISTRAR,Julius R. Smith
+Registration' Dist. No.,240
+If death occurred in a hospital or institution, give its NAME instead of street and number.,
+DATE OF DEATH (Month),Jan.
+DATE OF DEATH (Day),9
+DATE OF DEATH (Year),1916
+I HEREBY CERTIFY, That I attended deceased from (Month),Oct
+I HEREBY CERTIFY, That I attended deceased from (Day),19
+I HEREBY CERTIFY, That I attended deceased from (Year),1915
+to (Month),Jan.
+to (Day),9
+to (Year),1916
+that I last saw him alive on (Month),Jan.
+that I last saw him alive on (Day),6
+that I last saw him alive on (Year),1916
+and that death occurred on the date stated above, at (time),8 a. m.
+The CAUSE OF DEATH was as follows:,Pulmonary tuberculosis
+Primary (Duration) yrs.,
+Primary (Duration) mos.,3
+Primary (Duration) ds.,
+Contributory Secondary,
+Secondary (Duration) yrs.,
+Secondary (Duration) mos.,
+Secondary (Duration) ds.,
+(Signed),W. H. Gibbons
+M. D.,
+(Signed) Date,Jan. 10, 1916
+(Address),Croom, Md.
+LENGTH OF RESIDENCE At place of death yrs.,
+LENGTH OF RESIDENCE At place of death mos.,
+LENGTH OF RESIDENCE At place of death ds.,
+LENGTH OF RESIDENCE In the State yrs.,17
+LENGTH OF RESIDENCE In the State mos.,3
+LENGTH OF RESIDENCE In the State ds.,30
+Where disease contracted, If not at place of death?,
+Former or usual residence,Hillsboro, Md.
+PLACE OF BURIAL OR REMOVAL,House of Reformation
+DATE OF BURIAL (Month),Jan.
+DATE OF BURIAL (Day),11
+DATE OF BURIAL (Year),1916
+UNDERTAKER,John B. Pyles, Supt.
+ADDRESS (Undertaker),Cheltenham Md.

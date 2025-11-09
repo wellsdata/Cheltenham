@@ -1,0 +1,71 @@
+Fields,Results
+Registration Dist. No.,240
+1 PLACE OF DEATH County,Prince George's
+Village or City,Cheltenham
+(No.,House of Reformation
+Ward),
+2 FULL NAME,Paul Robinson
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),May
+6 DATE OF BIRTH (Day),24
+6 DATE OF BIRTH (Year),1901
+7 AGE yrs.,15
+7 AGE mos.,10
+7 AGE ds.,28
+IF LESS than 1 day, hrs.,
+OR min.?,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,William Robinson
+11 BIRTHPLACE OF FATHER (State or country),Virginia
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),Unknown
+16 DATE OF DEATH (Month),April
+16 DATE OF DEATH (Day),21
+16 DATE OF DEATH (Year),1917
+17 I HEREBY CERTIFY, That I attended deceased from (Month),Feb
+17 I HEREBY CERTIFY, That I attended deceased from (Day),1
+17 I HEREBY CERTIFY, That I attended deceased from (Year),1917
+17 I HEREBY CERTIFY, That I attended deceased from to (Month),April
+17 I HEREBY CERTIFY, That I attended deceased from to (Day),21
+17 I HEREBY CERTIFY, That I attended deceased from to (Year),1917
+17 that I last saw h_im alive on (Month),April
+17 that I last saw h_im alive on (Day),18
+17 that I last saw h_im alive on (Year),1917
+17 and that death occurred on the date stated above, at _m.,8 P.m.
+THE CAUSE OF DEATH * was as follows: Primary,Pulmonary Tuberculosis
+THE CAUSE OF DEATH * (Duration) yrs.,
+THE CAUSE OF DEATH * (Duration) mos.,2
+THE CAUSE OF DEATH * (Duration) ds.,20
+Contributory (Secondary),
+Contributory (Secondary) (Duration) yrs.,
+Contributory (Secondary) (Duration) mos.,
+Contributory (Secondary) (Duration) ds.,
+(Signed),W. H. Gibbons
+M. D.,M. D.
+(Signed) Apr (Day),21
+(Signed) Apr (Year),1917
+(Signed) (Address),Croom, Md
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death yrs.,1
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death mos.,10
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death ds.,26
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State, yrs.,15
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State, mos.,10
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State, ds.,28
+Where was disease contracted, if not at place of death?,
+Former or usual residence,Linden, Md.
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham, Md.
+19 DATE OF BURIAL (Month),Apr
+19 DATE OF BURIAL (Day),22
+19 DATE OF BURIAL (Year),1917
+20 UNDERTAKER,John B. Pyles, Supt.
+20 UNDERTAKER ADDRESS,Cheltenham, Md.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed Apr (Day),23
+15 Filed Apr (Year),1917
+15 Registrar,Julius B. Smith, Local Registrar
+15 Registrar ADDRESS,

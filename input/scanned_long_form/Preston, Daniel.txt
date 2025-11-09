@@ -1,0 +1,60 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince Georges
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH (No.),
+1 PLACE OF DEATH St.,
+1 PLACE OF DEATH Ward,
+Registration Dist. No.,240
+FULL NAME,Samuel Preston
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),Meh
+6 DATE OF BIRTH (Day),12
+6 DATE OF BIRTH (Year),1897
+7 AGE yrs.,17
+7 AGE mos.,2
+7 AGE ds.,13
+7 AGE If LESS than 1 day hrs.,
+7 AGE or min.,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate House of R
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Md
+10 NAME OF FATHER,George Preston
+11 BIRTHPLACE OF FATHER (State or country),Md
+12 MAIDEN NAME OF MOTHER,Agnes Preston
+13 BIRTHPLACE OF MOTHER (State or country),Md
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles Supt
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham Md
+15 Filed,May 26, 1914
+Local Registrar,Wml H. Squires
+16 DATE OF DEATH (Month),May
+16 DATE OF DEATH (Day),25
+16 DATE OF DEATH (Year),1914
+17 I HEREBY CERTIFY, That I attended deceased from,April 1, 1914
+17 I HEREBY CERTIFY, That I attended deceased to,May 24, 1914
+17 I HEREBY CERTIFY, That I last saw h_ alive on,May 24, 1914
+17 I HEREBY CERTIFY, That death occurred on the date stated above, at,6 A. m.
+The CAUSE OF DEATH* was as follows,Catarrhal Pneumonia
+The CAUSE OF DEATH* (Duration) yrs.,
+The CAUSE OF DEATH* (Duration) mos.,
+The CAUSE OF DEATH* (Duration) ds.,
+Contributory (Secondary),
+Contributory (Secondary) (Duration) yrs.,
+Contributory (Secondary) (Duration) mos.,
+Contributory (Secondary) (Duration) ds.,
+Signed,W. H. Gibbons M. D.
+Signed Date,May 25, 1914
+Signed Address,Croom Md
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death yrs.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death mos.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death ds.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State yrs.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State mos.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State ds.,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) Where was disease contracted, if not at place of death?,
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,House of Ref. Cemetery
+DATE OF BURIAL,May 26, 1914
+20 UNDERTAKER,John B. Pyles Supt
+20 UNDERTAKER ADDRESS,Cheltenham

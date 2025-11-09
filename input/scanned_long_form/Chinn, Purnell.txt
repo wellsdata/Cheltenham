@@ -1,0 +1,80 @@
+Fields,Results
+County,Dr. George's
+Village or City,Cheltenham, Md.
+No.,
+Registration Dist. No.,240
+St.,
+Ward,
+(If death occurred in a hospital or institution, give its NAME instead of street and number),
+Length of residence in city or town where death occurred,1 yrs.
+Length of residence in city or town where death occurred,2 mos.
+Length of residence in city or town where death occurred, ds.
+How long in U. S. if of foreign birth?, yrs.
+How long in U. S. if of foreign birth?, mos.
+How long in U. S. if of foreign birth?, ds.
+FULL NAME,Russell Chism
+(a) Residence: No.,1332 N. Carey
+St.,
+(Usual place of abode),Baltimore, Md.
+Ward,
+If nonresident give city or town and State,
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED (write the word),Single
+If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+DATE OF BIRTH (month, day, and year),Dec. 20, 1918
+AGE Years,16
+AGE Months,5
+AGE Days,21
+If LESS than 1 day, hr.
+If LESS than 1 day, min.
+Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,Inmate
+Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,House of Reform
+Date deceased last worked at this occupation (month and year),
+Total time (years) spent in this occupation,
+BIRTHPLACE (city or town),Baltimore
+(State or country),Md.
+NAME,Daniel Chism
+BIRTHPLACE (city or town),Richmond
+(State or country),Va.
+MAIDEN NAME,Estella Chism
+BIRTHPLACE (city or town),Richmond
+(State or country),Va.
+INFORMANT,Judge B. P. Pyles, Supt.
+(Address),Cheltenham, Md.
+BURIAL, CREMATION, OR REMOVAL Place,Cheltenham, Md.
+BURIAL, CREMATION, OR REMOVAL Date,June 12, 1925
+UNDERTAKER,John B. Pyles, Supt.
+(Address),Cheltenham, Md.
+FILED,June 12, 1925
+Registrar,Mrs. J. R. Smith
+Local Registrar,
+DATE OF DEATH (Month),June
+DATE OF DEATH (Day),11
+DATE OF DEATH (Year),1925
+I HEREBY CERTIFY, That I attended deceased from,May 31, 1925
+I HEREBY CERTIFY, That I attended deceased to,June 10, 1925
+to have occurred on the date stated above, at, m.
+I last saw him alive on,June 10, 1925
+death is said to have occurred on the date stated above, at, m.
+The PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows:,Gastric Ulcer
+Date of onset,
+The PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows:,Tuberculosis
+Date of onset,
+Other Contributory Causes of importance,
+Name of operation,
+Date of,
+What test confirmed diagnosis?,
+Was there an autopsy?,
+Accident, suicide, or homicide?,
+Date of injury,,19
+Where did injury occur?,
+(Specify city or town, county and State),
+Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+Manner of injury,
+Nature of injury,
+Was disease or injury in any way related to occupation of deceased?,
+If so, specify,
+(Signed),William H. Gibson
+M. D.,
+(Address),Groom, Md.

@@ -1,0 +1,69 @@
+Fields,Results
+Header Number,14592
+Registration Dist. No.,245
+St.,
+Ward,
+1 PLACE OF DEATH County,Pr. George's
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH (No.),
+2 FULL NAME,Mitchell Martin
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+6 DATE OF BIRTH Month,June
+6 DATE OF BIRTH Day,17
+6 DATE OF BIRTH Year,1917
+7 AGE yrs,14
+7 AGE mos,5
+7 AGE ds,22
+7 AGE IF LESS than 1 day hrs,
+7 AGE IF LESS than 1 day min,
+8 OCCUPATION (a) Trade, profession or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed or (employer),House of Reformation
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Henry Martin
+11 BIRTHPLACE OF FATHER (State or country),unknown
+12 MAIDEN NAME OF MOTHER,Lucinda Martin
+13 BIRTHPLACE OF MOTHER (State or country),unknown
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant) Name,J. B. Tyler
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant) Address,Supt. Cheltenham
+15 Filed Month,Dec
+15 Filed Day,9
+15 Filed Year,1931
+15 Registrar Signature,Ludwig W. S. Smith
+15 Registrar Address,
+16 DATE OF DEATH Month,Dec
+16 DATE OF DEATH Day,8
+16 DATE OF DEATH Year,1931
+17 I HEREBY CERTIFY, That I attended the deceased from Month,Sept
+17 I HEREBY CERTIFY, That I attended the deceased from Day,1
+17 I HEREBY CERTIFY, That I attended the deceased from Year,1931
+17 that I last saw h__ alive on Month,Dec
+17 that I last saw h__ alive on Day,7
+17 that I last saw h__ alive on Year,1931
+17 and that death occurred on the date stated above, at,
+17 THE CAUSE OF DEATH * was as follows,Typhoid fever
+17 THE CAUSE OF DEATH * Duration yrs,
+17 THE CAUSE OF DEATH * Duration mos,
+17 THE CAUSE OF DEATH * Duration ds,
+17 Contributory Secondary,
+17 Contributory Secondary Duration yrs,
+17 Contributory Secondary Duration mos,
+17 Contributory Secondary Duration ds,
+17 Signed M. D. Name,William H. Githens
+17 Signed Date,Dec 8 1931
+17 Signed Address,Broom
+18 LENGTH OF RESIDENCE At place of death yrs,
+18 LENGTH OF RESIDENCE At place of death mos,10
+18 LENGTH OF RESIDENCE At place of death ds,
+18 LENGTH OF RESIDENCE In the State yrs,
+18 LENGTH OF RESIDENCE In the State mos,
+18 LENGTH OF RESIDENCE In the State ds,
+18 LENGTH OF RESIDENCE Where was disease contracted, if not at place of death?,
+18 LENGTH OF RESIDENCE Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL Location,Cheltenham Md
+19 DATE OF BURIAL Month,Dec
+19 DATE OF BURIAL Day,9
+19 DATE OF BURIAL Year,1931
+20 UNDERTAKER Name,J. B. Tyler
+20 UNDERTAKER Address,Supt. Cheltenham

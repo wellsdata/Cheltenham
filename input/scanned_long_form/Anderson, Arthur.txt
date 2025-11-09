@@ -1,0 +1,83 @@
+Fields,Results
+Registration Dist. No.,740
+Certificate No.,04150
+County (1. PLACE OF DEATH),Pr. Georges
+Village or City (1. PLACE OF DEATH),Chettishans
+No. (1. PLACE OF DEATH),House of R. Chettishans
+St. (1. PLACE OF DEATH),
+Ward (1. PLACE OF DEATH),
+Length of residence in city or town where death occurred...yrs.,
+Length of residence in city or town where death occurred...mos.,
+Length of residence in city or town where death occurred...ds.,
+If death occurred in a hospital or institution, give its NAME instead of street and number,
+How long in U.S. if of foreign birth?...yrs.,
+How long in U.S. if of foreign birth?...mos.,
+How long in U.S. if of foreign birth?...ds.,
+FULL NAME,Arthur Anderson
+(a) Residence: No.,
+(a) Residence: St.,
+(a) Residence: Ward,
+(a) Residence: City or Town (Usual place of abode),Rent County Sud
+(a) Residence: If nonresident give city or town and State,Rent County Sud
+3. SEX,Male
+4. COLOR OR RACE,Col
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED (write the word),Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month, day, and year),Sept 10 1916
+7. AGE Years,16
+7. AGE Months,7
+7. AGE Days,6
+7. AGE If LESS than 1 day, hrs.,
+7. AGE If LESS than 1 day, min.,
+8. Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,domestic
+9. Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,
+10. Date deceased last worked at this occupation (month and year),
+11. Total time (years) spent in this occupation,
+12. BIRTHPLACE (city or town),Church Hill
+12. BIRTHPLACE (State or country),Md.
+13. NAME (FATHER),Unknown
+14. BIRTHPLACE (city or town) (FATHER),
+14. BIRTHPLACE (State or country) (FATHER),
+15. MAIDEN NAME (MOTHER),Unknown
+16. BIRTHPLACE (city or town) (MOTHER),
+16. BIRTHPLACE (State or country) (MOTHER),
+17. INFORMANT,Mrs. J. B. Pyle
+17. INFORMANT (Address),House of R. Chettishans, Md.
+18. BURIAL, CREMATION, OR REMOVAL Place,Chettishans Md.
+18. BURIAL, CREMATION, OR REMOVAL Date,April 17, 1933
+19. UNDERTAKER,John B. Pyle
+19. UNDERTAKER (Address),Chettishans, Md.
+20. FILED Date,April 17, 1933
+20. FILED Registrar,Mrs. J. R. Smith
+21. DATE OF DEATH Month,April
+21. DATE OF DEATH Day,16
+21. DATE OF DEATH Year,1933
+22. I HEREBY CERTIFY, That I attended deceased from (start date),Jan 1933
+22. I HEREBY CERTIFY, That I attended deceased to (end date),April 1933
+22. I last saw h_ alive on,April 15, 1933
+22. death is said to have occurred on the date stated above, at (time),11 a.m.
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 1,Tuberculosis
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 1 Date of onset,
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 2,
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 2 Date of onset,
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 3,
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 3 Date of onset,
+Other Contributory Causes of Importance: Cause 1,
+Other Contributory Causes of Importance: Cause 1 Date of onset,
+Other Contributory Causes of Importance: Cause 2,
+Other Contributory Causes of Importance: Cause 2 Date of onset,
+Name of operation,
+Date of operation,
+What last confirmed diagnosis?,Tuberculosis
+Was there an autopsy?,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Accident, suicide, or homicide?,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Date of injury,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Where did injury occur?,
+23. If death was due to external causes (VIOLENCE) fill in also the following: (Specify city or town, county and State),
+23. If death was due to external causes (VIOLENCE) fill in also the following: Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Manner of injury,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Nature of injury,
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,
+24. (Signed),William H. Gibbons
+24. (Address),Croom, Md.

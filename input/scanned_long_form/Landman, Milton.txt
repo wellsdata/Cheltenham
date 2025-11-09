@@ -1,0 +1,69 @@
+Fields,Results
+PLACE OF DEATH - County,Prince George's
+PLACE OF DEATH - Village or City,Cheltenham
+PLACE OF DEATH - (No.),House of Reformation
+PLACE OF DEATH - (Ward),
+Registration Dist. No.,240
+If death occurred in a hospital or institution, give its NAME instead of street and number.,
+2 FULL NAME,Milton Landman
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH - (Month),Sept
+6 DATE OF BIRTH - (Day),20
+6 DATE OF BIRTH - (Year),1899
+7 AGE - yrs.,18
+7 AGE - mos.,4
+7 AGE - ds.,8
+7 AGE - If LESS than 1 day, hrs.,
+7 AGE - If LESS than 1 day, OR min.?,
+8 OCCUPATION - (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION - (b) General nature of industry, business, or establishment in which employed (or employer),
+9 BIRTHPLACE - (State or country),Maryland
+10 NAME OF FATHER,Howard Landman
+11 BIRTHPLACE OF FATHER - (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Bessie
+13 BIRTHPLACE OF MOTHER - (State or country),Maryland
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Informant),G. A. Loveless, Acting Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Address),Cheltenham Md.
+15 Filed - (Date),Jan 29, 1918
+15 Filed - (Registrar),Julius H. Smith
+16 DATE OF DEATH - (Month),Jan
+16 DATE OF DEATH - (Day),28
+16 DATE OF DEATH - (Year),1918
+17 I HEREBY CERTIFY. That I attended deceased from - (Month),Jan
+17 I HEREBY CERTIFY. That I attended deceased from - (Day),22
+17 I HEREBY CERTIFY. That I attended deceased from - (Year),1918
+17 I HEREBY CERTIFY. That I attended deceased to - (Month),Jan
+17 I HEREBY CERTIFY. That I attended deceased to - (Day),28
+17 I HEREBY CERTIFY. That I attended deceased to - (Year),1918
+17 that I last saw him alive on - (Month),Jan
+17 that I last saw him alive on - (Day),27
+17 that I last saw him alive on - (Year),1918
+17 and that death occurred on the date stated above, at - (Time),2 A.M.
+THE CAUSE OF DEATH * was as follows: - Primary,Pulmonary Tuberculosis
+THE CAUSE OF DEATH * was as follows: - (Duration) yrs.,
+THE CAUSE OF DEATH * was as follows: - (Duration) mos.,10
+THE CAUSE OF DEATH * was as follows: - (Duration) ds.,
+Contributory (Secondary),Hemorrhage
+Contributory (Secondary) - (Duration) yrs.,
+Contributory (Secondary) - (Duration) mos.,
+Contributory (Secondary) - (Duration) ds.,5
+(Signed),W. F. Gibbons
+(M.D.),M.D.
+(Date),Jan 28, 1918
+(Address),Croom Md.
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - yrs.,2
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - mos.,4
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death - ds.,8
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - yrs.,18
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - mos.,4
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the State - ds.,8
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,Kent Island Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL - (Month),Jan
+19 DATE OF BURIAL - (Day),29
+19 DATE OF BURIAL - (Year),1918
+20 UNDERTAKER,G. A. Loveless, Acting Supt.
+20 ADDRESS,Cheltenham Md.

@@ -1,0 +1,76 @@
+Fields,Results
+Registration Dist. No.,240
+1. PLACE OF DEATH County,Prince George's
+1. PLACE OF DEATH Village or City,Cheltenham
+1. PLACE OF DEATH No.,House of Reform
+1. PLACE OF DEATH Ward,
+1. PLACE OF DEATH Length of residence in city or town where death occurred yrs,
+1. PLACE OF DEATH Length of residence in city or town where death occurred mos,
+1. PLACE OF DEATH Length of residence in city or town where death occurred ds,
+1. PLACE OF DEATH How long in U.S. if of foreign birth? yrs,
+1. PLACE OF DEATH How long in U.S. if of foreign birth? mos,
+1. PLACE OF DEATH How long in U.S. if of foreign birth? ds,
+2. FULL NAME,Richard E. Saunders
+2. FULL NAME (a) Residence: No.,
+2. FULL NAME (a) Residence: St.,
+2. FULL NAME (a) Residence: Ward,
+2. FULL NAME (Usual place of abode) If nonresident give city or town and State,
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED (write the word),Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month, day, and year),Sept 20-1920
+7. AGE Years,15
+7. AGE Months,10
+7. AGE Days,20
+7. AGE If LESS than 1 day, hrs,
+7. AGE If LESS than 1 day, min,
+8. Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,Inmate
+9. Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,
+10. Date deceased last worked at this occupation (month and year),✓
+11. Total time (years) spent in this occupation,✓
+12. BIRTHPLACE (city or town),Baltimore
+12. BIRTHPLACE (State or country),Md
+13. NAME,Alvin Saunders
+14. BIRTHPLACE (city or town),Baltimore
+14. BIRTHPLACE (State or country),Md
+15. MAIDEN NAME,Unknown
+16. BIRTHPLACE (city or town),
+16. BIRTHPLACE (State or country),
+17. INFORMANT,John B. Pyles, Supt.
+17. INFORMANT (Address),Cheltenham, Md.
+18. BURIAL, CREMATION, OR REMOVAL Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL Date,July 11-1935
+19. UNDERTAKER,J. B. Pyles, Supt.
+19. UNDERTAKER (Address),Cheltenham, Md.
+20. FILED,July 11, 1935
+20. FILED Registrar,Mrs. J. K. Smith
+Local Registrar,
+21. DATE OF DEATH Month,July
+21. DATE OF DEATH Day,10
+21. DATE OF DEATH Year,1935
+22. I HEREBY CERTIFY, That I attended deceased from,July 10, 1934
+22. I HEREBY CERTIFY, That I attended deceased to,July 10, 1935
+22. I last saw h_ alive on,July 10, 1935
+22. death is said to have occurred on the date stated above, at,
+22. death is said to have occurred on the date stated above, at m.,
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows:,Tuberculosis
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Date of onset,
+Other Contributory Causes of Importance: Line 1,
+Other Contributory Causes of Importance: Line 2,
+Other Contributory Causes of Importance: Line 3,
+Name of operation,,
+Date of operation,,
+What last confirmed diagnosis?,,
+Was there an autopsy?,,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Accident, suicide, or homicide?,,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Date of injury 19...,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Where did injury occur?,,
+23. If death was due to external causes (VIOLENCE) fill in also the following: (Specify city or town, county and State),,
+23. If death was due to external causes (VIOLENCE) fill in also the following: Specify whether injury occurred in INDUSTRY, IN HOME, or IN PUBLIC PLACE,,
+Manner of Injury,,
+Nature of injury,,
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,,
+24. (Signed),William H. Gibbons M.D.
+24. (Address),Crownsville, Md.

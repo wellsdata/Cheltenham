@@ -1,0 +1,60 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince Georges
+Village or City,Cheltenham
+No.,(empty)
+St.,(empty)
+Ward,(empty)
+Registration Dist. No.,240
+2 FULL NAME,Edward McDonald
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),May
+6 DATE OF BIRTH (Day),27
+6 DATE OF BIRTH (Year),1895
+7 AGE (Yrs),17
+7 AGE (Mos),6
+7 AGE (Ds),96
+7 AGE (If LESS than 1 day, hrs. or min.?),(empty)
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate of the House of Reformation
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),Cheltenham Md
+9 BIRTHPLACE (State or country),Md
+10 NAME OF FATHER,Peter Wilson
+11 BIRTHPLACE OF FATHER (State or country),Md
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),"
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE Informant,John B. Pyles Supt
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),House of Ref. Cheltenham Md
+15 Filed,Dec 16th 1912
+15 Registrar,William H. Squires Local
+16 DATE OF DEATH (Month),Dec
+16 DATE OF DEATH (Day),16
+16 DATE OF DEATH (Year),1912
+17 I HEREBY CERTIFY, That I attended deceased from,Dec 1, 1912
+17 to,Dec 14, 1912
+17 that I last saw h... alive on,Dec 14, 1912
+17 and death occurred on the date stated above, at,2 a m
+THE CAUSE OF DEATH* was as follows:,Cerebral Meningitis
+(Duration) yrs.,(empty)
+(Duration) mos.,(empty)
+(Duration) ds.,two hours
+Contributory (Secondary),(empty)
+(Duration) yrs.,(empty)
+(Duration) mos.,(empty)
+(Duration) ds.,(empty)
+(Signed),W. S. Libbous
+M. D.,(empty)
+(Address),Croom Md
+Date,Dec 16, 1912
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the At place of death yrs.,(empty)
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the At place of death mos.,(empty)
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) In the At place of death ds.,(empty)
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State yrs.,(empty)
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State mos.,(empty)
+18 LENGTH OF RESIDENCE (For HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State ds.,(empty)
+18 Where was disease contracted, if not at place of death?,(empty)
+18 Former or usual residence,(empty)
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham Md
+DATE OF BURIAL,Dec 17th 1912
+20 UNDERTAKER,John B. Pyles Supt
+20 ADDRESS,Cheltenham Md

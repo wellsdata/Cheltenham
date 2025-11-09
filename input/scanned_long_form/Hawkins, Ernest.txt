@@ -1,0 +1,60 @@
+Fields,Results
+Certificate Number (top right),18820
+Number (circled),29
+Registration Dist. No.,240
+County,Prince George's
+Village or City,Cheltenham
+Institution Name (No.),House of Reformation for Colored Boys
+FULL NAME,Ernest Hawkins
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+DATE OF BIRTH (Month),Nov.
+DATE OF BIRTH (Day),30
+DATE OF BIRTH (Year),1899
+AGE (Years),17
+AGE (Months),10
+AGE (Days),11
+AGE (If LESS than 1 day, hrs.),
+AGE (OR min.?),
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Samuel Hawkins
+BIRTHPLACE OF FATHER (State or country),Maryland
+MAIDEN NAME OF MOTHER,Mandy
+BIRTHPLACE OF MOTHER (State or country),Virginia
+INFORMANT,John B. Pyles, Supt.
+INFORMANT ADDRESS,Cheltenham Md.
+FILED DATE,Oct 12th, 1917
+REGISTRAR,Julian R. Smith Local
+DATE OF DEATH (Month),Oct.
+DATE OF DEATH (Day),11
+DATE OF DEATH (Year),1917
+ATTENDED DECEASED FROM,Aug 11, 1917
+ATTENDED DECEASED TO,Oct. 11, 1917
+LAST SAW HIM ALIVE ON,Oct 10, 1917
+DEATH OCCURRED AT (Time),P m.
+PRIMARY CAUSE OF DEATH,Military tuberculosis
+PRIMARY CAUSE DURATION (Years),2
+PRIMARY CAUSE DURATION (Months),2
+PRIMARY CAUSE DURATION (Days),
+CONTRIBUTORY SECONDARY CAUSE,
+CONTRIBUTORY SECONDARY CAUSE DURATION (Years),
+CONTRIBUTORY SECONDARY CAUSE DURATION (Months),
+CONTRIBUTORY SECONDARY CAUSE DURATION (Days),
+SIGNED BY,Wm Gibbons
+SIGNED DATE,Oct 12, 1917
+SIGNED ADDRESS,Croom, Md.
+LENGTH OF RESIDENCE AT PLACE OF DEATH (Years),2
+LENGTH OF RESIDENCE AT PLACE OF DEATH (Months),9
+LENGTH OF RESIDENCE AT PLACE OF DEATH (Days),27
+LENGTH OF RESIDENCE IN THE STATE (Years),17
+LENGTH OF RESIDENCE IN THE STATE (Months),10
+LENGTH OF RESIDENCE IN THE STATE (Days),11
+WHERE WAS DISEASE CONTRACTED, IF NOT AT PLACE OF DEATH?,
+FORMER OR USUAL RESIDENCE,Pocomoke City, Md.
+PLACE OF BURIAL OR REMOVAL,House of Reformation
+DATE OF BURIAL,Oct. 13, 1917
+UNDERTAKER,John B. Pyles, Supt.
+UNDERTAKER ADDRESS,Cheltenham Md.

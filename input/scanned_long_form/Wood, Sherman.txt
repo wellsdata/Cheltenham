@@ -1,0 +1,71 @@
+Fields,Results
+County,Prince George's
+Village or City,Cheltenham
+No. House of Reformation,
+Ward,
+Registration Dist. No.,240
+FULL NAME,Sherman Hood
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDDOWED OR DIVORCED,Single
+DATE OF BIRTH (Month),Jan.
+DATE OF BIRTH (Day),14
+DATE OF BIRTH (Year),1905
+AGE (Yrs),12
+AGE (Mos),4
+AGE (Ds),12
+AGE (If less than 1 day, hrs),
+AGE (If less than 1 day, min),
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Frank Hood
+BIRTHPLACE OF FATHER (State or country),Unknown
+MAIDEN NAME OF MOTHER,Elizabeth
+BIRTHPLACE OF MOTHER (State or country),W. Va.
+Informant,John B. Byler, Supt.
+Informant Address,Cheltenham, Md.
+FILED (Month),May
+FILED (Day),28th
+FILED (Year),1917
+Registrar,Julius K. Smith, Local
+DATE OF DEATH (Month),May
+DATE OF DEATH (Day),26
+DATE OF DEATH (Year),1917
+I HEREBY CERTIFY, That I attended deceased from (Month),May
+I HEREBY CERTIFY, That I attended deceased from (Day),16
+I HEREBY CERTIFY, That I attended deceased from (Year),1917
+to (Month),May
+to (Day),26
+to (Year),1917
+that I last saw him alive on (Month),May
+that I last saw him alive on (Day),26
+that I last saw him alive on (Year),1917
+and that death occurred on the date stated above, at,3 P.m.
+Primary Cause of Death,Pulmonary Tuberculosis
+Primary Cause of Death Duration (yrs),
+Primary Cause of Death Duration (mos),
+Primary Cause of Death Duration (ds),10
+Contributory (Secondary) Cause of Death,
+Contributory (Secondary) Cause of Death Duration (yrs),
+Contributory (Secondary) Cause of Death Duration (mos),
+Contributory (Secondary) Cause of Death Duration (ds),
+Signed (Doctor),W. S. T. Gibbone, M. D.
+Signed (Date - Month),May
+Signed (Date - Day),26
+Signed (Date - Year),1917
+Signed (Address),Croom, Md.
+LENGTH OF RESIDENCE At place of death (yrs),9
+LENGTH OF RESIDENCE At place of death (mos),11
+LENGTH OF RESIDENCE At place of death (ds),
+LENGTH OF RESIDENCE In the State (yrs),12
+LENGTH OF RESIDENCE In the State (mos),4
+LENGTH OF RESIDENCE In the State (ds),12
+Where disease contracted, if not at place of death?,
+Former or usual residence,Seat Pleasant, Md.
+PLACE OF BURIAL OR REMOVAL,House of Reformation
+DATE OF BURIAL (Month),May
+DATE OF BURIAL (Day),28
+DATE OF BURIAL (Year),1917
+UNDERTAKER,John B. Byler, Supt.
+UNDERTAKER Address,Cheltenham, Md.

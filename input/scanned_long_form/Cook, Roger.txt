@@ -1,0 +1,59 @@
+Fields,Results
+Registration Dist. No.,240
+County,Prince Georges
+Village or City,Cheltenham
+No. (House of Reformation),House of Reformation
+St.; Ward),[blank]
+FULL NAME,Roger Cook
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+DATE OF BIRTH (Month),May
+DATE OF BIRTH (Day),15
+DATE OF BIRTH (Year),1898
+AGE (yrs),15
+AGE (mos),11
+AGE (ds),15
+AGE IF LESS THAN 1 day (hrs),[blank]
+AGE IF LESS THAN 1 day (min),[blank]
+OCCUPATION (a) Trade, profession, or particular kind of work.,None
+OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),Inmate House Reformation
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,William Cook
+BIRTHPLACE OF FATHER (State or country),Maryland
+MAIDEN NAME OF MOTHER,Julia Cook
+BIRTHPLACE OF MOTHER (State or country),Maryland
+Informant,John B. Pyles
+Informant Address,Cheltenham, Md.
+Filed Date,Apr 30, 1914
+Local Registrar,Wm H. Squires
+DATE OF DEATH (Month),April
+DATE OF DEATH (Day),30
+DATE OF DEATH (Year),1914
+I HEREBY CERTIFY, That I attended deceased from,March 15, 1914
+I HEREBY CERTIFY, That I attended deceased to,April 30, 1914
+that I last saw h...m alive on,April 29, 1914
+and death occurred on the date stated above, at,5 A M
+THE CAUSE OF DEATH*,Pulmonary tuberculosis
+CAUSE OF DEATH Duration (weeks),6
+CAUSE OF DEATH Duration (yrs),[blank]
+CAUSE OF DEATH Duration (mos),[blank]
+CAUSE OF DEATH Duration (ds),[blank]
+Contributory (Secondary),[blank]
+Contributory (Secondary) Duration (yrs),[blank]
+Contributory (Secondary) Duration (mos),[blank]
+Contributory (Secondary) Duration (ds),[blank]
+Signed,W. H. Gibbons
+Signed Address,Crowne Md.
+LENGTH OF RESIDENCE In the place of death (yrs),6
+LENGTH OF RESIDENCE In the place of death (mos),15
+LENGTH OF RESIDENCE In the place of death (ds),15
+LENGTH OF RESIDENCE State (yrs),15
+LENGTH OF RESIDENCE State (mos),11
+LENGTH OF RESIDENCE State (ds),15
+Where was disease contracted, if not at place of death?,Home
+Former or usual residence,247 Unity St Baltimore, Md.
+PLACE OF BURIAL OR REMOVAL,Cheltenham Md.
+DATE OF BURIAL,May 1, 1914
+UNDERTAKER,John B. Pyles
+UNDERTAKER ADDRESS,Cheltenham Md.

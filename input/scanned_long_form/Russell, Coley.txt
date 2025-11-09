@@ -1,0 +1,65 @@
+Fields,Results
+Certificate Number,61857
+Registration Dist. No.,240
+1 PLACE OF DEATH - County,Pr. Geo's.
+1 PLACE OF DEATH - Village or City,Cheltenham
+1 PLACE OF DEATH - Ward/Institution Name,House of Reformation
+2 FULL NAME,Coley Russell
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+6 DATE OF BIRTH - Month,Nov.
+6 DATE OF BIRTH - Day,30
+6 DATE OF BIRTH - Year,1916
+7 AGE - Years,15
+7 AGE - Months,2
+7 AGE - Days,6
+7 AGE - If less than 1 day - Hours,
+7 AGE - If less than 1 day - Minutes,
+8 OCCUPATION - (a) Trade, profession or particular kind of work,Inmate
+8 OCCUPATION - (b) General nature of industry business, or establishment,House of Reformation
+9 BIRTHPLACE (State or country),Baltimore, Maryland
+10 NAME OF FATHER,Harvey Russell
+11 BIRTHPLACE OF FATHER (State or country),Virginia
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - Informant,J. B. Cyler, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - Informant Address,Cheltenham, Md.
+15 Filed - Date,Feb. 8. 1932
+15 Filed - Registrar,Jubing R. Smith
+15 Filed - Registrar Address,Love
+16 DATE OF DEATH - Month,Feby
+16 DATE OF DEATH - Day,6
+16 DATE OF DEATH - Year,1932
+17 I HEREBY CERTIFY - Attended deceased from Month,July
+17 I HEREBY CERTIFY - Attended deceased from Year,1931
+17 I HEREBY CERTIFY - Attended deceased to Month,Feby
+17 I HEREBY CERTIFY - Attended deceased to Day,7
+17 I HEREBY CERTIFY - Attended deceased to Year,1932
+17 I HEREBY CERTIFY - Last saw him alive on Month,Feby
+17 I HEREBY CERTIFY - Last saw him alive on Day,7
+17 I HEREBY CERTIFY - Last saw him alive on Year,1932
+17 I HEREBY CERTIFY - Death occurred at,1 P M
+17 The CAUSE OF DEATH - Primary,Pulmonary Tuberculosis
+17 The CAUSE OF DEATH - Primary Duration Years,
+17 The CAUSE OF DEATH - Primary Duration Months,
+17 The CAUSE OF DEATH - Primary Duration Days,
+17 Contributory Secondary,
+17 Contributory Secondary Duration Years,
+17 Contributory Secondary Duration Months,
+17 Contributory Secondary Duration Days,
+17 Signed,William H. Johns M.D.
+17 Date Signed,Feby 7 1932
+17 Address Signed,Cheltenham Md
+18 LENGTH OF RESIDENCE - At place of death Years,4
+18 LENGTH OF RESIDENCE - At place of death Months,2
+18 LENGTH OF RESIDENCE - At place of death Days,5
+18 LENGTH OF RESIDENCE - In the State Years,
+18 LENGTH OF RESIDENCE - In the State Months,
+18 LENGTH OF RESIDENCE - In the State Days,
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,1103 Thompson St. Balto. City
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham Md.
+19 DATE OF BURIAL,Feb. 8. 1932.
+20 UNDERTAKER,J. B. Cyler Supt.
+20 UNDERTAKER ADDRESS,Cheltenham Md

@@ -1,0 +1,66 @@
+Fields,Results
+Registration Dist. No.,240
+1. PLACE OF DEATH - County,Pr. Georges
+1. PLACE OF DEATH - Village or City,Chelltenham
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - yrs,2
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - mos,6
+1. PLACE OF DEATH - Length of residence in city or town where death occurred - ds,
+1. PLACE OF DEATH - No. (If death occurred in a hospital or institution, give its NAME instead of street and number),
+1. PLACE OF DEATH - St.,
+1. PLACE OF DEATH - Ward,
+2. FULL NAME,George W. Hunter
+2. FULL NAME - (a) Residence: No.,625 Dolphin St.
+2. FULL NAME - (Usual place of abode),Balto Md
+2. FULL NAME - St.,
+2. FULL NAME - Ward,
+2. FULL NAME - If nonresident give city or town and State,
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month, day, year),Nov 6-1918
+7. AGE - Years,14
+7. AGE - Months,8
+7. AGE - Days,2
+7. AGE - If LESS than 1 day - hrs,
+7. AGE - If LESS than 1 day - min,
+8. Trade, profession, or particular kind of work done,Inmate
+9. Industry or business in which work was done,House of Reformation
+10. Date deceased last worked at this occupation (month and year),
+11. Total time (years) spent in this occupation,
+12. BIRTHPLACE (city or town) (State or country),Baltimore Md
+13. FATHER NAME,Paton Hunter
+14. FATHER BIRTHPLACE (city or town) (State or country),Balto Md
+15. MOTHER MAIDEN NAME,Unknown
+16. MOTHER BIRTHPLACE (city or town) (State or country),
+17. INFORMANT,J. H. B. Pyles
+17. INFORMANT - Address,Cheltenham Md
+18. BURIAL, CREMATION, OR REMOVAL - Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL - Date,Aug. 4, 1933
+19. UNDERTAKER,John B. Pyles, Supt.
+19. UNDERTAKER - Address,House of Reformation
+20. FILED - Date,Aug. 4, 1933
+20. FILED - Registrar,Mrs. J. J. Smith, Local Registrar
+21. DATE OF DEATH - Month,Aug
+21. DATE OF DEATH - Day,2
+21. DATE OF DEATH - Year,1933
+22. I HEREBY CERTIFY. That I attended deceased from,
+22. I HEREBY CERTIFY. That I attended deceased to,
+22. I HEREBY CERTIFY. That I last saw h____ alive on,
+22. I HEREBY CERTIFY. That death is said to have occurred on the date stated above, at,3:30 P.m.
+22. THE PRINCIPAL CAUSE OF DEATH,Accidental Drowning
+22. THE PRINCIPAL CAUSE OF DEATH - Date of onset,
+22. Other Contributory Causes of importance,
+22. Name of operation,
+22. Date of operation,
+22. What test confirmed diagnosis?,
+22. Was there an autopsy?,
+23. If death was due to external causes (VIOLENCE) - Accident, suicide, or homicide?,
+23. If death was due to external causes (VIOLENCE) - Date of injury,
+23. If death was due to external causes (VIOLENCE) - Where did injury occur?,
+23. If death was due to external causes (VIOLENCE) - Specify whether injury occurred in INDUSTRY, IN HOME, OR IN PUBLIC PLACE.,
+23. If death was due to external causes (VIOLENCE) - Manner of injury,H. H. Bridgely M.D.
+23. If death was due to external causes (VIOLENCE) - Nature of injury,Acting Coroner
+24. Was disease or injury in any way related to occupation of deceased? If so, specify,
+24. Signed M. D.,William H. Gibson M.D.
+24. Address,Crown Md

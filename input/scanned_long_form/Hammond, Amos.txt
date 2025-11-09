@@ -1,0 +1,39 @@
+Fields,Results
+County,Pr. Geo.
+Village or City,Chettenham (No. House of Reformation for Colored Boys)
+FULL NAME,Amos Hammond
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED OR DIVORCED (Write the word),Single
+DATE OF BIRTH,June 12, 1903
+AGE,18 yrs.
+OCCUPATION (a) Trade, profession, or particular kind of work,Farm work
+OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),House of Reformation
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Dont Know
+BIRTHPLACE OF FATHER (State or country),""
+MAIDEN NAME OF MOTHER,Dont Know
+BIRTHPLACE OF MOTHER (State or country),""
+Informant,J.J. Eagles Supt.
+Address (Informant),Chettenham Md
+Filed,June 13th 1921
+Registrar,Julius T. Smith Local Registrar
+Registration Dist. No.,240
+DATE OF DEATH,June 12, 1921
+I HEREBY CERTIFY, That I attended deceased from,June 9, 1921
+to,June 11, 1921
+that I last saw h... alive on,June 11, 1921
+and that death occurred on the date stated above, at,5 P. M.
+THE CAUSE OF DEATH * was as follows,Acute Peritonitis
+Contributory (Secondary),No further information given
+Signed,William H. Gibbons M. D.
+Date (Signed),June 12, 1921
+Address (Signed),Crown Md.
+LENGTH OF RESIDENCE At place of death,5 yrs. 11 mos. 12 ds.
+LENGTH OF RESIDENCE In the State,
+Where was disease contracted, if not at place of death?,
+Former or usual residence,
+PLACE OF BURIAL OR REMOVAL,House of Reformation Cemetery
+DATE OF BURIAL,6/13, 1921
+UNDERTAKER,J.J. Eagles Supt.
+ADDRESS (Undertaker),Chettenham Md.

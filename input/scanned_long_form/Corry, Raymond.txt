@@ -1,0 +1,56 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH (No. House of Reformation St., Ward),House of Reformation
+Registration Dist. No.,240
+FULL NAME,Raymond Corry
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH Month,Sept.
+6 DATE OF BIRTH Day,20
+6 DATE OF BIRTH Year,1902
+7 AGE yrs.,11
+7 AGE mos.,7
+7 AGE ds.,9
+7 AGE If LESS than 1 day, hrs. or min.?,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,None
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),Inmate House Reformation
+9 BIRTHPLACE (State or country),Supposed to be Maryland
+10 NAME OF FATHER,Halbert Corry
+11 BIRTHPLACE OF FATHER (State or country),Don't know
+12 MAIDEN NAME OF MOTHER,Florence Waters
+13 BIRTHPLACE OF MOTHER (State or country),Don't know
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE Informant,John B. Pyles
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE Address,Cheltenham Md.
+15 Filed,April 29th, 1914
+15 Registrar,William H. Squires
+16 DATE OF DEATH Month,April
+16 DATE OF DEATH Day,29
+16 DATE OF DEATH Year,1914
+17 I HEREBY CERTIFY, That I attended deceased from,March 29, 1914
+17 to,April 29, 1914
+17 that I last saw h_im alive on,April 29, 1914
+17 and that death occurred on the date stated above, at,2 P. m.
+THE CAUSE OF DEATH* was as follows:,Pneumonia phthisis
+THE CAUSE OF DEATH* (Duration) yrs.,
+THE CAUSE OF DEATH* (Duration) mos.,
+THE CAUSE OF DEATH* (Duration) ds.,
+Contributory (Secondary),
+Contributory (Secondary) (Duration) yrs.,
+Contributory (Secondary) (Duration) mos.,
+Contributory (Secondary) (Duration) ds.,
+(Signed),W. H. Gibbons M. D.
+(Signed) Apr 29, 1914 (Address),Croom, Md.
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death yrs.,11
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death mos.,7
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) At place of death ds.,9
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State yrs.,11
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State mos.,7
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) State ds.,9
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) Where was disease contracted, if not at place of death?,Home
+18 LENGTH OF RESIDENCE (FOR HOSPITALS, INSTITUTIONS, TRANSIENTS, OR RECENT RESIDENTS) Former or usual residence,Parran, Md.
+19 PLACE OF BURIAL OR REMOVAL,H of Ref Cemetery Md
+DATE OF BURIAL,April 30th, 1914
+20 UNDERTAKER,John B. Pyles, Supt.
+ADDRESS,Cheltenham Md

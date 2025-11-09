@@ -1,0 +1,80 @@
+Fields,Results
+Certificate Number,03152
+Registration Dist. No.,240
+Ward (Registration Dist.),
+1. PLACE OF DEATH County,Prince Georges
+1. PLACE OF DEATH Village or City,Cheltenham
+1. PLACE OF DEATH (Il death occurred in a hospital or institution, give its NAME instead of street and number),House of Reformation
+1. PLACE OF DEATH (Il death occurred in a hospital or institution, give its NAME instead of street and number) No.,
+1. PLACE OF DEATH (Il death occurred in a hospital or institution, give its NAME instead of street and number) St.,
+1. PLACE OF DEATH (Il death occurred in a hospital or institution, give its NAME instead of street and number) Ward,
+1. PLACE OF DEATH Length of residence in city or town where death occurred... yrs.,10
+1. PLACE OF DEATH Length of residence in city or town where death occurred... mos.,0
+1. PLACE OF DEATH Length of residence in city or town where death occurred... ds.,0
+1. PLACE OF DEATH How long in U.S. if of foreign birth? yrs.,
+1. PLACE OF DEATH How long in U.S. if of foreign birth? mos.,
+1. PLACE OF DEATH How long in U.S. if of foreign birth? ds.,
+2. FULL NAME,Virginia Williams
+2. (a) Residence: No.,
+2. (a) Residence: Street,
+2. (a) Residence: City,Baltimore City
+2. (a) Residence: St.,
+2. (a) Residence: Ward,
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,
+6. DATE OF BIRTH (month),Sept
+6. DATE OF BIRTH (day),6
+6. DATE OF BIRTH (year),1919
+7. AGE Years,13
+7. AGE Months,6
+7. AGE Days,17
+7. AGE If LESS than 1 day, hrs.,
+7. AGE If LESS than 1 day, min.,
+8. OCCUPATION Trede, profession, or particular kind of work done,Inmate
+9. OCCUPATION Industry or business in which work was done,
+10. OCCUPATION Date deceased last worked at this occupation (month end year),1933
+11. OCCUPATION Total time (years) spent in this occupation,1 yr
+12. FATHER BIRTHPLACE (city or town),Baltimore
+12. FATHER BIRTHPLACE (State or country),
+13. FATHER NAME,Alexander Williams
+14. FATHER BIRTHPLACE (city or town),Baltimore
+14. FATHER BIRTHPLACE (State or country),
+15. MOTHER MAIDEN NAME,Laura
+16. MOTHER BIRTHPLACE (city or town),Baltimore
+16. MOTHER BIRTHPLACE (State or country),
+17. INFORMANT,Mrs. B. Pyles
+17. INFORMANT (Address),Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL Place,Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL Date,Mar 25 1933
+19. UNDERTAKER,J.B. Pyles Supt.
+19. UNDERTAKER (Address),Cheltenham, Md.
+20. FILED Date,Mar 24, 1933
+20. FILED Registrar,W.H. Smith
+21. DATE OF DEATH (Month),Mar
+21. DATE OF DEATH (Day),23
+21. DATE OF DEATH (Year),1933
+22. I last saw h__ alive on (Month),Feb
+22. I last saw h__ alive on (Day),22
+22. I last saw h__ alive on (Year),1933
+22. to have occurred on the date stated above, at,11 a.m.
+22. death is said to have occurred on the date stated above, at (Year),1933
+22. THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows:,Tuberculosis
+22. THE PRINCIPAL CAUSE OF DEATH Date of onset,
+22. Other Contributory Causes of importance:,
+22. Name of operation,
+22. Date of operation,
+22. What test confirmed diagnosis?,
+22. Was there an autopsy?,
+23. Accident, suicide, or homicide?,
+23. Date of injury,
+23. Where did injury occur?,
+23. Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,
+23. Manner of injury,
+23. Nature of injury,
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,
+24. (Signed),William H. Gibbons
+24. M.D.,
+24. (Address),Crown Md.

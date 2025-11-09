@@ -1,0 +1,53 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham
+1 PLACE OF DEATH (No. House of Reformation St., Ward),House of Reformation
+Registration Dist. No. (top right),240
+2 FULL NAME,Joe Thomas
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED, OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH (Month),Sept.
+6 DATE OF BIRTH (Day),5
+6 DATE OF BIRTH (Year),1902
+7 AGE Yrs.,14
+7 AGE Mos.,6
+7 AGE Ds.,28
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry, business, or establishment in which employed (or employer),House of Reformation
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Wilson Thomas
+11 BIRTHPLACE OF FATHER (State or country),Unknown
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),Unknown
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Informant),John B. Pyles, Supt.
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE (Address),Cheltenham, Md.
+15 Filed (Date),Apr. 2nd, 1917
+15 Local REGISTRAR,Julia N. Smith
+16 DATE OF DEATH (Month),April
+16 DATE OF DEATH (Day),2
+16 DATE OF DEATH (Year),1917
+17 I HEREBY CERTIFY, That I attended deceased from (Date),Jan. 23, 1917
+17 I HEREBY CERTIFY, That I attended deceased to (Date),March 31, 1917
+17 that I last saw h_im_ alive on (Date),March 31, 1917
+17 and that death occurred on the date stated above, at (Time),7 a.m.
+17 The CAUSE OF DEATH* was as follows,Pulmonary Tuberculosis
+17 The CAUSE OF DEATH* (Duration) yrs.,2
+17 The CAUSE OF DEATH* (Duration) mos.,2
+17 The CAUSE OF DEATH* (Duration) ds.,10
+17 Contributory (Secondary),
+17 (Signed),W. P. H. Gibbons
+17 (Signed) Date,Apr. 2, 1917
+17 (Signed) (Address),Croom, Md.
+18 LENGTH OF RESIDENCE At place of death yrs.,6
+18 LENGTH OF RESIDENCE At place of death mos.,6
+18 LENGTH OF RESIDENCE At place of death ds.,28
+18 LENGTH OF RESIDENCE In the State yrs.,14
+18 LENGTH OF RESIDENCE In the State mos.,6
+18 LENGTH OF RESIDENCE In the State ds.,28
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,Mt. Airy, Md.
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham, Md.
+19 DATE OF BURIAL,Apr. 3, 1917
+20 UNDERTAKER,John B. Pyles, Supt.
+20 UNDERTAKER ADDRESS,Cheltenham, Md.

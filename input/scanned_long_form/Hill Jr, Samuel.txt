@@ -1,0 +1,52 @@
+Fields,Results
+1 PLACE OF DEATH - County,Prince George's
+1 PLACE OF DEATH - Village or City,Cheltenham
+1 PLACE OF DEATH - No. (House of Reformation/Ward),House of Reformation
+Header Number,6739
+Registration Dist. No.,240
+2 FULL NAME,Samuel Hill
+3 SEX,Male
+4 COLOR OR RACE,Colored
+6 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+8 DATE OF BIRTH - Month,Aug.
+8 DATE OF BIRTH - Day,8
+8 DATE OF BIRTH - Year,1906
+7 AGE - Yrs,11
+7 AGE - Mes,8
+7 AGE - Ds,4
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry,
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Samuel Hill
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Ida Walker
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+14 Informant,John B. Pyles, Supt.
+14 Informant Address,Cheltenham, Md.
+15 Filed Date,Apr. 13th, 1918
+15 Registrar,Julius H. Smith, Local Registrar
+16 DATE OF DEATH - Month,April
+16 DATE OF DEATH - Day,12
+16 DATE OF DEATH - Year,1918
+17 Attended deceased from,Jan. 12, 1918
+17 Attended deceased to,Apr. 12, 1918
+17 Last saw him alive on,Apr. 11, 1918
+17 Death occurred at,6 P.m.
+CAUSE OF DEATH (Primary),Pulmonary tuberculosis
+CAUSE OF DEATH (Primary Duration Yrs),3
+CAUSE OF DEATH (Primary Duration Mos),
+CAUSE OF DEATH (Primary Duration Ds),
+Signed,W. H. Gibbons
+Signed Date,Apr. 13, 1918
+Signed Address,Croom, Md.
+18 LENGTH OF RESIDENCE At place (Yrs),1
+18 LENGTH OF RESIDENCE At place (Mos),7
+18 LENGTH OF RESIDENCE At place (Ds),29
+18 LENGTH OF RESIDENCE In the State (Yrs),11
+18 LENGTH OF RESIDENCE In the State (Mos),8
+18 LENGTH OF RESIDENCE In the State (Ds),4
+18 Former or usual residence,Earleigh Heights, Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL,Apr. 14, 1918
+20 UNDERTAKER,John B. Pyles, Supt.
+20 UNDERTAKER ADDRESS,Cheltenham

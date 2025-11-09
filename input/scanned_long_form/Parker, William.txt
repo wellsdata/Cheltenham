@@ -1,0 +1,64 @@
+Fields,Results
+1 PLACE OF DEATH County,Prince George's
+1 PLACE OF DEATH Village or City,Cheltenham House of Reformation
+Registration Dist. No.,240
+Ward,
+2 FULL NAME,William Parker
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+5 DATE OF BIRTH Month,July
+5 DATE OF BIRTH Day,11
+5 DATE OF BIRTH Year,1909
+7 AGE yrs.,9
+7 AGE mos.,3
+7 AGE ds.,14
+7 AGE If LESS than 1 day, hrs.,
+7 AGE If LESS than 1 day, min.?,
+8 OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Charles Parker
+11 BIRTHPLACE OF FATHER (State or country),Maryland
+12 MAIDEN NAME OF MOTHER,Helen Parker
+13 BIRTHPLACE OF MOTHER (State or country),Maryland
+14 Informant,John B. Pyles Supt.
+14 Informant Address,Cheltenham Md.
+15 Filed Date,Oct. 25th 1918
+15 Registrar,Julia R. Smith Local
+16 DATE OF DEATH Month,October
+16 DATE OF DEATH Day,25
+16 DATE OF DEATH Year,1918
+17 Attended deceased from Month,October
+17 Attended deceased from Day,18
+17 Attended deceased from Year,1918
+17 Attended deceased to Month,October
+17 Attended deceased to Day,25
+17 Attended deceased to Year,1918
+17 Last saw him alive on Month,October
+17 Last saw him alive on Day,24
+17 Last saw him alive on Year,1918
+17 Last saw him alive at,5 A.M.
+THE CAUSE OF DEATH Primary,Influenza
+Primary Cause Duration yrs.,
+Primary Cause Duration mos.,
+Primary Cause Duration ds.,7
+Contributory Secondary Cause,Pneumonia
+Secondary Cause Duration yrs.,
+Secondary Cause Duration mos.,3
+Secondary Cause Duration ds.,3
+Physician Signed,W. H. Gibbons
+Physician Signature Date,Oct. 25 1918
+Physician Address,Croom Md.
+18 LENGTH OF RESIDENCE At place of death yrs.,3
+18 LENGTH OF RESIDENCE At place of death mos.,11
+18 LENGTH OF RESIDENCE At place of death ds.,
+18 LENGTH OF RESIDENCE In the State yrs.,9
+18 LENGTH OF RESIDENCE In the State mos.,3
+18 LENGTH OF RESIDENCE In the State ds.,14
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,1023 Wagon Alley Baltimore Md.
+19 PLACE OF BURIAL OR REMOVAL,House of Reformation
+19 DATE OF BURIAL,Oct. 26. 1918
+20 UNDERTAKER,John B. Pyles Supt.
+20 UNDERTAKER ADDRESS,Cheltenham Md.

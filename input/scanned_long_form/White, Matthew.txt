@@ -1,0 +1,68 @@
+Fields,Results
+1 PLACE OF DEATH - County,Pr. George's
+1 PLACE OF DEATH - Village or City,Cheltenham
+1 PLACE OF DEATH - No.,
+1 PLACE OF DEATH - Ward,House of Reformation
+2 FULL NAME,Matthew White
+3 SEX,Male
+4 COLOR OR RACE,Colored
+5 SINGLE, MARRIED, WIDOWED OR DIVORCED (Write the word),Single
+6 DATE OF BIRTH - Month,June
+6 DATE OF BIRTH - Day,26
+6 DATE OF BIRTH - Year,1909
+7 AGE - yrs.,20
+7 AGE - mos.,1
+7 AGE - da.,23
+7 AGE - If LESS than 1 day... hrs.,
+7 AGE - If LESS than 1 day... min.,
+8 OCCUPATION (a) Trade, profession or particular kind of work,Inmate
+8 OCCUPATION (b) General nature of industry business, or establishment in which employed or (employer),
+9 BIRTHPLACE (State or country),Maryland
+10 NAME OF FATHER,Unknown
+11 BIRTHPLACE OF FATHER (State or country),
+12 MAIDEN NAME OF MOTHER,Unknown
+13 BIRTHPLACE OF MOTHER (State or country),
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Informant),John B. Pyles Supt
+14 THE ABOVE IS TRUE TO THE BEST OF MY KNOWLEDGE - (Address),Cheltenham Md
+15 Filed - Month,June
+15 Filed - Day,27
+15 Filed - Year,1929
+15 Registrar,Julius H. Smith Local Registrar
+Registration Dist. No.,240
+16 DATE OF DEATH - Month,June
+16 DATE OF DEATH - Day,26
+16 DATE OF DEATH - Year,1929
+17 I HEREBY CERTIFY, That I attended the deceased from - Month (from),Feb
+17 I HEREBY CERTIFY, That I attended the deceased from - Day (from),5
+17 I HEREBY CERTIFY, That I attended the deceased from - Year (from),1929
+17 I HEREBY CERTIFY, That I attended the deceased from - Month (to),June
+17 I HEREBY CERTIFY, That I attended the deceased from - Day (to),26
+17 I HEREBY CERTIFY, That I attended the deceased from - Year (to),1929
+17 that I last saw him alive on - Month,June
+17 that I last saw him alive on - Day,26
+17 that I last saw him alive on - Year,1929
+17 and that death occurred on the date stated above, at,5:25 P.M.
+THE CAUSE OF DEATH was as follows: (Primary Cause),Pulmonary Tuberculosis
+THE CAUSE OF DEATH - (Duration) yrs.,
+THE CAUSE OF DEATH - (Duration) mos.,
+THE CAUSE OF DEATH - (Duration) da.,
+Contributory Secondary - (Cause),
+Contributory Secondary - (Duration) yrs.,
+Contributory Secondary - (Duration) mos.,
+Contributory Secondary - (Duration) da.,
+Signed,W. H. G. Bours
+M. D.,M.D.
+Date (Signed),June 27, 1929
+Address (Signed),Greenbelt Md
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - At place of death - yrs.,5
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - At place of death - mos.,9
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - At place of death - da.,8
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - In the State - yrs.,20
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - In the State - mos.,
+18 LENGTH OF RESIDENCE (For Hospitals, Institutions, Transients, or Recent Residents) - In the State - da.,
+18 Where was disease contracted, if not at place of death?,
+18 Former or usual residence,
+19 PLACE OF BURIAL OR REMOVAL,Cheltenham
+DATE OF BURIAL,June 27, 1929
+20 UNDERTAKER,John B. Pyles Supt
+20 ADDRESS,Cheltenham Md

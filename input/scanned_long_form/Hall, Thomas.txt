@@ -1,0 +1,80 @@
+Fields,Results
+Certificate No.,03121
+Registration Dist. No.,240
+No. (Place of Death),House of Reformation
+St. (Place of Death),(blank)
+Ward (Place of Death),(blank)
+1. County,Prince Georges
+1. Village or City,Cheltenham
+1. Length of residence in city or town where death occurred (yrs),1
+1. Length of residence in city or town where death occurred (mos),3
+1. Length of residence in city or town where death occurred (ds),(blank)
+1. How long in U.S. if of foreign birth? (yrs),(blank)
+1. How long in U.S. if of foreign birth? (mos),(blank)
+1. How long in U.S. if of foreign birth? (ds),(blank)
+2. FULL NAME,Thomas Hall
+2. (a) Residence: No.,(blank)
+2. (a) Residence: (Usual place of abode),(blank)
+2. St. (Residence),(blank)
+2. Ward (Residence),(blank)
+2. If nonresident give city or town and State,Baltimore City
+3. SEX,Male
+4. COLOR OR RACE,Colored
+5. SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+5a. If married, widowed, or divorced HUSBAND OF (or) WIFE OF,(blank)
+6. DATE OF BIRTH (month, day, and year),Feb 25, 1918
+7. AGE Years,15
+7. AGE Months,0
+7. AGE Days,15
+7. AGE If LESS than 1 day, hrs. or min.,(blank)
+8. Trade, profession, or particular kind of work done, as SPINNER, SAWYER, BOOKKEEPER, etc.,Inmate
+9. Industry or business in which work was done, as SILK MILL, SAW MILL, BANK, etc.,(blank)
+10. Date deceased last worked at this occupation (month and year),1933
+11. Total time (years) spent in this occupation,1
+12. BIRTHPLACE (city or town),Baltimore
+12. BIRTHPLACE (State or country),Md
+13. NAME (Father),Clem Hall
+14. BIRTHPLACE (city or town) (Father),(blank)
+14. BIRTHPLACE (State or country) (Father),Md
+15. MAIDEN NAME (Mother),Nora Noble
+16. BIRTHPLACE (city or town) (Mother),Balto
+16. BIRTHPLACE (State or country) (Mother),Md
+17. INFORMANT,House of Reformation
+17. INFORMANT (Address),Cheltenham Md
+18. BURIAL, CREMATION, OR REMOVAL (Type),Burial
+18. BURIAL, CREMATION, OR REMOVAL (Place),Cheltenham
+18. BURIAL, CREMATION, OR REMOVAL (Date),Mch 14, 1933
+19. UNDERTAKER,Leroy B. Dykes
+19. UNDERTAKER (Address),Cheltenham Md
+20. FILED (Date),Mch 14, 1933
+20. FILED (Registrar),M. D. Turner
+21. DATE OF DEATH (Month),Mch
+21. DATE OF DEATH (Day),12
+21. DATE OF DEATH (Year),1933
+22. I HEREBY CERTIFY, That I attended deceased from,Mch 2, 1933
+22. I HEREBY CERTIFY, That I attended deceased to,Mch 12, 1933
+22. I last saw him alive on,Mch 12, 1933
+22. death is said to have occurred on the date stated above, at,3:25 P.M.
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 1,Lobar Pneumonia
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Date of onset 1,3-2-33
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 2,(blank)
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Date of onset 2,(blank)
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Cause 3,(blank)
+THE PRINCIPAL CAUSE OF DEATH and related causes of importance were as follows: Date of onset 3,(blank)
+Other Contributory Causes of Importance,(blank)
+Name of operation,(blank)
+Date of operation,(blank)
+What test confirmed diagnosis?,(blank)
+Was there an autopsy?,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Accident, suicide, or homicide?,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Date of injury,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Date of injury (Year),(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Where did injury occur?,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Specify city or town, county and State,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Specify whether injury occurred in INDUSTRY, in HOME, or in PUBLIC PLACE,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Manner of injury,(blank)
+23. If death was due to external causes (VIOLENCE) fill in also the following: Nature of injury,(blank)
+24. Was disease or injury in any way related to occupation of deceased?,No
+24. If so, specify,(blank)
+Signed (Physician),William H. Hutton
+Address (Physician),Room Md

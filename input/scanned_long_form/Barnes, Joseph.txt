@@ -1,0 +1,58 @@
+Fields,Results
+County,Prince George's
+Village or City,Cheltenham
+No. (House of Reformation) St. Ward,House of Reformation
+FULL NAME,Joseph Barnes
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+DATE OF BIRTH (Month),July
+DATE OF BIRTH (Day),27
+DATE OF BIRTH (Year),1899
+AGE (yrs),17
+AGE (mos),6
+AGE (ds),3
+AGE (If LESS than 1 day, ... hrs. ... min.?),
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate House of Reformation
+OCCUPATION (b) General nature of industry, business, or establishment,
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Unknown
+BIRTHPLACE OF FATHER (State or country),Unknown
+MAIDEN NAME OF MOTHER,Unknown
+BIRTHPLACE OF MOTHER (State or country),Unknown
+Informant,John B. Pyles Supt.
+Informant Address,Cheltenham Md
+Filed,Jan 31, 1917
+REGISTRAR,Julius R. Smith
+Registration Dist. No.,240
+DATE OF DEATH (Month),January
+DATE OF DEATH (Day),30
+DATE OF DEATH (Year),1917
+I HEREBY CERTIFY, That I attended deceased from,Sept 25, 1916
+to,Jan 29, 1917
+that I last saw him alive on,Jan 29, 1917
+and that death occurred on the date stated above, at,12 m.
+THE CAUSE OF DEATH* Primary,Pulmonary Tuberculosis
+THE CAUSE OF DEATH* Primary Duration (yrs),4
+THE CAUSE OF DEATH* Primary Duration (mos),5
+THE CAUSE OF DEATH* Primary Duration (ds),
+Contributory (Secondary),
+Contributory (Secondary) Duration (yrs),
+Contributory (Secondary) Duration (mos),
+Contributory (Secondary) Duration (ds),
+Signed,W H Gibbons
+M.D. Date,Jan 30, 1917
+M.D. Address,Croom, Md
+LENGTH OF RESIDENCE At place of death (yrs),6
+LENGTH OF RESIDENCE At place of death (mos),2
+LENGTH OF RESIDENCE At place of death (ds),
+LENGTH OF RESIDENCE In the State (yrs),17
+LENGTH OF RESIDENCE In the State (mos),6
+LENGTH OF RESIDENCE In the State (ds),3
+Where was disease contracted, if not at place of death?,Leonardtown, Md
+Former or usual residence,Leonardtown, Md
+PLACE OF BURIAL OR REMOVAL,House of Reformation
+DATE OF BURIAL,Jan 31, 1917
+UNDERTAKER,John B. Pyles, Supt.
+UNDERTAKER ADDRESS,Cheltenham, Md
+Printed Form Number,1016 (28)

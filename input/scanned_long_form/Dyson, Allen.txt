@@ -1,0 +1,61 @@
+Fields,Results
+Certificate Number,13770
+County,Prince George's
+Village or City,Cheltenham
+Street,House of Reformation St.
+Ward,
+FULL NAME,Allen Dyson
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+DATE OF BIRTH (Month),Feb.
+DATE OF BIRTH (Day),6
+DATE OF BIRTH (Year),1901
+AGE (Years),17
+AGE (Months),5
+AGE (Days),15
+AGE (If less than 1 day) Hours,
+AGE (If less than 1 day) Minutes,
+OCCUPATION (a) Trade, profession, or particular kind of work,Inmate
+OCCUPATION (b) General nature of industry business, or establishment in which employed (or employer),
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Unknown
+BIRTHPLACE OF FATHER (State or country),Unknown
+MAIDEN NAME OF MOTHER,Unknown
+BIRTHPLACE OF MOTHER (State or country),Unknown
+Informant,John B. Pyles, Supt.
+Informant Address,Cheltenham, Md.
+Filed Date,July 22nd 1918
+Registrar,Julius N. Smith, Local Registrar
+Registration Dist. No.,240
+Hospital or Institution Name (if applicable),
+DATE OF DEATH (Month),July
+DATE OF DEATH (Day),21
+DATE OF DEATH (Year),1918
+Attended deceased from,May 21, 1918
+Attended deceased to,July 21, 1918
+Last saw him alive on,July 20, 1918
+Death occurred at,9 P.M.
+Primary Cause of Death,Pulmonary Tuberculosis
+Primary Cause Duration (Years),
+Primary Cause Duration (Months),2
+Primary Cause Duration (Days),
+Contributory Secondary Cause,
+Contributory Secondary Cause Duration (Years),
+Contributory Secondary Cause Duration (Months),
+Contributory Secondary Cause Duration (Days),
+Physician Signed,W. W. Gibbons M. D.
+Date Signed,July 22, 1918
+Physician Address,Croom, Md.
+LENGTH OF RESIDENCE At place of death (Years),3
+LENGTH OF RESIDENCE At place of death (Months),11
+LENGTH OF RESIDENCE At place of death (Days),15
+LENGTH OF RESIDENCE In the State (Years),17
+LENGTH OF RESIDENCE In the State (Months),5
+LENGTH OF RESIDENCE In the State (Days),15
+Where was disease contracted, if not at place of death?,
+Former or usual residence,Bel Alton Maryland
+PLACE OF BURIAL OR REMOVAL,House of Reformation
+DATE OF BURIAL,July 23, 1918
+UNDERTAKER,John B. Pyles, Supt.
+UNDERTAKER ADDRESS,Cheltenham Md.

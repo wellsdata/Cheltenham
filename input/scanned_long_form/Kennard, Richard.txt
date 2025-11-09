@@ -1,0 +1,68 @@
+Fields,Results
+Registration Dist. No.,240
+County,Pr. Ges.
+Village or City,Cheltenham
+St.,
+Ward,
+Hospital/Institution Name (if applicable),
+FULL NAME,Richard Kennard
+SEX,Male
+COLOR OR RACE,Col
+SINGLE, MARRIED, WIDOWED OR DIVORCED,Single
+DATE OF BIRTH (Month),Feb
+DATE OF BIRTH (Day),17
+DATE OF BIRTH (Year),1908
+AGE (yrs.),21
+AGE (mos.),3
+AGE (ds.),4
+AGE (If LESS than 1 day... hrs.),
+AGE (If LESS than 1 day... min.),
+OCCUPATION (a) Trade, profession or particular kind of work,Inmate St. of Ref.
+OCCUPATION (b) General nature of industry business, or establishment in which employed or (employer),
+BIRTHPLACE (State or country),Md
+NAME OF FATHER,John Kennard
+BIRTHPLACE OF FATHER (State or country),Md
+MAIDEN NAME OF MOTHER,Alice Kennard
+BIRTHPLACE OF MOTHER (State or country),Md
+Informant,J. G. Sykes Supt.
+Informant Address,Cheltenham
+Filed (Month),May
+Filed (Day),21
+Filed (Year),1929
+Registrar,Julius R. Smith
+DATE OF DEATH (Month),May
+DATE OF DEATH (Day),21
+DATE OF DEATH (Year),1929
+Attended deceased from (Month),Mch.
+Attended deceased from (Year),1929
+Attended deceased to (Month),May
+Attended deceased to (Day),19
+Attended deceased to (Year),1929
+Last saw him alive on (Month),May
+Last saw him alive on (Day),19
+Last saw him alive on (Year),1929
+Death occurred at (Time),8:15 A.M.
+CAUSE OF DEATH (Primary),Pulmonary Tuberculosis
+CAUSE OF DEATH (Duration yrs.),
+CAUSE OF DEATH (Duration mos.),
+CAUSE OF DEATH (Duration ds.),
+Contributory Secondary,
+Contributory Secondary (Duration yrs.),
+Contributory Secondary (Duration mos.),
+Contributory Secondary (Duration ds.),
+Signed (M. D.),William H. Hutton M. D.
+Date Signed,May 21, 1929
+Address (M. D.),Croom
+LENGTH OF RESIDENCE At place of death (yrs.),4
+LENGTH OF RESIDENCE At place of death (mos.),8
+LENGTH OF RESIDENCE At place of death (ds.),9
+LENGTH OF RESIDENCE In the State (yrs.),
+LENGTH OF RESIDENCE In the State (mos.),
+LENGTH OF RESIDENCE In the State (ds.),
+Where was disease contracted, if not at place of death?,
+Former or usual residence,
+PLACE OF BURIAL OR REMOVAL,Cheltenham Md.
+DATE OF BURIAL,May 22, 1929
+UNDERTAKER,J. B. Pyles, Supt.
+UNDERTAKER ADDRESS,Cheltenham
+If more blanks are needed, address State Registrar, 16 W. Saratoga St., Balto. Requesting V. S. No. 1,Md

@@ -1,0 +1,42 @@
+Fields,Results
+PLACE OF DEATH - County,Prince George's
+PLACE OF DEATH - Town, Village or City,Cheltenham, in House of Correction for Maryland
+Registration Dist. No.,490
+FULL NAME,Edward Jacobs
+SEX,Male
+COLOR OR RACE,Colored
+SINGLE, MARRIED, WIDOWED, OR DIVORCED,Single
+DATE OF BIRTH,Oct 21, 1900
+AGE - Years,19
+AGE - Months,4
+AGE - Days,23
+OCCUPATION OF DECEASED - Trade, profession, or particular kind of work,Inmate
+OCCUPATION OF DECEASED - General nature of industry, business, or establishment,
+BIRTHPLACE (State or country),Maryland
+NAME OF FATHER,Paul Jacobs
+BIRTHPLACE OF FATHER,Maryland
+MAIDEN NAME OF MOTHER,Mary
+BIRTHPLACE OF MOTHER,Maryland
+INFORMANT,John B. Pyle, Supt.
+INFORMANT ADDRESS,Cheltenham, Md.
+FILED,Mar 18, 1920
+REGISTRAR,L. Smith
+DATE OF DEATH,March 15, 1920
+Attended deceased from,Dec 12, 1919
+Attended deceased to,March 15, 1920
+Last saw deceased alive on,March 15, 1920
+Death occurred at,7 P.M.
+THE CAUSE OF DEATH,Pulmonary Tuberculosis
+CONTRIBUTORY (Secondary),
+Signed (Physician),W. H. H. Stone
+Date (Physician),Mar 16, 1920
+Address (Physician),Crown, Md.
+LENGTH OF RESIDENCE (At place of death),3 Months, 3 Days
+LENGTH OF RESIDENCE (In State where death occurred),Life
+PLACE OF BURIAL OR REMOVAL,Cheltenham Md.
+DATE OF BURIAL,Mar 17, 1920
+UNDERTAKER,John B. Pyle
+UNDERTAKER ADDRESS,Cheltenham Md.
+DATE OF ISSUE OF PERMIT,Mar 17, 1920
+PLACE OF ISSUE OF PERMIT,Cheltenham Md.
+Permit No.,490
