@@ -403,15 +403,62 @@ master <- read_csv("/Users/gizmofo/Downloads/Death Certificate Data Extraction -
 combo2 <- master |> 
   left_join(combo, by ="name")
 
-write_csv(combo2, "output/updated_master_deaths.csv")
+#clean and separate
+combo2 <- combo2 |> 
+  select(form_link, name, cause_of_death, everything()) |> 
+  mutate(cause_of_death1 = str_replace_all (cause_of_death, "blank", "")) |> 
+  mutate(cause_of_death1 = str_remove_all(cause_of_death1, "[()\\[\\]]")) |> 
+  separate(col = cause_of_death1, into = c("death_cause1", "death_cause2"), sep = ";", extra = "drop")
+
+
+
+#write_csv(combo2, "output/updated_master_deaths.csv")
 
 ```
 
 
+# Extract, tabulate death case
+```{r}
+
+death_categories <- combo2 |>
+  pivot_longer(cols = c(death_cause1, death_cause2), 
+               names_to = "cause_type", 
+               values_to = "cause") |>
+  count(cause) |>
+  arrange(desc(n))
+  
+
+```
+
+#Categorize
+
+```{r}
+
+death_categories <- death_categories |> 
+  mutate(category = case_when(
+         cause=="Pulmonary Tuberculosis" ~ "tuberculosis",
+         cause=="Tuberculosis" ~ "tuberculosis",
+         cause=="Pulmonary tuberculosis" ~ "tuberculosis", 
+         cause=="Military tuberculosis" ~ "tuberculosis", 
+         cause=="General Tuberculosis" ~ "tuberculosis", 
+         cause=="Lobar Pneumonia" ~ "pneumonia",
+         cause=="Pneumonia" ~ "pneumonia",
+         cause=="Pneumonia Double so called" ~ "pneumonia",
+         cause=="Pneumonia Lobar" ~ "pneumonia",
+         TRUE ~ cause
+         )) |> 
+  group_by(category) |> 
+  summarize(total=sum(n)) |> 
+  arrange(desc(total))
 
 
-# backup
+write_csv(death_categories, "output/death_categories_draft_nov_14.csv")
+```
 
+
+# -----------------------------------------------------------------------------
+# Notes - code below is flawed, doesnt extract death cause
+# -----------------------------------------------------------------------------
 
 ```{r}
 library(tidyverse)
