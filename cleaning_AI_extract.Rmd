@@ -1,0 +1,851 @@
+---
+title: "AI scan clean"
+author: "Wells"
+date: "2025-11-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# extracts just death cause data
+
+```{r}
+library(tidyverse)
+library(stringr)
+
+# Simple function to extract name and cause of death
+extract_death_data <- function(file_path) {
+  tryCatch({
+    # Read file
+    data <- read_csv(file_path, 
+                     col_types = cols(.default = "c"),
+                     show_col_types = FALSE)
+    
+    # Fix column names if needed
+    if (!"Fields" %in% names(data) && ncol(data) >= 2) {
+      names(data)[1] <- "Fields"
+      names(data)[2] <- "Results"
+    }
+    
+    if (!"Results" %in% names(data) && ncol(data) >= 2) {
+      names(data)[2] <- "Results"
+    }
+    
+    # Remove NA rows
+    data <- data %>% filter(!is.na(Fields), !is.na(Results))
+    
+    # Extract NAME - look for any field containing "NAME" or "FULL NAME"
+    name_pattern <- regex("FULL.*NAME|^2\\.|^NAME$|^2 FULL NAME", ignore_case = TRUE)
+    name_row <- data %>% 
+      filter(str_detect(Fields, name_pattern)) %>%
+      filter(!str_detect(Fields, regex("FATHER|MOTHER|MAIDEN", ignore_case = TRUE))) %>%
+      slice(1)
+    
+    full_name <- if(nrow(name_row) > 0) name_row$Results[1] else NA_character_
+    
+    # Extract CAUSE OF DEATH - look for any field containing cause/death keywords
+    # Combine ALL cause of death fields into one
+    cod_pattern <- regex(
+      "PRINCIPAL.*CAUSE|PRIMARY.*CAUSE|CAUSE.*DEATH|CAUSE OF DEATH|
+      Line 1\\)|Line 2\\)|Line 3\\)|
+      Cause 1[^D]|Cause 2[^D]|Cause 3[^D]|
+      Secondary Cause|Contributory|
+      THE_PRINCIPAL_CAUSE",
+      ignore_case = TRUE
+    )
+    
+    cod_rows <- data %>%
+      filter(str_detect(Fields, cod_pattern)) %>%
+      filter(!str_detect(Fields, regex("Date of onset|Duration|operation|autopsy|test|external|violence|injury|occupation", ignore_case = TRUE))) %>%
+      filter(!is.na(Results), Results != "")
+    
+    # Combine all cause of death entries into single field, separated by semicolons
+    cause_of_death <- if(nrow(cod_rows) > 0) {
+      paste(cod_rows$Results, collapse = "; ")
+    } else {
+      NA_character_
+    }
+    
+    # Return result
+    tibble(
+      source_file = basename(file_path),
+      name = full_name,
+      cause_of_death = cause_of_death
+    )
+    
+  }, error = function(e) {
+    warning(sprintf("Error processing %s: %s", basename(file_path), e$message))
+    tibble(
+      source_file = basename(file_path),
+      name = NA_character_,
+      cause_of_death = NA_character_
+    )
+  })
+}
+
+# Process all files
+process_all_simple <- function(input_dir, output_file = "death_data_simple.csv") {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  
+  cat(sprintf("Processing %d files...\n", length(files)))
+  
+  # Process each file
+  all_data <- map_dfr(files, function(f) {
+    cat(sprintf("  %s\n", basename(f)))
+    extract_death_data(f)
+  })
+  
+  # Summary
+  cat(sprintf("\n=== SUMMARY ===\n"))
+  cat(sprintf("Total records: %d\n", nrow(all_data)))
+  cat(sprintf("Records with names: %d (%.1f%%)\n", 
+              sum(!is.na(all_data$name)), 
+              100 * sum(!is.na(all_data$name)) / nrow(all_data)))
+  cat(sprintf("Records with cause of death: %d (%.1f%%)\n", 
+              sum(!is.na(all_data$cause_of_death)), 
+              100 * sum(!is.na(all_data$cause_of_death)) / nrow(all_data)))
+  
+  # Save
+  write_csv(all_data, output_file)
+  cat(sprintf("\nSaved to: %s\n", output_file))
+  
+  return(all_data)
+}
+
+# Diagnostic function - show what's being found
+diagnose_extractions <- function(input_dir, sample_size = 10) {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  sample_files <- head(files, sample_size)
+  
+  cat("=== DIAGNOSTIC SAMPLE ===\n\n")
+  
+  for (f in sample_files) {
+    cat(sprintf("\n--- FILE: %s ---\n", basename(f)))
+    
+    data <- read_csv(f, col_types = cols(.default = "c"), show_col_types = FALSE)
+    
+    if (!"Fields" %in% names(data) && ncol(data) >= 2) {
+      names(data)[1] <- "Fields"
+      names(data)[2] <- "Results"
+    }
+    
+    # Show name fields
+    name_fields <- data %>% 
+      filter(str_detect(Fields, regex("NAME", ignore_case = TRUE)))
+    
+    if (nrow(name_fields) > 0) {
+      cat("\nNAME FIELDS:\n")
+      print(name_fields %>% select(Fields, Results))
+    }
+    
+    # Show cause fields
+    cod_fields <- data %>%
+      filter(str_detect(Fields, regex("CAUSE|DEATH", ignore_case = TRUE)))
+    
+    if (nrow(cod_fields) > 0) {
+      cat("\nCAUSE/DEATH FIELDS:\n")
+      print(cod_fields %>% select(Fields, Results))
+    }
+  }
+}
+
+# USAGE:
+# 
+# # Set directory
+# input_directory <- "path/to/your/files"
+# 
+# # Run diagnostic first to see what's being found
+# diagnose_extractions(input_directory, sample_size = 5)
+# 
+# # Process all files
+# death_data <- process_all_simple(input_directory)
+# 
+# # View results
+# View(death_data)
+# 
+# # See which files are missing data
+# View(death_data %>% filter(is.na(cause_of_death)))
+```
+
+
+```{r}
+# Set your directory
+# input_directory <- "input/scanned_long_form/"
+input_directory <- "input/scanned_long_form/"
+# First, run diagnostic to see what it's finding
+diagnose_extractions(input_directory, sample_size = 5)
+
+# Then process all files
+death_data <- process_all_simple(input_directory)
+
+# View the results
+View(death_data)
+
+# Check which files are missing cause of death
+View(death_data %>% filter(is.na(cause_of_death)))
+
+# write_csv(death_data, "output/death_data_sf.csv")
+# 
+# death_sf <- death_data
+```
+
+#short form
+```{r}
+library(tidyverse)
+library(stringr)
+
+# Simple function to extract name and cause of death
+extract_death_data <- function(file_path) {
+  tryCatch({
+    # Read file
+    data <- read_csv(file_path, 
+                     col_types = cols(.default = "c"),
+                     show_col_types = FALSE)
+    
+    # Fix column names if needed
+    if (!"Fields" %in% names(data) && ncol(data) >= 2) {
+      names(data)[1] <- "Fields"
+      names(data)[2] <- "Results"
+    }
+    
+    if (!"Results" %in% names(data) && ncol(data) >= 2) {
+      names(data)[2] <- "Results"
+    }
+    
+    # Remove NA rows
+    data <- data %>% filter(!is.na(Fields), !is.na(Results))
+    
+    # Extract NAME
+    # Long form: "FULL NAME" or "2. FULL NAME" or "2 FULL NAME"
+    # Short form: "Name in Full"
+    name_pattern <- regex(
+      "Name in Full|FULL.*NAME|^2\\.|^2 FULL NAME", 
+      ignore_case = TRUE
+    )
+    name_row <- data %>% 
+      filter(str_detect(Fields, name_pattern)) %>%
+      filter(!str_detect(Fields, regex("FATHER|MOTHER|MAIDEN|Wife|Husband|person giving", ignore_case = TRUE))) %>%
+      slice(1)
+    
+    full_name <- if(nrow(name_row) > 0) name_row$Results[1] else NA_character_
+    
+    # Extract CAUSE OF DEATH - look for any field containing cause/death keywords
+    # Combine ALL cause of death fields into one
+    cod_pattern <- regex(
+      "PRINCIPAL.*CAUSE|PRIMARY.*CAUSE|CAUSE.*DEATH|CAUSE OF DEATH|
+      Line 1\\)|Line 2\\)|Line 3\\)|
+      Cause 1[^D]|Cause 2[^D]|Cause 3[^D]|
+      Secondary Cause|Contributory|
+      THE_PRINCIPAL_CAUSE",
+      ignore_case = TRUE
+    )
+    
+    cod_rows <- data %>%
+      filter(str_detect(Fields, cod_pattern)) %>%
+      filter(!str_detect(Fields, regex("Date of onset|Duration|operation|autopsy|test|external|violence|injury|occupation", ignore_case = TRUE))) %>%
+      filter(!is.na(Results), Results != "")
+    
+    # Combine all cause of death entries into single field, separated by semicolons
+    cause_of_death <- if(nrow(cod_rows) > 0) {
+      paste(cod_rows$Results, collapse = "; ")
+    } else {
+      NA_character_
+    }
+    
+    # Return result
+    tibble(
+      source_file = basename(file_path),
+      name = full_name,
+      cause_of_death = cause_of_death
+    )
+    
+  }, error = function(e) {
+    warning(sprintf("Error processing %s: %s", basename(file_path), e$message))
+    tibble(
+      source_file = basename(file_path),
+      name = NA_character_,
+      cause_of_death = NA_character_
+    )
+  })
+}
+
+# Process all files
+process_all_simple <- function(input_dir, output_file = "death_data_simple.csv") {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  
+  cat(sprintf("Processing %d files...\n", length(files)))
+  
+  # Process each file
+  all_data <- map_dfr(files, function(f) {
+    cat(sprintf("  %s\n", basename(f)))
+    extract_death_data(f)
+  })
+  
+  # Summary
+  cat(sprintf("\n=== SUMMARY ===\n"))
+  cat(sprintf("Total records: %d\n", nrow(all_data)))
+  cat(sprintf("Records with names: %d (%.1f%%)\n", 
+              sum(!is.na(all_data$name)), 
+              100 * sum(!is.na(all_data$name)) / nrow(all_data)))
+  cat(sprintf("Records with cause of death: %d (%.1f%%)\n", 
+              sum(!is.na(all_data$cause_of_death)), 
+              100 * sum(!is.na(all_data$cause_of_death)) / nrow(all_data)))
+  
+  # Save
+  write_csv(all_data, output_file)
+  cat(sprintf("\nSaved to: %s\n", output_file))
+  
+  return(all_data)
+}
+
+# Diagnostic function - show what's being found
+diagnose_extractions <- function(input_dir, sample_size = 10) {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  sample_files <- head(files, sample_size)
+  
+  cat("=== DIAGNOSTIC SAMPLE ===\n\n")
+  
+  for (f in sample_files) {
+    cat(sprintf("\n--- FILE: %s ---\n", basename(f)))
+    
+    data <- read_csv(f, col_types = cols(.default = "c"), show_col_types = FALSE)
+    
+    if (!"Fields" %in% names(data) && ncol(data) >= 2) {
+      names(data)[1] <- "Fields"
+      names(data)[2] <- "Results"
+    }
+    
+    # Show name fields
+    name_fields <- data %>% 
+      filter(str_detect(Fields, regex("NAME", ignore_case = TRUE)))
+    
+    if (nrow(name_fields) > 0) {
+      cat("\nNAME FIELDS:\n")
+      print(name_fields %>% select(Fields, Results))
+    }
+    
+    # Show cause fields
+    cod_fields <- data %>%
+      filter(str_detect(Fields, regex("CAUSE|DEATH", ignore_case = TRUE)))
+    
+    if (nrow(cod_fields) > 0) {
+      cat("\nCAUSE/DEATH FIELDS:\n")
+      print(cod_fields %>% select(Fields, Results))
+    }
+  }
+}
+
+# USAGE:
+# 
+# # Set directory
+# input_directory <- "path/to/your/files"
+# 
+# # Run diagnostic first to see what's being found
+# diagnose_extractions(input_directory, sample_size = 5)
+# 
+# # Process all files
+# death_data <- process_all_simple(input_directory)
+# 
+# # View results
+# View(death_data)
+# 
+# # See which files are missing data
+# View(death_data %>% filter(is.na(cause_of_death)))
+```
+
+
+```{r}
+# Set your directory
+# input_directory <- "input/scanned_long_form/"
+input_directory <- "input/scanned_short_form/"
+# First, run diagnostic to see what it's finding
+diagnose_extractions(input_directory, sample_size = 5)
+
+# Then process all files
+death_data <- process_all_simple(input_directory)
+
+# View the results
+View(death_data)
+
+# Check which files are missing cause of death
+View(death_data %>% filter(is.na(cause_of_death)))
+
+# write_csv(death_data, "output/death_data_sf.csv")
+# 
+input_directory <- "input/scanned_short_form/"
+death_data_sf <- process_all_simple(input_directory, output_file = "death_data_short_form.csv")
+View(death_data_sf)
+
+#death_lf <- death_data
+```
+
+
+
+```{r}
+
+combo <- bind_rows(death_lf, death_data_sf)
+
+write_csv(combo, "output/death_causes.csv")
+
+```
+
+#matcheroo
+
+```{r}
+master <- read_csv("/Users/gizmofo/Downloads/Death Certificate Data Extraction - MASTER_INDEX_11_8_2025.csv") |> 
+  janitor::clean_names()
+
+```
+
+```{r}
+combo2 <- master |> 
+  left_join(combo, by ="name")
+
+write_csv(combo2, "output/updated_master_deaths.csv")
+
+```
+
+
+
+
+# backup
+
+
+```{r}
+library(tidyverse)
+library(stringr)
+
+# Load the template to get standardized column names
+template <- read_csv("input/md_long_form_template.csv")
+
+# Create standardized column names from template
+create_standard_columns <- function(template_df) {
+  base_cols <- template_df %>%
+    mutate(
+      full_field = ifelse(
+        Subcategory == "::",
+        Category_Name,
+        paste0(Category_Name, "_", Subcategory)
+      )
+    ) %>%
+    mutate(full_field = str_remove_all(full_field, "::$")) %>%
+    pull(full_field) %>%
+    unique()
+  
+  # Add extra columns for cause of death variations
+  extra_death_cols <- c(
+    "CAUSE_OF_DEATH_Line1",
+    "CAUSE_OF_DEATH_Line2", 
+    "CAUSE_OF_DEATH_Line3",
+    "CAUSE_OF_DEATH_Cause1",
+    "CAUSE_OF_DEATH_Cause2",
+    "CAUSE_OF_DEATH_Cause3",
+    "CAUSE_OF_DEATH_Primary",
+    "CAUSE_OF_DEATH_Secondary",
+    "CAUSE_OF_DEATH_Contributory_Secondary",
+    "CAUSE_OF_DEATH_Other_Contributory",
+    "CAUSE_OF_DEATH_Principal",
+    "CAUSE_OF_DEATH_Line1_Date_of_onset",
+    "CAUSE_OF_DEATH_Line2_Date_of_onset",
+    "CAUSE_OF_DEATH_Line3_Date_of_onset",
+    "CAUSE_OF_DEATH_Date_of_onset",
+    "CAUSE_OF_DEATH_Duration_years",
+    "CAUSE_OF_DEATH_Duration_months",
+    "CAUSE_OF_DEATH_Duration_days",
+    "Certificate_Number",
+    "Control_Number"
+  )
+  
+  return(c(base_cols, extra_death_cols))
+}
+
+standard_cols <- create_standard_columns(template)
+
+# Function to map extracted field names to standard column names
+map_field_to_standard <- function(field_name, standard_columns) {
+  # Remove extra spaces and normalize
+  field_clean <- str_squish(field_name)
+  
+  # Try exact match first
+  if (field_clean %in% standard_columns) {
+    return(field_clean)
+  }
+  
+  # Fuzzy matching rules based on common patterns in your data
+  mappings <- list(
+    # Place of death fields
+    "County \\(1\\. PLACE OF DEATH\\)" = "PLACE_OF_DEATH_County",
+    "Village or City \\(1\\. PLACE OF DEATH\\)" = "PLACE_OF_DEATH_Village_or_City",
+    "1\\. PLACE OF DEATH County" = "PLACE_OF_DEATH_County",
+    "1\\. PLACE OF DEATH Village or City" = "PLACE_OF_DEATH_Village_or_City",
+    "1 PLACE OF DEATH County" = "PLACE_OF_DEATH_County",
+    "1 PLACE OF DEATH Village or City" = "PLACE_OF_DEATH_Village_or_City",
+    
+    # Registration and control
+    "Registration Dist\\. No\\." = "PLACE_OF_DEATH_Registration_Dist_No",
+    "Certificate No\\." = "Certificate_Number",
+    "Control Number" = "Control_Number",
+    
+    # Name and residence
+    "FULL NAME" = "FULL_NAME",
+    "2 FULL NAME" = "FULL_NAME",
+    "\\(a\\) Residence: No\\." = "FULL_NAME_(a)_Residence_No",
+    "\\(a\\) Residence: St\\." = "FULL_NAME_St",
+    
+    # Demographics
+    "3\\. SEX" = "SEX",
+    "3 SEX" = "SEX",
+    "4\\. COLOR OR RACE" = "COLOR_OR_RACE",
+    "4 COLOR OR RACE" = "COLOR_OR_RACE",
+    "5\\. SINGLE, MARRIED, WIDOWED, OR DIVORCED" = "SINGLE_MARRIED_WIDOWED_DIVORCED_",
+    "5 SINGLE, MARRIED, WIDOWED, OR DIVORCED.*" = "SINGLE_MARRIED_WIDOWED_DIVORCED_",
+    
+    # Date of birth
+    "6\\. DATE OF BIRTH.*month.*" = "DATE_OF_BIRTH_(month_day_and_year)",
+    "6 DATE OF BIRTH.*Month.*" = "DATE_OF_BIRTH_Month",
+    "6 DATE OF BIRTH.*Day.*" = "DATE_OF_BIRTH_Day",
+    "6 DATE OF BIRTH.*Year.*" = "DATE_OF_BIRTH_Year",
+    
+    # Age fields
+    "7\\. AGE Years" = "AGE_Years",
+    "7 AGE yrs" = "AGE_Years",
+    "7 AGE mos" = "AGE_Months",
+    "7\\. AGE Months" = "AGE_Months",
+    
+    # Occupation
+    "8\\. Trade, profession.*" = "Trade_profession_or_particular_kind_of_work_done",
+    "8 OCCUPATION.*Trade.*" = "Trade_profession_or_particular_kind_of_work_done",
+    
+    # Birthplace
+    "12\\. BIRTHPLACE.*city.*" = "BIRTHPLACE__(city_or_town)",
+    "12 BIRTHPLACE.*State.*" = "BIRTHPLACE__(State_or_country)",
+    "9 BIRTHPLACE.*" = "BIRTHPLACE__(State_or_country)",
+    
+    # Parents
+    "13\\. NAME.*FATHER.*" = "FATHER__NAME",
+    "10 NAME OF FATHER" = "FATHER__NAME",
+    "15\\. MAIDEN NAME.*MOTHER.*" = "MOTHER__MAIDEN_NAME",
+    "12 MAIDEN NAME OF MOTHER" = "MOTHER__MAIDEN_NAME",
+    
+    # Death date
+    "21\\. DATE OF DEATH Month" = "DATE_OF_DEATH_Month",
+    "21 DATE OF DEATH Month" = "DATE_OF_DEATH_Month",
+    "16 DATE OF DEATH.*Month.*" = "DATE_OF_DEATH_Month",
+    "16 DATE OF DEATH.*Day.*" = "DATE_OF_DEATH_Day",
+    "16 DATE OF DEATH.*Year.*" = "DATE_OF_DEATH_Year",
+    
+    # Causes of death - Primary/Line 1
+    "^The PRINCIPAL CAUSE OF DEATH.*Line 1\\)$" = "CAUSE_OF_DEATH_Line1",
+    "^THE PRINCIPAL CAUSE OF DEATH.*Cause 1$" = "CAUSE_OF_DEATH_Cause1",
+    "^THE CAUSE OF DEATH.*Primary Cause$" = "CAUSE_OF_DEATH_Primary",
+    "^17 THE CAUSE OF DEATH.*Primary Cause$" = "CAUSE_OF_DEATH_Primary",
+    "^22\\. CERTIFICATION.*The_PRINCIPAL_CAUSE" = "CAUSE_OF_DEATH_Principal",
+    
+    # Causes of death - Line 2
+    "^The PRINCIPAL CAUSE OF DEATH.*Line 2\\)" = "CAUSE_OF_DEATH_Line2",
+    "^THE PRINCIPAL CAUSE OF DEATH.*Cause 2$" = "CAUSE_OF_DEATH_Cause2",
+    
+    # Causes of death - Line 3
+    "^The PRINCIPAL CAUSE OF DEATH.*Line 3\\)" = "CAUSE_OF_DEATH_Line3",
+    "^THE PRINCIPAL CAUSE OF DEATH.*Cause 3$" = "CAUSE_OF_DEATH_Cause3",
+    
+    # Secondary/Contributory causes
+    "^17 THE CAUSE OF DEATH.*Secondary Cause$" = "CAUSE_OF_DEATH_Secondary",
+    "^Contributory.*Secondary.*[^D]$" = "CAUSE_OF_DEATH_Contributory_Secondary",
+    "^Other Contributory Causes" = "CAUSE_OF_DEATH_Other_Contributory",
+    
+    # Date of onset fields
+    "^Date of onset \\(for Line 1\\)" = "CAUSE_OF_DEATH_Line1_Date_of_onset",
+    "^Date of onset \\(for Line 2\\)" = "CAUSE_OF_DEATH_Line2_Date_of_onset",
+    "^Date of onset \\(for Line 3\\)" = "CAUSE_OF_DEATH_Line3_Date_of_onset",
+    "^22\\. CERTIFICATION.*Date_of_onset" = "CAUSE_OF_DEATH_Date_of_onset",
+    
+    # Duration fields
+    "^17 THE CAUSE OF DEATH.*\\(Duration\\) yrs$" = "CAUSE_OF_DEATH_Duration_years",
+    "^17 THE CAUSE OF DEATH.*\\(Duration\\) mos$" = "CAUSE_OF_DEATH_Duration_months",
+    "^17 THE CAUSE OF DEATH.*\\(Duration\\) ds$" = "CAUSE_OF_DEATH_Duration_days",
+    
+    # Informant
+    "17\\. INFORMANT[^(]" = "INFORMANT",
+    "14 THE ABOVE IS TRUE.*Informant.*" = "INFORMANT",
+    
+    # Burial
+    "18\\. BURIAL.*Place" = "BURIAL_CREMATION_OR_REMOVAL_Place",
+    "19 PLACE OF BURIAL" = "BURIAL_CREMATION_OR_REMOVAL_Place",
+    
+    # Undertaker
+    "19\\. UNDERTAKER[^(]" = "UNDERTAKER",
+    "20 UNDERTAKER[^A]" = "UNDERTAKER"
+  )
+  
+  # Try pattern matching
+  for (pattern in names(mappings)) {
+    if (str_detect(field_clean, regex(pattern, ignore_case = TRUE))) {
+      return(mappings[[pattern]])
+    }
+  }
+  
+  # Return cleaned field name if no match
+  return(field_clean)
+}
+
+# Function to process a single extracted file
+process_death_certificate <- function(file_path) {
+  # Read the file with error suppression
+  data <- read_csv(file_path, 
+                   col_types = cols(.default = "c"),
+                   show_col_types = FALSE)
+  
+  # Check if required columns exist
+  if (!"Fields" %in% names(data)) {
+    # Try to find column names that might be Fields/Results
+    possible_fields <- names(data)[1]
+    possible_results <- names(data)[2]
+    
+    if (length(names(data)) >= 2) {
+      names(data)[1] <- "Fields"
+      names(data)[2] <- "Results"
+    } else {
+      warning(sprintf("File %s has unexpected structure", basename(file_path)))
+      return(NULL)
+    }
+  }
+  
+  # Ensure Results column exists
+  if (!"Results" %in% names(data)) {
+    if (ncol(data) >= 2) {
+      names(data)[2] <- "Results"
+    } else {
+      warning(sprintf("File %s missing Results column", basename(file_path)))
+      return(NULL)
+    }
+  }
+  
+  # Remove any rows with NA in Fields
+  data <- data %>% filter(!is.na(Fields))
+  
+  # Create a named vector from the data
+  result <- setNames(data$Results, data$Fields)
+  
+  # Map to standard columns
+  mapped_result <- list()
+  for (field in names(result)) {
+    std_col <- map_field_to_standard(field, standard_cols)
+    mapped_result[[std_col]] <- result[[field]]
+  }
+  
+  # Add filename for tracking
+  mapped_result[["source_file"]] <- basename(file_path)
+  
+  return(as_tibble(mapped_result))
+}
+
+# Main function to process all files
+process_all_certificates <- function(input_dir, output_file = "standardized_death_certificates.csv") {
+  # Get all txt files
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  
+  cat(sprintf("Found %d files to process\n", length(files)))
+  
+  # Process each file
+  all_data <- map_dfr(files, function(f) {
+    cat(sprintf("Processing: %s\n", basename(f)))
+    tryCatch(
+      process_death_certificate(f),
+      error = function(e) {
+        cat(sprintf("  ERROR in %s: %s\n", basename(f), e$message))
+        return(NULL)
+      }
+    )
+  })
+  
+  # Ensure all standard columns exist
+  for (col in standard_cols) {
+    if (!col %in% names(all_data)) {
+      all_data[[col]] <- NA_character_
+    }
+  }
+  
+  # Reorder columns to match template
+  col_order <- c("source_file", standard_cols)
+  col_order <- col_order[col_order %in% names(all_data)]
+  all_data <- all_data %>% select(all_of(col_order))
+  
+  # Write output
+  write_csv(all_data, output_file)
+  
+  cat(sprintf("\nProcessed %d certificates\n", nrow(all_data)))
+  cat(sprintf("Output saved to: %s\n", output_file))
+  
+  # Summary statistics
+  cat("\nData Summary:\n")
+  cat(sprintf("  Total fields in template: %d\n", length(standard_cols)))
+  cat(sprintf("  Fields with data: %d\n", sum(colSums(!is.na(all_data)) > 0)))
+  cat(sprintf("  Completeness: %.1f%%\n", 
+              100 * sum(!is.na(all_data)) / (nrow(all_data) * ncol(all_data))))
+  
+  return(all_data)
+}
+
+# Generate field mapping report
+generate_mapping_report <- function(input_dir, output_file = "field_mapping_report.csv") {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  
+  all_fields <- map_dfr(files, function(f) {
+    tryCatch({
+      data <- read_csv(f, 
+                       col_types = cols(.default = "c"), 
+                       show_col_types = FALSE)
+      
+      # Handle missing or misnamed columns
+      if (!"Fields" %in% names(data)) {
+        if (length(names(data)) >= 1) {
+          names(data)[1] <- "Fields"
+        } else {
+          return(NULL)
+        }
+      }
+      
+      if (!"Results" %in% names(data)) {
+        if (ncol(data) >= 2) {
+          names(data)[2] <- "Results"
+        }
+      }
+      
+      # Remove NA fields
+      data <- data %>% filter(!is.na(Fields))
+      
+      if (nrow(data) == 0) return(NULL)
+      
+      tibble(
+        source_file = basename(f),
+        original_field = data$Fields,
+        mapped_field = map_chr(data$Fields, ~map_field_to_standard(.x, standard_cols))
+      )
+    }, error = function(e) {
+      warning(sprintf("Error processing %s: %s", basename(f), e$message))
+      return(NULL)
+    })
+  })
+  
+  if (is.null(all_fields) || nrow(all_fields) == 0) {
+    stop("No valid data found in any files")
+  }
+  
+  # Create summary
+  mapping_summary <- all_fields %>%
+    group_by(original_field, mapped_field) %>%
+    summarise(
+      count = n(),
+      sample_files = paste(head(unique(source_file), 3), collapse = "; "),
+      .groups = "drop"
+    ) %>%
+    arrange(desc(count))
+  
+  write_csv(mapping_summary, output_file)
+  cat(sprintf("Mapping report saved to: %s\n", output_file))
+  cat(sprintf("Total unique field names found: %d\n", nrow(mapping_summary)))
+  
+  return(mapping_summary)
+}
+
+# USAGE EXAMPLE:
+# Set your directory containing the extracted .txt files
+# input_directory <- "path/to/your/extracted/files"
+# 
+# # Process all certificates
+# standardized_data <- process_all_certificates(input_directory)
+# 
+# # Generate mapping report to verify field mappings
+# mapping_report <- generate_mapping_report(input_directory)
+# 
+# # View the results
+# View(standardized_data)
+# View(mapping_report)
+
+# Helper function to extract and view cause of death information
+view_cause_of_death <- function(standardized_data) {
+  cod_cols <- names(standardized_data)[str_detect(names(standardized_data), "CAUSE_OF_DEATH")]
+  
+  cod_data <- standardized_data %>%
+    select(source_file, FULL_NAME, DATE_OF_DEATH_Year, all_of(cod_cols)) %>%
+    filter(if_any(all_of(cod_cols), ~!is.na(.)))
+  
+  return(cod_data)
+}
+
+# Helper function to check what cause of death fields exist in your data
+check_cod_fields <- function(input_dir) {
+  files <- list.files(input_dir, pattern = "\\.txt$", full.names = TRUE)
+  
+  cod_fields <- map_dfr(files, function(f) {
+    tryCatch({
+      data <- read_csv(f, col_types = cols(.default = "c"), show_col_types = FALSE)
+      
+      if (!"Fields" %in% names(data)) {
+        if (length(names(data)) >= 1) names(data)[1] <- "Fields"
+        else return(NULL)
+      }
+      
+      if (!"Results" %in% names(data)) {
+        if (ncol(data) >= 2) names(data)[2] <- "Results"
+        else return(NULL)
+      }
+      
+      cod_rows <- data %>%
+        filter(str_detect(Fields, regex("CAUSE|DEATH|cause|death", ignore_case = TRUE)))
+      
+      if (nrow(cod_rows) > 0) {
+        tibble(
+          file = basename(f),
+          field_name = cod_rows$Fields,
+          value = cod_rows$Results
+        )
+      } else {
+        NULL
+      }
+    }, error = function(e) {
+      cat(sprintf("Error in %s: %s\n", basename(f), e$message))
+      return(NULL)
+    })
+  })
+  
+  # Show unique field patterns
+  if (!is.null(cod_fields) && nrow(cod_fields) > 0) {
+    cat("\n=== UNIQUE CAUSE OF DEATH FIELD PATTERNS ===\n")
+    unique_patterns <- cod_fields %>%
+      group_by(field_name) %>%
+      summarise(
+        count = n(),
+        sample_value = first(na.omit(value)),
+        sample_files = paste(head(file, 2), collapse = ", ")
+      ) %>%
+      arrange(desc(count))
+    
+    print(unique_patterns, n = 100)
+  }
+  
+  return(cod_fields)
+}
+```
+
+
+```{r}
+# 1. Set your input directory
+input_directory <- "input/scanned_long_form/"
+
+# 2. Process all certificates
+standardized_data <- process_all_certificates(input_directory)
+
+# 3. Generate mapping report to verify
+mapping_report <- generate_mapping_report(input_directory)
+
+# 4. Review results
+View(standardized_data)
+View(mapping_report)
+#write_csv(standardized_data, "ai_cleanup_standardized_DC_long_form.csv")
+```
+
+

@@ -1,11 +1,11 @@
 ---
 title: "Cheltenham - Jessup PDF and processing"
 author: "Rob Wells"
-date: "2025-11-08"
+date: "2025-11-12"
 output: html_document
 ---
 
-For this exercise, you will create a PDFs of two Find a Grave websites, extract the data from the pdfs, clean it up and produce a single spreadsheet.
+For this exercise, you will create PDFs of two Find a Grave websites, extract the data from the pdfs, clean it up and produce a single spreadsheet.
 
 This task will use pdftools to extract the data and common data cleaning strategies to line it up
 
@@ -19,8 +19,6 @@ I created a second pdf from this website on Nov. 8, 2025
 https://www.findagrave.com/virtual-cemetery/2005789?page=1#sr-157481048
 
 HINT: When creating the PDFs, think of how you can minimize the noise in the document, such as skipping any images or by compressing the results into a tabular format.
-
-
 
 
 # Load tidyverse, pdftools, rio, tidytext, knitr
@@ -66,7 +64,7 @@ simplified_df <- index |>
 
 ## Align the data
 
-I will explain this complex code chunk. It is performing the following tasks:
+This complex code chunk is performing the following tasks:
 1) Removing empty rows
 2) Creating a helper column to identify if a row contains a date pattern
 3) Creating the date column by looking at the next row for each name
