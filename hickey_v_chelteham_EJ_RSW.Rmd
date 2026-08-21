@@ -1,0 +1,380 @@
+---
+title: "hickey v cheltenham deaths"
+author: "Wells"
+date: "2026-02-26"
+output: html_document
+---
+
+### Load libraries
+
+```{r}
+# install.packages("htmlwidgets")
+# install.packages("leaflet")
+#install.packages("sf")
+#install.packages('DT')
+library(DT)
+library(tidyverse)
+library(rio)
+library(janitor)
+library(htmlwidgets)
+library(leaflet)
+library(sf)
+library(googlesheets4)
+library(formattable)
+```
+
+#death certificates
+
+```{r}
+library(googlesheets4)
+
+gs4_deauth()
+
+death_certs <- read_sheet("https://docs.google.com/spreadsheets/d/1Qu7FSUzCAeU4gdZ9BpIvfxI5kBp5rAOgEiaQ2h0ff4k/edit?gid=0#gid=0") |> 
+     clean_names()
+
+chelt_deaths <- read_sheet("https://docs.google.com/spreadsheets/d/1qy17Gwxyb-W6P2tDqaI6jUymK4n7cmnFToNIkJ5GCI4/edit?usp=sharing", sheet="chelt_deaths") |> 
+     clean_names() |> 
+  mutate(across(
+    # Select all the list columns
+    c(number_of_inmates, total_deaths, total_escapes, total_hired_out, total_sent_to_hospital),
+    ~ .x |> 
+      as.character() |>              # Pull it out of the 'list' box into a string
+      str_remove_all("\\*") |>       # Remove those asterisks (e.g., "56*" becomes "56")
+      na_if("NA") |>                 # Convert the string "NA" to a real R NA
+      na_if("na") |>                 # Handle lowercase "na"
+      na_if("N/A") |>                # Handle "N/A"
+      as.numeric()                   # Finally, turn it into a number
+  )) |> 
+   slice(-43)
+
+
+
+hickey_deaths <- read_sheet("https://docs.google.com/spreadsheets/d/1FnXL2BiktaoEQDh-TAzgdTDuucJfaENKQ1wVZaItdww/edit?usp=sharing") |> 
+     clean_names() |> 
+    mutate(across(
+    # Select all the list columns
+    c(year_of_report,number_of_inmates, total_deaths, total_escapes, total_hired_out, total_sent_to_hospital),
+    ~ .x |> 
+      as.character() |>              # Pull it out of the 'list' box into a string
+      str_remove_all("\\*") |>       # Remove those asterisks (e.g., "56*" becomes "56")
+      na_if("NA") |>                 # Convert the string "NA" to a real R NA
+      na_if("na") |>                 # Handle lowercase "na"
+      na_if("N/A") |>                # Handle "N/A"
+      as.numeric()                   # Finally, turn it into a number
+  ))
+
+```
+
+#fact check
+```{r}
+dc_total <- death_certs |> 
+  filter(facility =="cheltenham") |> 
+  group_by(death_year) |> 
+  count(, name="death_cert_total") 
+
+dc_deaths <- sum(dc_total$death_cert_total, na.rm=TRUE) 
+
+cat("Total death certificate deaths:", dc_deaths, "\n")
+
+report_deaths <-  sum(chelt_deaths$total_deaths, na.rm=TRUE)
+
+cat("Total report deaths:", report_deaths, "\n")
+```
+
+
+#delete this after cleaning up the code below
+```{r}
+chelt_death_cert_totals <- death_certs |> 
+  filter(facility =="cheltenham") |> 
+  group_by(death_year) |> 
+  count(, name="death_cert_total") |> 
+  arrange(desc(death_year)) |> 
+  left_join(chelt_deaths, by=c("death_year"="year_of_report")) |> 
+  select(death_year, total_deaths,  death_cert_total) |> 
+  mutate(death_certs_bigger = if_else(death_cert_total > total_deaths, "Yes", "No"))
+
+#this join keeps all death cert and all annual report entries
+
+```
+
+
+# I dont understand why you did this below - seems to duplicate the above
+```{r}
+chelt_death_cert <- death_certs %>% 
+    select(death_year,facility) %>% 
+  filter(facility =="cheltenham") %>% 
+  arrange(desc(death_year))
+
+chelt_death_cert_count <- chelt_death_cert %>% 
+  group_by(death_year) %>% 
+  count()
+chelt_death_cert_count <-chelt_death_cert_count %>% 
+rename( year_of_report =death_year)
+ 
+  
+```
+
+```{r}
+updated_chelt_death_cert <- chelt_deaths %>%
+  full_join(chelt_death_cert_count, by = "year_of_report")
+
+joined_chelt <- updated_chelt_death_cert %>% 
+  select(year_of_report,total_deaths,n)
+
+```
+
+```{r}
+chelt_deaths <- chelt_deaths %>%
+  filter(!is.na(year_of_report))
+
+updated_chelt_death_cert <- chelt_deaths %>%
+  full_join(chelt_death_cert_count, by = "year_of_report")
+
+joined_chelt <- updated_chelt_death_cert %>% 
+  select(year_of_report, total_deaths, n) %>%
+  rename(death_cert = n) %>%
+  rename(report_deaths = total_deaths) %>% 
+  mutate(larger = case_when(
+    is.na(report_deaths) | is.na(death_cert) ~ "missing data",
+    report_deaths > death_cert ~ "report_deaths",
+    death_cert > report_deaths ~ "death_cert",
+    report_deaths == death_cert ~ "equal"
+  ))
+```
+
+```{r}
+joined_chelt <- joined_chelt %>%
+  mutate(max_deaths = case_when(
+    is.na(report_deaths) & is.na(death_cert) ~ NA_real_,
+    is.na(report_deaths) ~ death_cert,
+    is.na(death_cert) ~ report_deaths,
+    report_deaths >= death_cert ~ report_deaths,
+    death_cert > report_deaths ~ death_cert
+  ))
+
+total_sum <- sum(joined_chelt$max_deaths, na.rm = TRUE)
+```
+
+```{r}
+joined_chelt <- joined_chelt %>%
+  mutate(discrepancy = abs(report_deaths - death_cert))
+```
+
+# Total: 258
+```{r}
+
+joined_chelt |> 
+  summarize(sum(max_deaths, na.rm=TRUE))
+
+
+```
+
+Need to account for the biennial years
+
+Table of missing years
+```{r}
+missing <- joined_chelt %>%
+  filter(is.na(report_deaths)) %>%
+  select(year_of_report)
+
+biennial_years  <- c(1903, 1907, 1909, 1911, 1913, 1915, 1917, 1930, 1932, 1934, 1936, 1938) 
+
+missing1 <- missing %>%
+  mutate(
+    # Check if the year itself is a biennial report year
+    is_report_year = year_of_report %in% biennial_years,
+    
+    # Check if the data belongs to a biennial cycle (the year + 1)
+    is_covered_by_biennial = (year_of_report %in% biennial_years) | ((year_of_report + 1) %in% biennial_years),
+    
+    # Label them for clarity
+    status = case_when(
+      year_of_report %in% biennial_years ~ "Biennial Report Year",
+      (year_of_report + 1) %in% biennial_years ~ paste("Covered by", year_of_report + 1, "Report"),
+      TRUE ~ "Standalone/Missing"
+    )
+  )
+
+write_csv(missing1, "missing_years_analysis.csv")
+
+
+missing_pia <- missing1 |> 
+  filter(status == "Standalone/Missing") |> 
+  arrange(year_of_report) |> 
+  select(year_of_report, status) 
+
+write_csv(missing_pia, "missing_reports_pia_request.csv")
+
+
+```
+
+
+
+
+#Claude
+
+```{r}
+biennial_years   <- c(1903, 1907, 1909, 1911, 1913, 1915, 1917, 1930, 1932, 1934, 1936, 1938)
+biennial_prev_years <- biennial_years - 1   # years already "absorbed" into the biennial total
+
+# --- cert counts for the absorbed previous years ---
+prev_year_certs <- joined_chelt %>%
+  filter(year_of_report %in% biennial_prev_years) %>%
+  transmute(
+    biennial_year  = year_of_report + 1,   # maps 1906 -> 1907, etc.
+    cert_prev_year = death_cert
+  )
+
+# --- main calculation ---
+deaths_summary <- joined_chelt %>%
+  mutate(
+    is_biennial  = year_of_report %in% biennial_years,
+    is_prev_year = year_of_report %in% biennial_prev_years
+  ) %>%
+  # drop rows already covered inside a biennial report
+  filter(!is_prev_year) %>%
+  left_join(prev_year_certs, by = c("year_of_report" = "biennial_year")) %>%
+  mutate(
+    # for biennial years: combine both years' certs; for others: use as-is
+    cert_total = case_when(
+      is_biennial ~ coalesce(as.numeric(death_cert), 0) +
+                    coalesce(as.numeric(cert_prev_year), 0),
+      TRUE        ~ as.numeric(death_cert)
+    ),
+    # if biennial but *both* cert years are truly absent, keep NA (don't use 0)
+    cert_total = if_else(
+      is_biennial & is.na(death_cert) & is.na(cert_prev_year),
+      NA_real_, cert_total
+    ),
+    # best estimate per row: take whichever source is larger
+    best_estimate = case_when(
+      !is.na(report_deaths) & !is.na(cert_total) ~ pmax(report_deaths, cert_total),
+      !is.na(report_deaths)                       ~ report_deaths,
+      !is.na(cert_total)                          ~ cert_total,
+      TRUE                                         ~ NA_real_
+    )
+  )
+
+total_deaths <- sum(deaths_summary$best_estimate, na.rm = TRUE)
+missing_rows  <- sum(is.na(deaths_summary$best_estimate))
+
+cat("Total deaths:", total_deaths, "\n")
+cat("Rows with no data from either source:", missing_rows, "\n")
+
+```
+
+Claude explanation:
+Looking at the problem: for biennial years (e.g. 1907), `report_deaths` covers **two** years (1906+1907), but `death_cert` in `joined_chelt` only reflects the single report year. So you need to:
+
+1. Pull the cert counts for both constituent years of each biennial pair
+2. Sum them before comparing against the biennial report total
+3. Exclude the "previous year" rows from separate counting (they're already rolled into the biennial)
+
+```r
+biennial_years   <- c(1903, 1907, 1909, 1911, 1913, 1915, 1917, 1930, 1932, 1934, 1936, 1938)
+biennial_prev_years <- biennial_years - 1   # years already "absorbed" into the biennial total
+
+# --- cert counts for the absorbed previous years ---
+prev_year_certs <- joined_chelt %>%
+  filter(year_of_report %in% biennial_prev_years) %>%
+  transmute(
+    biennial_year  = year_of_report + 1,   # maps 1906 -> 1907, etc.
+    cert_prev_year = death_cert
+  )
+
+# --- main calculation ---
+deaths_summary <- joined_chelt %>%
+  mutate(
+    is_biennial  = year_of_report %in% biennial_years,
+    is_prev_year = year_of_report %in% biennial_prev_years
+  ) %>%
+  # drop rows already covered inside a biennial report
+  filter(!is_prev_year) %>%
+  left_join(prev_year_certs, by = c("year_of_report" = "biennial_year")) %>%
+  mutate(
+    # for biennial years: combine both years' certs; for others: use as-is
+    cert_total = case_when(
+      is_biennial ~ coalesce(as.numeric(death_cert), 0) +
+                    coalesce(as.numeric(cert_prev_year), 0),
+      TRUE        ~ as.numeric(death_cert)
+    ),
+    # if biennial but *both* cert years are truly absent, keep NA (don't use 0)
+    cert_total = if_else(
+      is_biennial & is.na(death_cert) & is.na(cert_prev_year),
+      NA_real_, cert_total
+    ),
+    # best estimate per row: take whichever source is larger
+    best_estimate = case_when(
+      !is.na(report_deaths) & !is.na(cert_total) ~ pmax(report_deaths, cert_total),
+      !is.na(report_deaths)                       ~ report_deaths,
+      !is.na(cert_total)                          ~ cert_total,
+      TRUE                                         ~ NA_real_
+    )
+  )
+
+total_deaths <- sum(deaths_summary$best_estimate, na.rm = TRUE)
+missing_rows  <- sum(is.na(deaths_summary$best_estimate))
+
+cat("Total deaths:", total_deaths, "\n")
+cat("Rows with no data from either source:", missing_rows, "\n")
+```
+
+**Key design decisions:**
+
+| Situation | Logic |
+|---|---|
+| Biennial year, both sources present | `pmax(report_deaths, cert_curr + cert_prev)` |
+| Biennial year, only report | use `report_deaths` |
+| Biennial year, both cert years missing | `NA` (not 0) |
+| Regular year | `pmax(report_deaths, death_cert)` ignoring whichever is `NA` |
+| Previous year of a biennial (e.g. 1906) | **filtered out** — already counted in the 1907 row |
+
+The `coalesce(..., 0)` on the cert sum treats a missing cert year as 0 *only when the other cert year has data*; that's intentional — a missing cert year for a biennial where the other year is present means partial coverage, not complete absence.
+
+
+# Afro Deaths
+total deaths reported in the Afro and Sun, and align those with these total above.
+
+
+```{r}
+afro_deaths <- read_sheet("https://docs.google.com/spreadsheets/d/1375Kt-61NU1FFV4pshCEv0EV3ZN4x6dWM31_qKGHxzo/edit?usp=sharing") |> 
+     clean_names() |> 
+  mutate(date_clean = ymd(date_of_article),
+        year = year(date_clean)) |> 
+  rename(deaths = is_this_article_about_a_death_yes_or_no)
+
+afro_deaths |> 
+    filter(deaths =="Yes it's about a death") |> 
+  select(year, any_notes_on_the_death_description_if_none_n_a, date_clean, deaths) |> 
+  arrange(year)
+
+```
+
+```{r}
+afro_deaths_summary <- afro_deaths %>%
+  filter(deaths =="Yes it's about a death") |> 
+  group_by(year) |> 
+  filter(!year %in% c(1899, 1940)) |> 
+  count(, name="afro_deaths") |> 
+  mutate(afro_deaths = if_else(year == 1929, 1, afro_deaths))
+
+#cut
+# 1899 was about a murder that sent a kid to cheltenham
+# 1929 repeated. 
+# 1940 was an obit of a cheltenham manager
+
+afro_total <- sum(afro_deaths_summary$afro_deaths, na.rm=TRUE) 
+
+cat("Total Cheltenham deaths reported by the Afro:", afro_total, "\n")
+
+```
+
+
+
+
+
+
+https://github.com/ejalil/cheltehnam_jalil/blob/main/hickey_v_chelteham_EJ_RSW.Rmd
+
+

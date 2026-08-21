@@ -1,0 +1,225 @@
+---
+title: "hickey v cheltenham deaths"
+author: "Tiasia's Version"
+date: "2026-03-05"
+output: html_document
+---
+
+
+### To keep in mind The tricky part is the two time series - death certificates and cheltenham deaths - don't match exactly. cheltenham deaths are biennial totals for 1903, 1907, 1909, 1911, 1913, 1915 1917, 1930, 1932, 1934, 1936 and 1938. Each of these years has a two-year total. So if there's  a death certificate reporting 2 deaths in 1902 and and 2 deaths in 1903, but the cheltenham annual reports shows a total of 5 in 1903, then we probably shouldn't add the 1902 deaths to our total. I hope that makes sense
+
+One approach:
+Align the death certificate totals to the biennial counts:
+1903: sum 1902:1903 > annual report total, keep it
+1907: sum 1906, 1907 > annual report total, keep it
+
+, 1909, 1911, 1913, 1915 1917, 1930, 1932, 1934, 1936 and 1938
+
+
+## so chelt_deaths is a data table that has the bieenal reports of deaths (starting in 1879, before then they are annual reports) 
+
+## chelt_death_certificaes is a data table that has the annual death certificates for cheltenham
+
+
+
+```{r}
+install.packages("leaflet")
+install.packages("sf")
+install.packages("googlesheets4")
+install.packages("formattable")
+install.packages("htmlwidgets")
+```
+
+### Load libraries
+```{r}
+# install.packages("htmlwidgets")
+# install.packages("leaflet")
+#install.packages("sf")
+#install.packages('DT')
+library(DT)
+library(tidyverse)
+library(rio)
+library(janitor)
+library(htmlwidgets)
+library(leaflet)
+library(sf)
+library(googlesheets4)
+library(formattable)
+```
+
+#death certificates
+```{r}
+library(googlesheets4)
+
+gs4_deauth()
+
+death_certs <- read_sheet("https://docs.google.com/spreadsheets/d/1Qu7FSUzCAeU4gdZ9BpIvfxI5kBp5rAOgEiaQ2h0ff4k/edit?gid=0#gid=0") |> 
+     clean_names()
+
+chelt_deaths <- read_sheet("https://docs.google.com/spreadsheets/d/1qy17Gwxyb-W6P2tDqaI6jUymK4n7cmnFToNIkJ5GCI4/edit?usp=sharing", sheet="chelt_deaths") |> 
+     clean_names() |> 
+  mutate(across(
+    # Select all the list columns
+    c(number_of_inmates, total_deaths, total_escapes, total_hired_out, total_sent_to_hospital),
+    ~ .x |> 
+      as.character() |>              # Pull it out of the 'list' box into a string
+      str_remove_all("\\*") |>       # Remove those asterisks (e.g., "56*" becomes "56")
+      na_if("NA") |>                 # Convert the string "NA" to a real R NA
+      na_if("na") |>                 # Handle lowercase "na"
+      na_if("N/A") |>                # Handle "N/A"
+      as.numeric()                   # Finally, turn it into a number
+  ))
+
+hickey_deaths <- read_sheet("https://docs.google.com/spreadsheets/d/1FnXL2BiktaoEQDh-TAzgdTDuucJfaENKQ1wVZaItdww/edit?usp=sharing") |> 
+     clean_names() |> 
+    mutate(across(
+    # Select all the list columns
+    c(year_of_report,number_of_inmates, total_deaths, total_escapes, total_hired_out, total_sent_to_hospital),
+    ~ .x |> 
+      as.character() |>              # Pull it out of the 'list' box into a string
+      str_remove_all("\\*") |>       # Remove those asterisks (e.g., "56*" becomes "56")
+      na_if("NA") |>                 # Convert the string "NA" to a real R NA
+      na_if("na") |>                 # Handle lowercase "na"
+      na_if("N/A") |>                # Handle "N/A"
+      as.numeric()                   # Finally, turn it into a number
+  ))
+
+```
+
+## getting the cheltenham death certifcates 
+```{r}
+chelt_death_cert_totals <- death_certs |> 
+  filter(facility =="cheltenham") |> 
+  group_by(death_year) |> 
+  count(, name="death_cert_total") |> 
+  arrange(desc(death_year)) |> 
+  left_join(chelt_deaths, by=c("death_year"="year_of_report")) |> 
+  select(death_year, total_deaths,  death_cert_total) |> 
+  mutate(death_certs_bigger = if_else(death_cert_total > total_deaths, "Yes", "No"))
+
+## so if im looking at this correctly, this is creating a new df from the death certificates, getting the cheltenham ones and then joining the chelt_deaths data to it. then we are selecting just the year, the total deaths from the chelt_deaths and the total death certs for that year. then we are creating a new column that says whether the death certs are bigger than the chelt deaths for that year. Would like to figure out the workflow in going through and adding deaths from the certificates to the reports, to get the most accurate number 
+  
+```
+
+
+# many to one mapping
+from Gemini
+```{r}
+
+# 1. Setup your target years from the annual reports
+report_years <- c(1903, 1907, 1909, 1911, 1913, 1915, 1917, 1930, 1932, 1934, 1936, 1938)
+
+# 2. Create a "Mapping Table" 
+# This tells R: for report 1903, look for years 1902 and 1903.
+year_map <- data.frame(report_year = report_years) %>%
+  mutate(year = map(report_year, ~ c(.x, .x - 1))) %>% 
+  unnest(year)
+
+# 3. Perform the alignment
+# Assuming your death certificate data is in a dataframe called 'df_deaths' 
+# with columns 'year' and 'death_count'
+aligned_data <- year_map %>%
+  left_join(chelt_death_cert_totals, by = c("year"="death_year")) %>%
+  group_nest(report_year) %>%
+  mutate(
+    certificate_sum = map_dbl(data, ~ sum(.x$death_count, na.rm = TRUE)),
+    missing_years = map_lgl(data, ~ any(is.na(.x$death_count)))
+  ) %>%
+  select(report_year, certificate_sum, missing_years)
+
+# 4. Join back to your original annual reports
+# Assuming your report data is 'df_reports'
+final_comparison <- chelt_deaths %>%
+  left_join(aligned_data, by = c("year_of_report" = "report_year"))
+```
+
+
+
+Another option
+```{r}
+
+library(tidyverse)
+
+# 1. Define the report years
+report_years <- c(1903, 1907, 1909, 1911, 1913, 1915, 1917, 1930, 1932, 1934, 1936, 1938)
+
+# 2. Create the mapping (ensure year is an integer)
+year_map <- data.frame(report_year = report_years) %>%
+  reframe(year = c(report_year, report_year - 1), .by = report_year) %>%
+  mutate(year = as.integer(year))
+
+# 3. Prepare your death data (ensure year is integer)
+# IMPORTANT: Replace 'death_count' with the actual name of your deaths column
+# Replace 'year' with the actual name of your year column in df_deaths
+df_deaths_clean <- df_deaths %>%
+  mutate(
+    year = as.integer(year),
+    deaths = as.numeric(TOTAL) # Change 'TOTAL' to your actual column name
+  )
+
+# 4. Join and Sum
+aligned_data <- year_map %>%
+  left_join(df_deaths_clean, by = "year") %>%
+  group_by(report_year) %>%
+  summarise(
+    certificate_sum = sum(deaths, na.rm = TRUE),
+    years_found = sum(!is.na(deaths)), # Should be 2 if both years matched
+    .groups = "drop"
+  )
+
+print(aligned_data)
+
+
+```
+
+
+
+
+
+## getting the jessup death certifcates
+
+```{r}
+jessup_death_cert_totals <- death_certs |> 
+  filter(facility =="jessup") |>
+  group_by(death_year) |> 
+  count(, name="death_cert_total") |> 
+  arrange(desc(death_year)) |> 
+  left_join(hickey_deaths, by=c("death_year"="year_of_report")) |> 
+  select(death_year, total_deaths,  death_cert_total) |> 
+  mutate(death_certs_bigger = if_else(death_cert_total > total_deaths, "Yes", "No"))
+```
+
+## attempting to add the jessup death cert totals to the jessup death totals, but only if the death cert totals are bigger than the jessup death totals. so we are taking the max of the two numbers for each year (hopefully I am doing this correctly)
+```{r}
+jessup_death_totals <- jessup_death_cert_totals |>
+  mutate(total_deaths = pmax(total_deaths, death_cert_total, na.rm = TRUE))
+```
+
+## getting the hickey death certifcates   
+```{r}
+hickey_death_cert_totals <- death_certs |> 
+  filter(facility =="Hickey") |>
+  group_by(death_year) |> 
+  count(, name="death_cert_total") |> 
+  arrange(desc(death_year)) |> 
+  left_join(hickey_deaths, by=c("death_year"="year_of_report")) |> 
+  select(death_year, total_deaths,  death_cert_total) |> 
+  mutate(death_certs_bigger = if_else(death_cert_total > total_deaths, "Yes", "No"))
+
+## so we only have one Hickey death certificate so we can add one death for 1922 to our total 
+```
+
+
+```{r}
+## getting the total amount of Hickey deaths, adding one for the one hickey death certificate for 1922  
+hickey_total_deaths_count <- hickey_deaths |>
+  summarise(total_deaths = sum(total_deaths, na.rm = TRUE) + 1)
+  
+```
+
+I am assuming the chelt_deaths is a pretty complete listof deaths except for 1918-1928. Maybe the death_certs will fill in those blams.
+
+Next steps:
+--group the cheltenham death_certs by year, compare to the chelt deaths. see if there are any years where the death_certs exceed totals for chelt deaths that year.  if so, then create a new total table where the death certs data fills in the blanks in the chelt-deaths dataframe
+
+

@@ -1,0 +1,32 @@
+year_of_report,is_report_year,is_covered_by_biennial,status
+1874,FALSE,FALSE,Standalone/Missing
+1921,FALSE,FALSE,Standalone/Missing
+1922,FALSE,FALSE,Standalone/Missing
+1923,FALSE,FALSE,Standalone/Missing
+1924,FALSE,FALSE,Standalone/Missing
+1925,FALSE,FALSE,Standalone/Missing
+1926,FALSE,FALSE,Standalone/Missing
+1873,FALSE,FALSE,Standalone/Missing
+1883,FALSE,FALSE,Standalone/Missing
+1911,TRUE,TRUE,Biennial Report Year
+1891,FALSE,FALSE,Standalone/Missing
+1893,FALSE,FALSE,Standalone/Missing
+1899,FALSE,FALSE,Standalone/Missing
+1916,FALSE,TRUE,Covered by 1917 Report
+1898,FALSE,FALSE,Standalone/Missing
+1880,FALSE,FALSE,Standalone/Missing
+1888,FALSE,FALSE,Standalone/Missing
+1892,FALSE,FALSE,Standalone/Missing
+1904,FALSE,FALSE,Standalone/Missing
+1906,FALSE,TRUE,Covered by 1907 Report
+1908,FALSE,TRUE,Covered by 1909 Report
+1912,FALSE,TRUE,Covered by 1913 Report
+1914,FALSE,TRUE,Covered by 1915 Report
+1918,FALSE,FALSE,Standalone/Missing
+1927,FALSE,FALSE,Standalone/Missing
+1928,FALSE,FALSE,Standalone/Missing
+1929,FALSE,TRUE,Covered by 1930 Report
+1931,FALSE,TRUE,Covered by 1932 Report
+1933,FALSE,TRUE,Covered by 1934 Report
+1935,FALSE,TRUE,Covered by 1936 Report
+1939,FALSE,FALSE,Standalone/Missing
